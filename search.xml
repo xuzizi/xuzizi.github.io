@@ -1,0 +1,1556 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>去掉word中尾注上面的横线和空行</title>
+    <url>/2017/05/11/124/</url>
+    <content><![CDATA[<p>以Word 2010为例，步骤如下： （1）插入尾注后，将视图切换为“草稿”。 <a href="https://gss0.baidu.com/-Po3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/6f061d950a7b0208d8d372e365d9f2d3572cc89e.jpg" title="点击查看大图"><img src="/../image/6f061d950a7b0208d8d372e365d9f2d3572cc89e.jpg"></a> （2）将选项卡切换到“引用”，点击“显示备注”。 <a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/d788d43f8794a4c22f54aa2909f41bd5ad6e39b8.jpg" title="点击查看大图"><img src="/../image/d788d43f8794a4c22f54aa2909f41bd5ad6e39b8.jpg"></a> （3）然后在下方的下来列表里选择“尾注分隔符”。 <a href="https://gss0.baidu.com/-vo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/503d269759ee3d6de0b6cac944166d224f4ade44.jpg" title="点击查看大图"><img src="/../image/503d269759ee3d6de0b6cac944166d224f4ade44.jpg"></a> （4）按键盘上的Backspace删除键直接删除横线，然后右键：段落——行距：固定值，0.7磅【不设置的话那个地方会多出一个空行】。 <a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/9922720e0cf3d7cab9577274f51fbe096b63a90b.jpg" title="点击查看大图"><img src="/../image/9922720e0cf3d7cab9577274f51fbe096b63a90b.jpg"></a></p>
+]]></content>
+      <categories>
+        <category>杂记</category>
+      </categories>
+      <tags>
+        <tag>word</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2014，新的开始</title>
+    <url>/2014/01/07/2014/</url>
+    <content><![CDATA[<p>前天考研结束，终于终结了我2013年的使命。</p>
+<p>考前临时赶回家签了一份工作，然后一个多月都没有复习，基本上放弃参加考试了。后来回学校照毕业证照片，心想体验一把未免不可，便也是轻装上阵，尽力而为了。 政治英语完全不知所云，没想到数学也完全hold不住，专业课倒是轻车熟路，不过题量确实很大剩余两道题未能完成，确实可惜了。考完了下来自己对了对答案，加加减减，心想数学若是考高点还是有那么点可能过线的，哈哈，不过也就只有那么想一想了。</p>
+<p>昨天在宿舍呆了一天，发现脑袋里面有太多的东西值得回味了。时间过得太快，一晃一年。不知道我这份答卷是否对得起我这一年的努力，但是努力过就有收获，至少我现在能够静下心来学习东西了，不像以前那样的浮躁。</p>
+<p>再过半年我就滚回湖北了，希望我所有的好朋友们在学业工作感情上都能顺顺利利，而我也将变成一个全新的我。</p>
+]]></content>
+      <categories>
+        <category>杂记</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>2014/01/23</title>
+    <url>/2014/01/23/20140123/</url>
+    <content><![CDATA[<p>中午在司法局对面应付饭局，吃完饭直接过马路把婉姐迎了出来。 婉姐的脚伤两个多月了，现在终于可以缓慢的走路。   对于此，我也深有体会，去年六月从高处跳下伤了脚跟，暑假回家脚还是疼的不能走路。 健康的身体永远是最重要的。   下午和王潇潇在广场上打了会儿羽毛球，长期缺少锻炼的我甩到胳膊疼。 来了一位姑娘，用扑克和瓜子换走了羽毛球拍，我们三个就斗了会儿地主。   小灰忙于处理红山火情，无力赴会，却约到了唐潇童鞋，晚上又来了角儿和超喜。 吃意面，三国杀，感叹人生~   我把微信群名改成了“真爱们”  <img src="/../image/28.gif" alt="28"></p>
+]]></content>
+      <categories>
+        <category>杂记</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>利用word尾注来自动标注参考文献</title>
+    <url>/2017/05/11/755/</url>
+    <content><![CDATA[<p>在写论文的时候需要经常用到文献标注来指明所引内容的来源、出处，手动标注参考文献非常费时费力，而且有时一处小小的改动需要整顿全篇文章，特别是毕业论文之类几十页甚至上百页的文章，工作量是非常庞大的的……由此可见，学习如何自动标注文献，是非常必要的！   下面将介绍的尾注插入方法~~   <strong>第一步 设置第一个尾注</strong> 1. 光标移到需要插入参考文献标注的地方。 2. 在菜单栏“插入（I）”→“引用（N）”→选择“脚注和尾注（G）…”选项。 于是，弹出窗口，按照下图进行各项的设置：</p>
+<p><img src="http://image48.360doc.com/DownloadImg/2011/12/1216/19975275_1.png" alt="【小技巧】word尾注，教你如何自动标注参考文献 - 羊小吉 - Chem"></p>
+<p> 3. 尾注设置：<strong>这是最重要的</strong> （1）在“位置”选项中，选择“尾注（E）——节的结尾”； （2）在“格式”选项中，①选择“编号格式（N）——1，2，3，…”也就是阿拉伯数字， ②自定义标记不需要填， ③“起始编号（S）——1”， ④“编号方式（M）——连续” （3）在“应用更改”选项中，选择“将更改应用于（P）——整篇文档” 最后，点按钮“插入（I）”，便在你所选的地方插入了第一个参考文献标注。可以看到，在所选地方上角出现了一个小1。 4．双击上标“1”，光标自动跳到文章最后，前面就是一个上标“1”，这就是输入第一个参考文献的地方。 按照上面的步骤，在其他地方标注参考文献，可以看到系统是自动为我们进行排序的，而与我们插入的先后顺序没有关系。这样，我们便完成了第一步操作。   <strong>第二部分 标注格式的修改</strong> 通过第一步设置的尾注，就是我们所需要的标注，是正文所插入地方上角的小数字，和文章末尾对应的小数字。其实这些都不是正确的参考文献标注格式，我们还需要动手稍作修改。下面就是讲这一内容啦： 5. 将全文所涉及的尾注都改为“[n]”的标准格式： <strong>注意是修改，而不是删除后重新输入上标！</strong> （1）给数字加中括号 首先，需要强调的是，在进行这一步操作时，光标应在正文范围内，而不是最后的尾注区域。 然后， 在菜单栏“编辑（E）”→“查找（E）”或者通过快捷键“Ctrl+F”可以打开“查找和替换”窗口。按照下图进行各项的设置   在“查找内容（N）”选项中填入“^e”，表示尾注。如果以后需要查找脚注，则是搜索“^f”。 在“替换为（I）”选项中填入“[^&amp;]”。 并单击右下方第一个按钮“常规（L）”展开窗口。注意下方“搜索”选项选择“全部”，其他格式要求的前方要去掉勾勾。 选项全部设置好后，点击“全部替换（A）”即可完成全文参考文献标注，即尾注格式的第一部分修改。 （2）尾注部分的标号从上标改为正文格式 与上一步不同的是，此时光标应在尾注区域内，重新打开“查找和替代”窗口，按照下图进行各项的设置</p>
+<p><img src="http://image48.360doc.com/DownloadImg/2011/12/1216/19975275_3.png" alt="【小技巧】word尾注，教你如何自动标注参考文献 - 羊小吉 - Chem"></p>
+<p><img src="http://image48.360doc.com/DownloadImg/2011/12/1216/19975275_4.png" alt="【小技巧】word尾注，教你如何自动标注参考文献 - 羊小吉 - Chem"></p>
+<p>在“查找内容（N）”选项中填入“[^e]”。并在“格式（O）”中选择“字体（F）…”选项，弹出常规的“查找字体”窗口。在下方选择上标，打上勾。 在“替换为（I）”选项中填入“^&amp;”。同样方法，在“查找字体”窗口中，将勾勾消除掉。 设置完成后，直接点击“全部替换（A）”，使尾注区域内的参考文献编号改为常见期刊所要求的格式，并在后面输入参考文献的各项内容。这样，我们在保证参考文献标注格式符合要求的同时，完成了参考文献部分的编写。 对着参考文献前面的“1”双击，光标就回到了文章内容中插入参考文献的地方，可以继续写文章了。   <strong>第三部分 文章的美化</strong> 以上的修改内容完成后，我们便完成了参考文献标注（尾注）的全部工作。但是，通过菜单“文件（F）”→“打印预览（V）”，可以看到，在尾注前边有一条线段分割线，如果参考文献跨页了，在跨页的地方还有一条长横线，这些线无法选中，也无法删除。这是尾注的标志，但一般科技论文格式中都不能有这样的线，所以一定要把它们删除。 这一部分，将详细讲讲，如何删除这两条横线： 6. 切换到普通视图，可以点击页面左下方的“<img src="http://image48.360doc.com/DownloadImg/2011/12/1216/19975275_5.png" alt="【小技巧】word尾注，教你如何自动标注参考文献 - 羊小吉 - Chem"> ”，也可以通过菜单栏中“视图（V）”→“普通（N）”进行切换。 再通过“视图（V）”→“脚注（F）”，在页面最下方展开尾注的编辑栏。 （1）在尾注右边的下拉菜单中选择“尾注分隔符”，这时那条短横线出现了，选中它，删除。 （2）再在下拉菜单中选择“尾注延续分隔符”，这是那条长横线出现了，选中它，删除。 最后，切换回到页面视图，参考文献插入已经完成了。   全部工作真正完成！恭喜恭喜！ 这时，无论文章如何改动，参考文献都会自动地排好序了。如果删除了，后面的参考文献也会自动消失，绝不出错。当参考文献越多，这种方法的优势就体现的越大。 特别是对于我们这一类经常写文章的人来说，这一个方法是不是特别的实用呢？呵呵，常常关注我的博客吧~   最后，是参考文献代码 （1）参考文献类型：专著［M］，论文集［C］，报纸文章［N］，期刊文章［J］，学位论文［D］，报告［R］，标准［S］，专利［P］，论文集中的文献［A］ （2）电子文献类型：数据库［DB］，计算机［CP］，电子公告［EB］ （3）电子文献的载体类型：互联网［OL］，光盘［CD］，磁带［MT］，磁盘［DK］       那么。。。。这么复杂的话还是放弃吧。。。 简单方法是，百度学术里有引用的功能，如图 <img src="http://www.xuzizi.cn/wp-content/uploads/2017/05/360%E6%88%AA%E5%9B%BE20170511220558862.jpg"></p>
+]]></content>
+      <categories>
+        <category>杂记</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Sphinx搭建命令整理</title>
+    <url>/2022/10/01/Sphinx/</url>
+    <content><![CDATA[<p>Sphinx</p>
+<p>sphinx-autobuild zh build&#x2F;html –port 8019 </p>
+<p>sphinx-autobuild source build&#x2F;html –port 8009 </p>
+]]></content>
+      <categories>
+        <category>建站</category>
+      </categories>
+      <tags>
+        <tag>Sphinx</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>如何在 Word 中插入公式时自动编号？</title>
+    <url>/2017/05/11/add-equation-numbers-to-microsoft-word-equations/</url>
+    <content><![CDATA[<p>在书写论文中，经常要求公式居中，编号靠右对齐。</p>
+<p>下面推荐一种在插入公式时自动生成编号的方法。</p>
+<p><strong>0.插入一个1行3列的表格</strong> <img src="/../image/c8cee62d34f10c266b0898873ff951f0_b.png"> <strong>1.设置根据窗口调整表格</strong> <img src="/../image/c2b9bed95b791ef60fe517d194b18824_b.png"> <strong>2.在表格属性中设置左右两个单元格的列宽，如1.5cm</strong> <img src="/../image/c48231ff27b100ca26ab01ed99236ba2_b.png"> <strong>3.设置整个表格的单元格边距为0</strong> <img src="/../image/320aeb760485c03d76b3cd69264871c7_b.png"> <strong>4.设置所有单元格垂直方向居中对齐，中间单元格水平居中对齐，右侧单元格右侧对齐 5.在中间表格插入公式</strong> <img src="/../image/15a1da8b7a96ed3859423d71007c8c85_b.png"> <strong>6.在右侧单元格插入题注，先点新建标签，标签选择 “Equation” 或者 “公式”, 并勾选 “题注中不包含标签” (感谢</strong></p>
+<p><a href="https://www.zhihu.com/people/a2726c0aac072528255cea0369852fc1">@siaimes</a></p>
+<p><strong>在评论中指出的问题)</strong> <img src="/../image/v2-f4aadca244466c9cc04542f12acf1773_b.png"> <strong>7.把生成的题注剪切到右侧单元格中，在两侧加入括号，并设置其字体（建议新建一个专门的样式，注意设置英文字体和右对齐）</strong> <img src="/../image/65387229b9468506052c88b636d9b0e2_b.png"> <strong>8.设置表格无框线 9.在文档部件中选择将所选内容保存到库</strong> <img src="/../image/5bfb06a575646a36c421e48f3ac8b8f6_b.png"> <strong>10.选择库（我一般是放在公式里，也可以按默认放在文档部件里，只是以后使用时打开位置不同）和保存位置（建议自己建个dotx的模板，或者换电脑的时候自己拷一下默认模板Normal.dotm）</strong> <img src="/../image/ab7c116185f2422cac3c8bf2d6b17c45_b.png"> <strong>11.如果你选的库和我选的一样都是公式的话，就可以在公式底下看到保存的项目了</strong> <img src="/../image/b0f645160c5e2eca6354a26005cc19d6_b.png"> <strong>12.点击他，插入一个新的带编号的公式</strong> <img src="/../image/0b041e9fb9546d18d0a4114040d48fc9_b.png"> <strong>13.添加交叉引用, 引用类型与 第6点 中选择的标签名称相同</strong></p>
+<p><img src="/../image/v2-fb1754868c787b42895bbdeaf56d7263_b.png"></p>
+<p>注意： 1.如果光标在编号上时编号数字不是深灰色的，说明题注设置有问题，编号将不能自动更新 2.如果需要像我的示例一样公式分章节编号，需要配合多级标题的设置，具体方法请自行搜索或者提一个新问题</p>
+]]></content>
+      <categories>
+        <category>杂记</category>
+      </categories>
+      <tags>
+        <tag>word</tag>
+        <tag>office</tag>
+        <tag>论文</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>大数据改变生活</title>
+    <url>/2016/03/18/big-data-change-life/</url>
+    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>近年来大数据技术的快速发展深刻改变了我们的生活、工作和思维方式。大数据研究专家舍恩伯格指出，大数据时代，人们对待数据的思维方式会发生如下三个变化：第一，人们处理的数据从样本数据变成全部数据；第二，由于是全样本数据，人们不得不接受数据的混杂性，而放弃对精确性的追求；第三，人类通过对大数据的处理，放弃对因果关系的渴求，转而关注相关关系。事实上，大数据时代带给人们的思维方式的深刻转变远不止上述三个方面。 2012年8月15日的国内爆发了“电商大战”，在其中“一淘网”受到了消费者的广泛好评与欢迎。据了解，价格战期间，一淘网临时成立了针对此次价格战的应急小组，并实时推出“比价擂台”金牌榜，依托期强大的数据库资源及蜘蛛爬虫技术， 一淘网得以在价格战期间实时抓取各大B2C网站商品信息（&gt;5000家购物网站， &gt;10亿的商品数据），每10-30分钟就能够更新一次。一淘网的数据为国家发改委调查电商大战提供了帮助，同时发现一淘网的一些数据存在失实的问题。 政府的大数据思维，首先是信息开放思维，开放信息；其次需要强调数据信息的整合，不能成为“孤岛”，数据信息的整合是一个技术问题，更是一个价值判断问题；最后很重要的一点，就是数据信息分享的思维。 本文通过对大数据应用于电商行业的案例进行分析，总结出大数据技术对于政府工作具有指导意义的方法与政策，以供参考。</p>
+<h2 id="案例介绍与分析"><a href="#案例介绍与分析" class="headerlink" title="案例介绍与分析"></a>案例介绍与分析</h2><h3 id="Decide案例分析"><a href="#Decide案例分析" class="headerlink" title="Decide案例分析"></a>Decide案例分析</h3><p>2003年，奥伦·埃齐奥尼（OrenEtzioni）准备乘坐从西雅图到洛杉矶的飞机去参加弟弟的婚礼。他知道飞机票越早预订越便宜，于是他在这个大喜日子来临之前的几个月，就在网上预订了一张去洛杉矶的机票。 在飞机上，埃齐奥尼好奇地问邻座的乘客花了多少钱购买机票。当得知虽然那个人的机票比他买得更晚，但是票价却比他便宜得多时，他感到非常气愤。于是，他又询问了另外几个乘客，结果发现大家买的票居然都比他的便宜。 对大多数人来说，这种被敲竹杠的感觉也许会随着他们走下飞机而消失。然而，埃齐奥尼是美国最有名的计算机专家之一，从他担任华盛顿大学人工智能项目的负责人开始，他创立了许多在今天看来非常典型的大数据公司，而那时候还没有人提出“大数据”这个概念。在他眼中，世界就是一系列的大数据问题，而且他认为他有能力解决这些问题。 飞机着陆之后，埃齐奥尼下定决心要帮助人们开发一个系统，用来推测当前网页上的机票价格是否合理。这个系统需要分析所有特定航线机票的销售价格并确定票价与提前购买天数的关系。他为此创立了一个预测系统，并帮助虚拟的乘客节省了很多钱。这个预测系统建立在41天内价格波动产生的12000个价格样本基础之上，而这些信息都是从一个旅游网站上搜集来的。 可以看到，这个预测系统并不能说明原因，只能推测会发生什么。也就是说，它不知道是哪些因素导致了机票价格的波动。机票降价是因为很多没卖掉的座位、季节性原因，还是所谓的周六晚上不出门，它都不知道。这个系统只知道利用其他航班的数据来预测未来机票价格的走势。“买还是不买，这是一个问题。”埃齐奥尼给这个研究项目取了一个非常贴切的名字，叫“哈姆雷特”。 这个小项目逐渐发展成为一家得到了风险投资基金支持的科技创业 公司，名为Fare-cast。通过预测机票价格的走势以及增降幅度，Farecast票价预测工具能帮助消费者抓住最佳购买时机，而在此之前还没有其他网站能让消费者获得这些信息。 为了提高预测的准确性，埃齐奥尼找到了一个行业机票预订数据库。有了这个数据库，系统进行预测时，预测的结果就可以基于美国商业航空产业中，每一条航线上每一架飞机内的每一个座位一年内的综合票价记录而得出。如今，Farecast已经拥有惊人的约2000亿条飞行数据记录。利用这种方法，Farecast为消费者节省了一大笔钱。 2008年，埃齐奥尼计划将这项技术应用到其他领域，比如宾馆预订、二手车购买等。只要这些领域内的产品差异不大，同时存在大幅度的价格差和大量可运用的数据，就都可以应用这项技术。但是在他实现计划之前，微软公司找上了他并以1.1亿美元的价格收购了Farecast公司。而后，这个系统被并入必应搜索引擎。 到2012年为止，Farecast系统用了将近十万亿条价格记录来帮助预测美国国内航班的票价。Farecast票价预测的准确度已经高达75％，使用Farecast票价预测工具购买机票的旅客，平均每张机票可节省50美元。</p>
+<h3 id="FARECAST案例分析"><a href="#FARECAST案例分析" class="headerlink" title="FARECAST案例分析"></a>FARECAST案例分析</h3><p>“在互联网时代，固定价格已是过去式。” Decide联合创始人奥伦•埃齐奥尼（Oren Etzioni）一语道破玄机，这家2011年6月上线的比价预测网站显然很早就意识到了这一点，如今，它已成为美国最为热门的购物风向标，每月用户访问量达数十万，页面浏览量则超过100万次，并且仍在高速增长。 上世纪90年代，航空公司会根据一架航班的空余座位数和竞争对手的票价而不停改变机票价格。酒店也很快跟进，推出了它们的“收益管理”系统，让它们可以随时改变客房价格。如今，这一动态定价模式正在逐渐深入到消费经济的每一个角落。为了争夺搜索结果的榜首位置，零售商们正以小时、有时甚至以分钟为单位改变着商品的价格——从卫生纸到自行车。这一战事在每年的假日购物季都会达到巅峰时刻，面对此情此景，消费者双眼放光之余，却也一筹莫展。 事实上，消费者的困扰远不止此。这款产品哪里卖得更便宜？好不好用？什么时候买合适？要出新款了吗？其他人怎么看？同类产品怎么样？对于消费者满脑的疑问，包括Google Shopping、Nextag、PriceGrabber和亚马逊产品搜索在内的比价网站都只解决了最基础的第一个问题。有需求的地方就有市场，Decide应运而生。 在Decide的网站上，他们这样描述自己，“Decide 完全利用数据和科技来帮助买家，不是市场推广的手段。”拥有如此豪华的技术人才阵容，Decide无疑是典型的技术驱动型创业公司，作为一家产品搜索类公司，这是至关重要的。 Decide的目的是解决两个问题：电子产品更新速度过快，市场价格变化过快。通过解决这两个问题，他们希望给潜在购物者提供最好的购物时机建议，而这一切的背后是技术驱动下对数据的挖掘和极致利用。 首先，他们搭建了一种“线性分析模式”，将成千上万个电子产品加入到了自己构建的数据库，利用专有价格预测算法，通过综合考虑上亿条价格波动信息和超过40个不同的价格影响因素（包括新品发布周期、新闻报道、公司公告等），来对价格做出全面预测。 面对纷繁的数据处理，Decide以低门槛的操作体验和直观全面的结果展示让一切简单化、便捷化和决断化。用户使登入Decide.com，只需在搜索框中输入具体想购买的电子产品，Decide.com便会根据自己专有技术预测给你返回是应当购买还是应当等一等的建议。如果用户想要购买，则可继续点击进入他们选中的卖家进行购买。如果根据Decide.com给出的建议，用户暂时不想购买，那么他们则可以观看价格时间线，并给自己设定一个降价通知。 盛名之下的Decide也在努力扩张自己的势力范围，一方面将产品覆盖范围从电子产品拓展至家用电器、体育用品、家居和园艺用品等数十个门类，另一方面也在拓展合作伙伴，《消费者报告》和在线比价服务Bizrate已经加入它的“朋友圈”。移动APP的上线更是让Decide的势力扩张到了线下。</p>
+<h2 id="指导意义"><a href="#指导意义" class="headerlink" title="指导意义"></a>指导意义</h2><h3 id="大数据思维的运用"><a href="#大数据思维的运用" class="headerlink" title="大数据思维的运用"></a>大数据思维的运用</h3><p>大数据代表着信息技术未来发展的战略走向，它将引发技术领域跨越式发展，是继互联网后的又一次信息革命。人类在实践中逐渐认识到，通过数据的开放、整合和分析，能发现新的知识、创造新的价值，从而为社会带来“大科技”“大利润”“大智能”和“大发展”等新的机遇。政府部门可以利用大量的公共数据为社会服务，并且通过大数据分析并寻找出大数据背后潜藏的预见性。 传统的政府治理理念往往更加侧重于对少数人的重视，根据少数人的需求，以偏概全，从而来决定大多数人的需求，治理理念的变革已经是大势所趋，要将其符之国情、顺之时代发展要求，将大数据思维的价值观和方法论同政府治理理念紧密结合。我国政府长期以来一直致力于打造“阳光型”政府，一个让人民满意的服务型政府，而在大数据时代下，各种数据信息灵活交流，为政府服务效能的提升提供了有利的条件。对于政府服务效能的提升也要积极引导网络舆论，要站在提高党的执政能力、构建和谐社会的高度，将网络宣传纳入党的宣传事业整体格局之中。</p>
+<h3 id="数据促进决策科学化"><a href="#数据促进决策科学化" class="headerlink" title="数据促进决策科学化"></a>数据促进决策科学化</h3><p>科学决策水平的提高是政府精细化管理的必然要求，而决策的科学化来源于决策信息的全面性、准确性和及时性。如今大数据又超越了传统的数据分析方法，不但是对纯数据可以进行分析挖掘，对言论、图表等都可以进行深度挖掘、人工智能。大数据的深入及广泛应用会给政府带来科学和精准的决策支持。比如粮食产量的信息统计问题，运用遥感卫星的数据，中央政府便可得知各地耕地数量，再通过适当的算法和模型，配合以往的气候、土壤、产量等信息，便可知道各地方准确的粮食产量，利于决策者跨区域的农业政策统筹和规划。而政府可以利用信息化的工具，将其所收集的数据及时更新，将新的信息应用于各个领域，促进决策的科学化。 “天下大事，必作于细。”社会事务的电子化管理，是促进政府管理的科学化、高效化，完善政府管理决策信息和智力支持系统的关键环节，也为政府的精细化管理提供了重要的技术支持。例如，政府利用大数据对社会人群进行细分，对不同人群进行针对性服务和政策施行，麦肯锡估计欧洲发达经济体政府利用大数据可以节省超过1000 亿欧元的政府开支。</p>
+<h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>互联网的快速发展已成为当今世界不可阻挡的潮流，政府管理创新是中国社会发展的必然要求，也是适应政府管理环境变化的唯一出路。而大数据是政府管理的历史必然选择，和现代化的必要手段。大数据促进政府和公众互动，让政务透明，帮助政府进行社会管理和解决社会难题，大数据时代下，政府是整合开放的平台，它建立了公众与政府间的沟通渠道，越来越多的国家和组织利用其开展民意调查，通过在线交互让民众成为政务流程的节点，透明政务，让公众参与到政策制定与执行、效果评估和监督之中，使民众参政议政成为可能。而面对互联网带来的机遇与挑战，政府管理唯有与时俱进，发挥互联网的优势，化解互联网发展带来的挑战，才能实现“提高社会管理科学化水平”的时代要求。</p>
+]]></content>
+      <categories>
+        <category>杂记</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Byword 2.5 让写作变得更简单</title>
+    <url>/2016/04/22/byword-markdown/</url>
+    <content><![CDATA[<p>Byword 2.6 让写作变得更简单</p>
+<h2 id="软件介绍"><a href="#软件介绍" class="headerlink" title="软件介绍"></a>软件介绍</h2><p>在平时使用电脑的时候，会不会觉得打开word太费劲，打开记事本又不够用呢？ 如果你觉得没有合适的软件，你可以试一下Byword，让写作变得轻松起来~ Byword作为一款非常小巧简洁的文字编辑软件，界面极简，功能强大，让你安心又高效的打字，并自动在各设备间同步文档。</p>
+<p> <img src="/../image/xuzizi.cn_2016-04-22_10-10-29-750x500.png" alt="屏幕快照 2016-04-22 10.03.12"></p>
+<h2 id="功能特点"><a href="#功能特点" class="headerlink" title="功能特点"></a>功能特点</h2><ul>
+<li>Byword提供了良好的写作体验，可直接导出发布到Wordpress, Tumblr, Posterous, Blogger 等网络平台，比如此篇博文就是使用Byword写的。</li>
+<li>完美的支持Markdown，包括注释，表格和交叉引用等等。(不知道什么是markdown？ 看<a href="http://www.xuzizi.cn/2016/04/08/markdown-basics/">这里</a>) 而且可以转换成富文本浏览，支持输出word、pdf等多种格式。</li>
+<li>提供强大的数据同步功能。可以实时同步到icloud上，Byword 的同步效果不止是写完文档保存到icloud这么简单，而是实时的同步，在不同设备上可以同步显示你的文件更新。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>soft</category>
+        <category>Mac</category>
+      </categories>
+      <tags>
+        <tag>Byword</tag>
+        <tag>markdown</tag>
+        <tag>写作</tag>
+        <tag>文本编辑</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>java.lang.ClassNotFoundException: com.mysql.jdbc.Driver 解决方法</title>
+    <url>/2016/03/18/com-mysql-jdbc-driver/</url>
+    <content><![CDATA[<p>如下代码编译时报错：java.lang.ClassNotFoundException: com.mysql.jdbc.Driver</p>
+<p>import java.sql.*;</p>
+<p>public class detest {</p>
+<pre><code>public static void main(String\[\] args) throws Exception &#123;
+    // 1.加载驱动
+    Class.forName(&quot;com.mysql.jdbc.Driver&quot;);
+    try &#123;
+        // 2.使用DriverManager获取数据库连接，其中返回的Connection就代表了Java程序和数据库的连接，不同数据库的URL写法需要查看驱动文档
+        Connection conn = DriverManager.getConnection(&quot;jdbc:mysql://10.4.20.195:3306/cars\_navigation&quot;, &quot;root&quot;,
+                &quot;root&quot;);
+        // 3.使用Connection来创建一个Statement对象
+        Statement stmt = conn.createStatement();
+        // 4.执行SQL语句
+        ResultSet rs = stmt.executeQuery(
+                &quot;select \* from info\_car\_location where Car\_Id=&#39;100&#39; order by Loc\_Time desc limit 0,1&quot;);
+        while (rs.next()) &#123;
+            System.out.println(rs.getString(1));
+        &#125;
+    &#125; catch (Exception e) &#123;
+        e.printStackTrace();
+    &#125;
+&#125;
+</code></pre>
+<p>}</p>
+<p>后来查了相关资料发现是没有引入mysql-connector-java-x.x.x-bin.jar的问题。 解决方案： 下载mysql-connector-java-5.1.32-bin.jar。<a href="http://vdisk.weibo.com/s/av2ACJY5ysNB7">http://vdisk.weibo.com/s/av2ACJY5ysNB7</a> 在Eclipse中，选择 项目-&gt;属性-&gt;Java构建路径，在“库”选项卡中，选择“添加外部JAR”，添加下载的mysql-connector-java-5.1.32-bin.jar文件。</p>
+]]></content>
+      <categories>
+        <category>develop</category>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>java</tag>
+        <tag>mysql</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>如何选择金融级云数据平台</title>
+    <url>/2022/09/28/financial_level_database/</url>
+    <content><![CDATA[<h1 id="如何选择金融级云数据平台？"><a href="#如何选择金融级云数据平台？" class="headerlink" title="如何选择金融级云数据平台？"></a>如何选择金融级云数据平台？</h1><p>一个简单的银行转账操作会产生多少数据的流动呢？</p>
+<ul>
+<li>在用户转账行为的同时，考虑到转账资金的安全性，银行可能会需要存储本次用户转账的时间、金额、位置等数据，通过反欺诈应用系统进行风险预警与交易阻断，当大量用户的转账行为同时发生时，会有大量并发的数据涌入。</li>
+<li>转账完成后短暂时间里，交易双方会有转账相关信息的查询需求，确认资金正确的交易，银行可能会需要按用户需求提供部分时间段的交易流水信息。</li>
+<li>在一些较长时间的间隔里，银行还可能会对用户的转账的数据进行分析统计、进行用户画像，以便于银行相关的业务决策。</li>
+</ul>
+<p>在这个过程中涉及到数据库的实时流处理、实时按需分析、离线分析等复杂需求，如果没有高效的数据平台支撑，很难保障数据分析和应用的有效性和安全性，甚至会对企业对企业数字化战略造成重大影响。</p>
+<h2 id="金融行业需要什么样的数据库？"><a href="#金融行业需要什么样的数据库？" class="headerlink" title="金融行业需要什么样的数据库？"></a>金融行业需要什么样的数据库？</h2><p>信通院于2021年发布了《金融级分布式数据库白皮书》，报告中指出金融行业普遍对数据库的安全性、可靠性、稳定性有着全行业最为严苛的要求，因此，满足金融行业需求的金融级数据库产品几乎成为所有行业中的标杆。报告认为金融级分布式数据库是能够满足金融级要求的<strong>高可用、高性能、低成本、线性水平扩展、企业级安全、便捷性运维</strong>的分布式数据库。</p>
+<h2 id="金融级分布式数据库跟普通数据库的区别？"><a href="#金融级分布式数据库跟普通数据库的区别？" class="headerlink" title="金融级分布式数据库跟普通数据库的区别？"></a>金融级分布式数据库跟普通数据库的区别？</h2><p>报告认为，虽然分布式数据库起源于互联网行业，但是金融级业务数据的价值较高，对数据库的<strong>高可用、强一致、低时延、可扩展性、高容灾性、供应链安全性</strong>等要求更为严苛。这也是金融级分布式数据库与普通分布式数据库的主要不同点。</p>
+<p><img src="/../image/202209271528824.png" alt="image-20220927152800711"></p>
+<p>那么，要达到金融级分布式数据库的要求，需要做到满足：</p>
+<ol>
+<li><strong>数据强一致性</strong>的需求：金融级分布式数据库通常用于存储各行业的核心数据，其任意一笔数据错乱、丢失将带来严重影响。因此即使在某些软件故障、硬件异常的情况下，数据库都应保证数据的强一致性。</li>
+<li><strong>业务连续性</strong>和数据可靠性的需求：金融级分布式数据库服务于涉及国计民生的重要业务系统，其对运行连续性要求异常严格。此要求来自于金融业，也来自于政务、大型企业本身需求、监管机构要求和用户舆论压力等。数据库作为业务系统的基础，其通用的可用性要求在 99.999% 以上。为确保在异常情况下数据不丢失、不错乱，即使极端异常情况仍需确保数据的留存，金融级分布式数据库的可靠性通常要求在 99.999999% 以上。</li>
+<li><strong>快速扩展、敏捷迭代</strong>的需求：在金融级场景中，存在短时间用户规模增大或业务迭代需求强劲的情况，金融级数据库要求适配上述场景，即数据库具有快速扩展的能力， 同时业务系统要具备快速匹配的敏捷迭代能力。而在传统建设模型中，快速扩展、敏捷迭代几乎是不可行的。因此分布式、微服务、标准开发框架等开始在金融级数据库中得到普及与推广。</li>
+<li><strong>低成本与云计算</strong>的需求：金融级业务种类繁多，随着时间增长数据也会快速增加，带来支撑性数据库变得越来越庞大。这意味着如果每个系统都按照传统商用数据库建设标准来建设，会带来极高的成本。因此云计算环境的金融级数据库的集约模式建设方案正逐步成为主流趋势。</li>
+<li>高端服务器等<strong>供应链风险</strong>：受国际政治格局影响，采购国外高端服务器（芯片）等存在诸多不确定性。一旦出现国外服务器（芯片）断供，可能导致严重的后果。而短期内，国内对于芯片的供应可能仅在 28nm 或者更低的水平，单一服务器的算力不足会对金融业务建设系统带来诸多问题。</li>
+</ol>
+<h2 id="OushuDB——云原生数据库新锐独角兽"><a href="#OushuDB——云原生数据库新锐独角兽" class="headerlink" title="OushuDB——云原生数据库新锐独角兽"></a>OushuDB——云原生数据库新锐独角兽</h2><p>了解了金融行业的需求，以及金融级数据库产品的定义，我们来看看云原生数据库新锐准独角兽偶数科技如何通过OushuDB逐条破解难题。</p>
+<h3 id="什么是OushuDB？"><a href="#什么是OushuDB？" class="headerlink" title="什么是OushuDB？"></a>什么是OushuDB？</h3><p>OushuDB是由偶数科技自主研发的新一代极速云原生架构的分布式数据库，支持高并发，高吞吐，高性能的弹性计算。OushuDB兼容国产软硬件平台，符合国家信创标准，支持各大公有云和私有云。通过计算存储分离架构解决了传统数据库高成本、低性能、高门槛、难维护、难扩展的问题。</p>
+<p>OushuDB具有以下特点：</p>
+<p><strong>云原生</strong>：采用计算存储分离架构，利用云服务器、分布式存储，对数据基础设施的可扩展性进行深度优化，充分满足云端应用高度弹性、无限扩容的要求。支持腾讯云、阿里云、华为云、金山云、微软Azure、AWS等主流云平台。</p>
+<p><strong>高性能</strong>：面向PB级大数据的复杂查询，相比MPP和SQL-on-Hadoop快一个数量级。全新设计的执行器让性能提升5~10倍，显著降低批处理和即席查询所需的时间。</p>
+<p><strong>强兼容</strong>：具备完善的SQL标准和ACID特性，支持HDFS和多种对象存储的增删改查、以及偶数自研的Magma存储。兼容基于Oracle，PostgreSQL，Greenplum开发的数字应用，用户可以轻松实现不同数据基础设施的平稳迁移。</p>
+<p><strong>自主可控</strong>：OushuDB由国内顶尖数据库内核研发团队自主开发，符合国家信创标准。偶数研发团队曾主导国际顶级的数据库开源项目。</p>
+<p><strong>应用广</strong>：OushuDB已在金融、电信、政府、制造、互联网等行业的数百家头部企业得到广泛应用，助力各类企业完成数字化转型。</p>
+<p>可以说，OushuDB数据库所具有的高可用、高性能、低成本、易扩展、自主可控的特性，完全符合金融级分布式数据库的定义，并满足金融行业的业务需求。借助OushuDB作为底座，更可以快速搭建偶数科技的湖仓一体和实时湖仓方案。</p>
+<h3 id="基于OushuDB的实时湖仓一体方案"><a href="#基于OushuDB的实时湖仓一体方案" class="headerlink" title="基于OushuDB的实时湖仓一体方案"></a>基于OushuDB的实时湖仓一体方案</h3><p>什么是湖仓一体方案呢？</p>
+<p> 在企业进行湖仓一体化探索时，可能对原有的IT系统和平台产生路径依赖，从而选择采用湖仓分体的技术模式，即湖是湖，仓是仓，而这个各自独立部署，数据通过ETL的方式打通，即业内常常提到的Hadoop+MPP模式。这种方式尽管在逻辑上可以为用户提供统一的数据管理能力，但在物理层面数据湖和数据仓库仍然是分离的，同一份数据可能分别存在于多个存储集群中，从而不可避免的形成数据孤岛。而在企业克服湖仓分体模式带来的种种弊端的过程中，又可能进一步催生ETL逻辑复杂、数据变更困难、数据不一致等一系列实施与运维问题，最终不仅无法最大化湖仓性能，还极大增加了管理运维成本。</p>
+<p>偶数科技研发的OushuDB创新性的采用了存算分离的云原生架构，突破了传统MPP和Hadoop的局限，将计算和存储部署在不同的物理集群中，使得计算和存储资源可以独立的弹性伸缩；通过构建虚拟计算集群，OushuDB可以在数十万节点的超大规模集群上满足高并发需求，形成了统一的数据体系，不仅使得湖仓更适应云环境，还降低了用户的成本；通过支持分布式表存储Magma，OushuDB的计算引擎便于实现快照视图，能够高效实现实时查询需求，从而在性能和事务方面的支持更加完善。</p>
+<p><img src="/../image/202209301748910.png" alt="image-20220930172357179"></p>
+<p>（偶数科技湖仓一体化解决方案） </p>
+<p>为了同时满足实时流处理、实时按需分析和离线分析需求，偶数科技独创性的探索出了Omega全实时数据处理架构。Omega架构通过流处理系统WASP实现实时连续的流处理或批流一体处理，并通过存储于实时数仓的快照视图完成实时查询，从而解决了传统Kappa架构落地困难、Lambda架构难以保证数据一致性的问题，并极大简化了数据架构。</p>
+<p> <img src="/../image/202209301723389.png" alt="image-20220930172346552"></p>
+<p>（Omega架构逻辑图）</p>
+<p>满足用户“既要也要”的要求，偶数科技的突破性技术和前瞻性观点并非空中楼阁，而是以多年的行业实践和用户洞察为基础支点形成的经验沉淀。偶数科技正在赋能用户的过程中不断完成自我迭代，探索最佳实践。</p>
+<p>结语：</p>
+<p>作为企业数字化转型的先锋行业，银行业自80-90年代起就已经开始了信息化探索，在自手工统计到信息化再到数智化的较长技术发展过程中，大多数的银行形成了较为复杂的技术体系。偶数科技率先洞察到了银行面对大数据时代的高性能、安全性、可靠性、稳定性需求，早在2020年就与建设银行成立了高性能大数据联合实验室，共同探索金融级数据平台的实施路径。</p>
+<p>银行业是所有行业中对应用的自主可控、高可用、高可靠性的要求最高的领域之一，偶数科技解决方案在银行业的落地正是其技术实力和对用户痛点理解力的明证。除了银行业以外，截至目前，偶数科技的产品和解决方案已在非银金融、电信、政府、能源、制造和互联网等行业中被广泛的部署和应用。同时，其商业模式的可行性与成长性也得到了资本的认可，连续获得了国内顶级投资机构红杉中国、腾讯、红点中国与金山云的四轮投资。</p>
+<p>而随着未来物联网、工业互联网的逐步建立，大数据领域将面临越来越广的数据来源、越来越大的数据量、越来越多的非结构化数据、越来越丰富的应用场景和越来越复杂的技术栈，大数据处理和分析的难度将进一步提升。集合了众多组件的强大能力，OushuDB已然成为企业打造金融级数据库平台的最佳选择之一，将会持续的为包括金融在内的等众多行业用户提供更加优秀的数据服务。</p>
+]]></content>
+      <categories>
+        <category>数据库</category>
+      </categories>
+      <tags>
+        <tag>数据库</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>千言万语</title>
+    <url>/2013/12/08/for-my-friend/</url>
+    <content><![CDATA[<blockquote>
+<p>这是14年6月数据丢失之后能恢复的最早的一篇博文中的开头部分，原地址为 <a href="http://xuzizi.cn/2013/12/08/for/_my/_friend/">http://xuzizi.cn/2013/12/08/for\_my\_friend/</a> 我记得当时我写的很用心，大家也都鼓励我。 然而后面写的什么，以后再也不知道了~ 挂出此文以提醒自己多写文、多备份。</p>
+</blockquote>
+<p>时光飞逝，转眼就到2014年了。 大家都在为自己的前途奔波，我也早早的加入了考研大军的行列。半年来，得到了不少好友的支持与鼓励，我也在不断的努力加油。 但是思考很久之后，我还是决定先回武汉工作了。我并没有做好长期从事软件行业的准备… <img src="/../image/xuzizi.cn_2016-04-17_01-57-55.png" alt="屏幕快照 2016-04-17 00.07.51"></p>
+]]></content>
+      <categories>
+        <category>杂记</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>{&quot;ERROR&quot;:&quot;GET FROM SOURCE FAILED: E405&quot;} ,七牛导致AJAX评论失效解决办法</title>
+    <url>/2016/04/17/get-from-source-failed-e405-comments-error-solutions/</url>
+    <content><![CDATA[<p>{“ERROR”:“GET FROM SOURCE FAILED: E405”} ,七牛导致AJAX评论失效解决办法</p>
+<h2 id="AJAX评论错误"><a href="#AJAX评论错误" class="headerlink" title="AJAX评论错误"></a>AJAX评论错误</h2><p>前天使用了七牛加速，静态文件全部通过CDN加速，减轻服务器负担，但是今天突然发现评论无法提交了，错误提示“{“error”:“get from image source failed: E405”}”，网上搜索了一下，发现不少人也有此类问题。主要原因是七牛CDN缓存了ajax评论脚本 commonts-ajax.js（有的是function.js）文件，所以提交时导致评论失效了。</p>
+<h2 id="七牛CDN插件修改解决方案"><a href="#七牛CDN插件修改解决方案" class="headerlink" title="七牛CDN插件修改解决方案"></a>七牛CDN插件修改解决方案</h2><p>打开七牛插件目录，找到wpjam-qiniutek.php文件打开，定位至100行return $html前，插入以下代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$html = str_replace(&#x27;http://7xt1tb.com2.z0.glb.qiniucdn.com/wp-content/themes/Tinection-master/includes/js/function.js&#x27;, &#x27;http://www.xuzizi.cn/wp-content/themes/Tinection-master/includes/js/function.js&#x27;, $html);</span><br></pre></td></tr></table></figure>
+
+<p>其原理是插件已经修改静态文件原目录至CDN目录，我只需要再把function.js（如果你的是comments-ajax.js就改为comments-ajax.js所在路径）这一个文件的目录改回来即可，其中第一个路径是CDN服务器上function.js的路径，需要把它替换为第二个路径，即网站原文件路径，具体路径请根据你自己的网站作修改。</p>
+<h2 id="修改comments-ajax-js"><a href="#修改comments-ajax-js" class="headerlink" title="修改comments-ajax.js"></a>修改comments-ajax.js</h2><p>在主题文件夹下找到comments-ajax.js打开，并且找到如下代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">var i = 0, got = -1, len = document.getElementsByTagName(&#x27;script&#x27;).length;</span><br><span class="line">while ( i &lt;= len &amp;&amp; got == -1)&#123;</span><br><span class="line">var js_url = document.getElementsByTagName(&#x27;script&#x27;)[i].src,</span><br><span class="line">got = js_url.indexOf(&#x27;comments-ajax.js&#x27;); i++ ;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>它一般在最开头的位置，然后在这段代码之后再添加一句代码，如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">// 修复七牛cdn评论失效</span><br><span class="line">js_url = js_url.replace(‘qiniu.xuzizi.cn’,’www.xuzizi.cn&#x27;);</span><br></pre></td></tr></table></figure>
+
+<p>修改好之后 保存即可。 最后，还要到七牛里面将原来缓存的comments-ajax.js文件删除，若wordpress有缓存插件的也要删除一遍缓存。 刷新文章页面，让七牛更新缓存文件。 更新完毕之后，即可恢复评论功能。</p>
+]]></content>
+      <categories>
+        <category>tech</category>
+        <category>wordpress</category>
+      </categories>
+      <tags>
+        <tag>wordpress</tag>
+        <tag>七牛</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Git常用命令记录</title>
+    <url>/2022/09/18/git/</url>
+    <content><![CDATA[<h2 id="获取最近一次修改的文件列表"><a href="#获取最近一次修改的文件列表" class="headerlink" title="获取最近一次修改的文件列表"></a>获取最近一次修改的文件列表</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git diff --name-only HEAD~ HEAD</span><br></pre></td></tr></table></figure>
+
+<h2 id="获取两次commit之间修改的文件"><a href="#获取两次commit之间修改的文件" class="headerlink" title="获取两次commit之间修改的文件"></a>获取两次commit之间修改的文件</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git diff --name-only &lt;commit-1&gt; &lt;commit-2&gt;</span><br></pre></td></tr></table></figure>
+
+<h2 id="远端reset"><a href="#远端reset" class="headerlink" title="远端reset"></a>远端reset</h2><p>一不小心push了一个错误，想要回到上一版本，可执行</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git reset --soft HEAD~1 </span><br></pre></td></tr></table></figure>
+<p>注：HEAD<del>1的意思是最近一个版本，也可以写成HEAD^<br>如果需要撤回最近两次提交的commit，可以使用HEAD</del>2，依次类推。</p>
+<p>此时通过 git log 可查看本地代码已经回退到 目标版本。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git push origin &lt;branch_name&gt;（例如master） -f</span><br></pre></td></tr></table></figure>
+<p>如果你是项目的owner，在本地master分支使用git rebase 或者 git reset撤销了一些commit之后，想要强制推送到远端，以使远端的记录也撤销掉。</p>
+<h2 id="git-pull-强制覆盖本地的代码"><a href="#git-pull-强制覆盖本地的代码" class="headerlink" title="git pull 强制覆盖本地的代码"></a>git pull 强制覆盖本地的代码</h2><p>从git上获取最新的代码，覆盖本地：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git fetch --all</span><br><span class="line">git reset --hard origin/&lt;branch_name&gt;</span><br><span class="line">git pull</span><br></pre></td></tr></table></figure>
+
+
+
+<p>说明：</p>
+<p>git fetch从远程下载最新的，而不尝试合并或rebase任何东西。</p>
+<p>然后git reset将主分支重置为您刚刚获取的内容。 –hard选项更改工作树中的所有文件以匹配origin&#x2F;master中的文件。</p>
+<p>git强制覆盖本地命令（单条执行）：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git fetch --all &amp;&amp; git reset --hard origin/master &amp;&amp; git pull</span><br></pre></td></tr></table></figure>
+
+<h2 id="error-Your-local-changes-to-the-following-files-would-be-overwritten-by-merge"><a href="#error-Your-local-changes-to-the-following-files-would-be-overwritten-by-merge" class="headerlink" title="error: Your local changes to the following files would be overwritten by merge"></a>error: Your local changes to the following files would be overwritten by merge</h2><p>意思是我电脑上新修改的代码的文件，将会被git服务器上的代码覆盖。</p>
+<p>方法1：如果你想保留刚才本地修改的代码，并把git服务器上的代码pull到本地（本地刚才修改的代码将会被暂时封存起来）</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git stash</span><br><span class="line">git pull origin master</span><br><span class="line">git stash pop</span><br></pre></td></tr></table></figure>
+
+
+<p>如此一来，服务器上的代码更新到了本地，而且你本地修改的代码也没有被覆盖，之后使用add，commit，push 命令即可更新本地代码到服务器了。</p>
+<p>方法2、如果你想完全地覆盖本地的代码，只保留服务器端代码，则直接回退到上一个版本，再进行pull：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git reset --hard</span><br><span class="line">git pull origin master</span><br></pre></td></tr></table></figure>
+
+<p>注：其中origin master表示git的主分支。</p>
+<h2 id="Git撤销上一次push的版本"><a href="#Git撤销上一次push的版本" class="headerlink" title="Git撤销上一次push的版本"></a>Git撤销上一次push的版本</h2><p>可以用git log 查看你要回到的那个版本</p>
+<p>接着用</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git reset --hard HEAD^ 回退到上个版本</span><br><span class="line">git reset --hard commit_id 退到/进到 指定commit_id</span><br></pre></td></tr></table></figure>
+
+<p>最后将本地的修改提交到远程</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git push origin HEAD --force</span><br></pre></td></tr></table></figure>
+
+<p>当你回滚之后，又后悔了，想恢复到新的版本怎么办？</p>
+<p>用git reflog打印你记录你的每一次操作记录</p>
+<p>git reflog 可以查看所有分支的所有操作记录（包括（包括commit和reset的操作），包括已经被删除的commit记录，git log则不能察看已经删除了的commit记录。</p>
+<p>简单的说，它会记录所有HEAD的历史，也就是说当你做 reset，checkout等操作的时候，这些操作会被记录在reflog中。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ git reflog</span><br><span class="line">b7057a9 HEAD@&#123;0&#125;: reset: moving to b7057a9</span><br><span class="line">98abc5a HEAD@&#123;1&#125;: commit: more stuff added to foo</span><br><span class="line">b7057a9 HEAD@&#123;2&#125;: commit (initial): initial commit</span><br></pre></td></tr></table></figure>
+
+<p>所以，我们要找回我们第二commit，只需要做如下操作：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ git reset --hard 98abc5a</span><br></pre></td></tr></table></figure>
+
+<p>再来看一下 git 记录：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ git log</span><br><span class="line"></span><br><span class="line">* 98abc5a (HEAD, master) more stuff added to foo</span><br><span class="line">* b7057a9 initial commit</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>代码就回滚到我们想要的提交状态了</p>
+<p>:::{note}<br>dfaksjfklsjfls;a<br>:::</p>
+]]></content>
+      <categories>
+        <category>tech</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WordPress彻底禁用、替换谷歌字体的解决方案大全</title>
+    <url>/2016/04/16/google-fonts-cn/</url>
+    <content><![CDATA[<p>   </p>
+<h2 id="安装Disable-Google-Fonts屏蔽谷歌"><a href="#安装Disable-Google-Fonts屏蔽谷歌" class="headerlink" title="安装Disable Google Fonts屏蔽谷歌"></a>安装Disable Google Fonts屏蔽谷歌</h2><p>方法一：搜索这个插件“ Disable Google Fonts ”，安装并激活，对于某些网站是管用的，但我管理的几个WordPress网站，用此插件无效。  </p>
+<h2 id="安装Replace-Google-Fonts插件替换"><a href="#安装Replace-Google-Fonts插件替换" class="headerlink" title="安装Replace-Google-Fonts插件替换"></a>安装Replace-Google-Fonts插件替换</h2><p>方法二：使用replace-google-fonts小插件，使用奇虎360的开放字体服务来替换Google的开放字体服务。 <a href="http://www.soulteary.com/2014/06/08/replace-google-fonts.html">下载Replace-Google-Fonts</a>  </p>
+<h2 id="手动修改script替换为国内地址"><a href="#手动修改script替换为国内地址" class="headerlink" title="手动修改script替换为国内地址"></a>手动修改script替换为国内地址</h2><p>方法三：修改这个文件 \wp-includes\script-loader.php，找到：fonts.googleapis，替换成：fonts.useso 做了这一步，有几个网站后台速度正常了，但是不是所有的WordPress网站都能找到这句话。  </p>
+<h2 id="手动修改functions-php屏蔽谷歌代码"><a href="#手动修改functions-php屏蔽谷歌代码" class="headerlink" title="手动修改functions.php屏蔽谷歌代码"></a>手动修改functions.php屏蔽谷歌代码</h2><p>方法四：在主题目录的这个文件functions.php中加载一段代码，就可以有效的屏蔽谷歌代码，代码如下： &#x2F;&#x2F;禁用Open Sans class Disable_Google_Fonts { public function __construct() { add_filter( ‘gettext_with_context’, array( $this, ‘disable_open_sans’ ), 888, 4 ); } public function disable_open_sans( $translations, $text, $context, $domain ) { if ( ‘Open Sans font: on or off’ &#x3D;&#x3D; $context &amp;&amp; ‘on’ &#x3D;&#x3D; $text ) { $translations &#x3D; ‘off’; } return $translations; } } $disable_google_fonts &#x3D; new Disable_Google_Fonts; 或者下面这段代码也可以： function remove_open_sans_from_wp_core() { wp_deregister_style( ‘open-sans’ ); wp_register_style( ‘open-sans’, false ); wp_enqueue_style(‘open-sans’,”); } add_action( ‘init’, ‘remove_open_sans_from_wp_core’ );  </p>
+<h2 id="搜索所有代码替换"><a href="#搜索所有代码替换" class="headerlink" title="搜索所有代码替换"></a>搜索所有代码替换</h2><p>最后一个方法，最彻底，最有效的方法： 就是把主题文件都下载下来，用Dreamweaver对整个目录进行代码搜索，然后逐一替换，实际上也就几个文件中存在。 有一些插件比如那个革命banner插件也使用了谷歌字体，把他的目录同样替换一下。这样你的网站，不论是前台还是后台都比以前还要快，因为谷歌字体插件变成国内了，而且保留了美观度和功能。</p>
+]]></content>
+      <categories>
+        <category>tech</category>
+        <category>wordpress</category>
+      </categories>
+      <tags>
+        <tag>google font</tag>
+        <tag>wordpres</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>New start!~ 新的开始~</title>
+    <url>/2016/03/16/hello-world-1/</url>
+    <content><![CDATA[<p>本站始于2012年，本人注册的第一个域名xuzizi.cn，当时费了好大劲把它在不备案的情况下解析到境外空间。使用老鹰主机3年中，陆陆续续出现了各种故障，在14年ip被墙之后本人就断了续费念想了。15年购买的新网主机，但是境内主机必须备案，综合当时工作、考研之情况，原被强主机过期、新主机未备案无法解析，一直拖到如今。 昨天去新网把空间备案了，大约20天之后能解析。这20天里临时使用xuzizi.win访问。 原来的数据都是一些简单的程序和心情记录，无法找回，有遗憾但也无可奈何，新站作为新的起点，会坚持维护和更新。 目前网站在chrome下访问可能存在些许bug，昨天排除了一整天，最后把整站格式化重新安装结果还是这样，通过阿里云测试的结果应该不是网页的问题，等下个月搬站问题自然解决。 <img src="http://i13.tietuku.cn/bc3264ac18652650t.jpg"></p>
+]]></content>
+      <categories>
+        <category>杂记</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>好看的Hermit播放器插件</title>
+    <url>/2016/04/15/hermit-music/</url>
+    <content><![CDATA[<p>说到音乐应该是每个博客都不可缺少的，在Wordpress文章或者日记中插入音乐是算基本需求了。本文介绍在wordpress添加音乐播放器的hermit插件，所添加的播放器不但支持html5，也可以自适应。</p>
+<h2 id="Hermit播放器插件实现音乐播放器"><a href="#Hermit播放器插件实现音乐播放器" class="headerlink" title="Hermit播放器插件实现音乐播放器"></a>Hermit播放器插件实现音乐播放器</h2><p>Hermit音乐播放器插件支持网易云音乐，虾米音乐和本地音乐，你可以直接在文章中插入来自虾米或者网易云音乐的歌曲到文章中。先来看看Hermit音乐播放器插件的效果吧！ [hermit auto&#x3D;”0” loop&#x3D;”0” unexpand&#x3D;”0” fullheight&#x3D;”0”]songlist#:1775751240[&#x2F;hermit]  </p>
+<h2 id="整站Ajax的播放设置"><a href="#整站Ajax的播放设置" class="headerlink" title="整站Ajax的播放设置"></a>整站Ajax的播放设置</h2><p>可以在javascript中设置音乐是否打断播放，当然ajax效果是不打断播放的。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">if( window.hermitjs !== undefined )&#123;</span><br><span class="line">hermitjs.reload(0) //默认方式, 会打断播放状态</span><br><span class="line">hermitjs.reload(1) //不会打断播放,音乐会继续播放</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="简单的使用介绍"><a href="#简单的使用介绍" class="headerlink" title="简单的使用介绍"></a>简单的使用介绍</h2><p>在撰写文章的时候，就可以点击添加音乐的按钮来输入音乐地址。输入好了，点击插入音乐即可自动完成操作，发布文章的时候也就有了音乐。 添加多个音乐，则回车空行如下图，以网易云音乐为例子： <img src="/../image/44181561jw1f2xs9b10n8j20mh0e73zy.jpg" alt="WordPress Hermit音乐播放器插件支持Ajax防刷新不中断"> 以上，喜欢音乐分享的朋友可以去试试啦！</p>
+<h2 id="优化样式"><a href="#优化样式" class="headerlink" title="优化样式"></a>优化样式</h2><p>如果你也想和我一样，给封面图片加上唱片旋转效果，可以参考本站的css代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@-webkit-keyframes rotate&#123;</span><br><span class="line">from&#123;-webkit-transform:rotate(0deg)&#125;</span><br><span class="line">to&#123;-webkit-transform:rotate(360deg)&#125;</span><br><span class="line">&#125;</span><br><span class="line">@-moz-keyframes rotate&#123;</span><br><span class="line">from&#123;-moz-transform:rotate(0deg)&#125;</span><br><span class="line">to&#123;-moz-transform:rotate(360deg)&#125;</span><br><span class="line">&#125;</span><br><span class="line">@-ms-keyframes rotate&#123;</span><br><span class="line">from&#123;-ms-transform:rotate(0deg)&#125;</span><br><span class="line">to&#123;-ms-transform:rotate(360deg)&#125;</span><br><span class="line">&#125;</span><br><span class="line">@-o-keyframes rotate&#123;</span><br><span class="line">from&#123;-o-transform:rotate(0deg)&#125;</span><br><span class="line">to&#123;-o-transform:rotate(360deg)&#125;</span><br><span class="line">&#125;</span><br><span class="line">.hermit-cover-image&#123;</span><br><span class="line">border-radius:99%;</span><br><span class="line">animation: 9.8s linear 0s normal none infinite rotate;</span><br><span class="line">-webkit-animation:9.8s linear 0s normal none infinite rotate;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>把以上代码放在<code>主题的</code>style.css中即可，这样Hermit插件即使更新了样式也会保存下来。</p>
+]]></content>
+      <categories>
+        <category>tech</category>
+        <category>wordpress</category>
+        <category>软件分享</category>
+      </categories>
+      <tags>
+        <tag>wordpress</tag>
+        <tag>hermit</tag>
+        <tag>插件</tag>
+        <tag>音乐</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>论数据整理、备份的重要性</title>
+    <url>/2016/04/16/importance-of-backup/</url>
+    <content><![CDATA[<h2 id="丢失的博客数据"><a href="#丢失的博客数据" class="headerlink" title="丢失的博客数据"></a>丢失的博客数据</h2><p>我从2012年开始建博客。从最开始的免费空间不断的测试、不同博客系统不同主题来回折腾好久之后，才开始专心写点东西。刚开始没什么好些的，就写点生活中的事，转转鸡汤，所以也不太在乎数据之类的东西。后来主机ip被墙就基本忘记博客这回事了，14年6月份美国主机到期未继续续费，等反应过来时已经什么都没有了。 今天安装七牛加速，却意外的找回了两年前的几篇博文，因为只缓存了一个静态页面，所以只显示了主机当时第一页的几篇文章，14年之前的文章还是丢失了。看当时的几篇文章，却很有感悟，更觉得要把博客坚持下去。 <img src="/../image/backup2014.jpg" alt="backup2014"></p>
+<h2 id="崩溃的macbook"><a href="#崩溃的macbook" class="headerlink" title="崩溃的macbook"></a>崩溃的macbook</h2><p>半个月之前，我的macbook系统文件损坏，电脑里的大量的代码、文档全部无法取出，连续通宵想办法解决问题，最后还是找了个空硬盘把整个电脑200多G的资料全部打包备份再重装系统。这还不算完，上百G的资料整理归类又花了几天时间。 时常整理整理资料，随手记记，养成好习惯，尤为重要。</p>
+]]></content>
+      <categories>
+        <category>杂记</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>JAVA关于多线程中对象的调用问题</title>
+    <url>/2016/03/21/java-note0322/</url>
+    <content><![CDATA[<h2 id="JAVA关于多线程中对象的调用问题"><a href="#JAVA关于多线程中对象的调用问题" class="headerlink" title="JAVA关于多线程中对象的调用问题"></a>JAVA关于多线程中对象的调用问题</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">public class test &#123;</span><br><span class="line"></span><br><span class="line">    public static void main(String[] args) &#123;</span><br><span class="line"></span><br><span class="line">        WarnCars car = null;</span><br><span class="line">        car = getCar();</span><br><span class="line"></span><br><span class="line">        CarTest test = new CarTest();</span><br><span class="line">        test.setCar(car);</span><br><span class="line">        test.start();</span><br><span class="line"></span><br><span class="line">        DataChangeTest testdata = new DataChangeTest();</span><br><span class="line">        testdata.setCar(car);</span><br><span class="line">        testdata.start();</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">public class CarTest extends Thread &#123;</span><br><span class="line">    WarnCars car = null;</span><br><span class="line"></span><br><span class="line">    public void setCar(WarnCars car) &#123;</span><br><span class="line">        this.car = car;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    public void run() &#123;</span><br><span class="line">        //do sth</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">public class DataChangeTest extends Thread &#123;</span><br><span class="line"></span><br><span class="line">    WarnCars car = null;</span><br><span class="line"></span><br><span class="line">    public void run() &#123;</span><br><span class="line">        //do sth</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    public void setCar(WarnCars car) &#123;</span><br><span class="line">        this.car = car;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>develop</category>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>JAVA 多线程的创建和启动</title>
+    <url>/2016/03/18/java-thread-test/</url>
+    <content><![CDATA[<h1 id="JAVA-多线程的创建和启动"><a href="#JAVA-多线程的创建和启动" class="headerlink" title="JAVA 多线程的创建和启动"></a>JAVA 多线程的创建和启动</h1><h2 id="一、定义线程"><a href="#一、定义线程" class="headerlink" title="一、定义线程"></a>一、定义线程</h2><h3 id="1、扩展java-lang-Thread类。"><a href="#1、扩展java-lang-Thread类。" class="headerlink" title="1、扩展java.lang.Thread类。"></a>1、扩展java.lang.Thread类。</h3><p>此类中有个run()方法，应该注意其用法：<code>public void run()</code> 如果该线程是使用独立的 Runnable 运行对象构造的，则调用该 Runnable 对象的 run 方法；否则，该方法不执行任何操作并返回。 Thread 的子类应该重写该方法。</p>
+<h3 id="2、实现java-lang-Runnable接口。"><a href="#2、实现java-lang-Runnable接口。" class="headerlink" title="2、实现java.lang.Runnable接口。"></a>2、实现java.lang.Runnable接口。</h3><p><code>void run()</code>使用实现接口 Runnable 的对象创建一个线程时，启动该线程将导致在独立执行的线程中调用对象的 run 方法。 方法 run 的常规协定是，它可能执行任何所需的操作。</p>
+<h2 id="二、实例化线程"><a href="#二、实例化线程" class="headerlink" title="二、实例化线程"></a>二、实例化线程</h2><p>1、如果是扩展java.lang.Thread类的线程，则直接new即可。 2、如果是实现了java.lang.Runnable接口的类，则用Thread的构造方法：</p>
+<ul>
+<li>Thread(Runnable target)</li>
+<li>Thread(Runnable target, String name)</li>
+<li>Thread(ThreadGroup group, Runnable target)</li>
+<li>Thread(ThreadGroup group, Runnable target, String name)</li>
+<li>Thread(ThreadGroup group, Runnable target, String name, long stackSize)</li>
+</ul>
+<h2 id="三、启动线程"><a href="#三、启动线程" class="headerlink" title="三、启动线程"></a>三、启动线程</h2><p>在线程的Thread对象上调用start()方法，而不是run()或者别的方法。 在调用start()方法之前：线程处于新状态中，新状态指有一个Thread对象，但还没有一个真正的线程。 在调用start()方法之后：发生了一系列复杂的事情 启动新的执行线程（具有新的调用栈）； 该线程从新状态转移到可运行状态； 当该线程获得机会执行时，其目标run()方法将运行。 注意：对Java来说，run()方法没有任何特别之处。像main()方法一样，它只是新线程知道调用的方法名称(和签名)。因此，在Runnable上或者Thread上调用run方法是合法的。但并不启动新的线程。</p>
+<h2 id="四、例子"><a href="#四、例子" class="headerlink" title="四、例子"></a>四、例子</h2><h3 id="1、实现Runnable接口的多线程例子"><a href="#1、实现Runnable接口的多线程例子" class="headerlink" title="1、实现Runnable接口的多线程例子"></a>1、实现Runnable接口的多线程例子</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/** </span><br><span class="line">* 实现Runnable接口的类 </span><br><span class="line">* </span><br><span class="line">* @author leizhimin 2008-9-13 18:12:10 </span><br><span class="line">*/ </span><br><span class="line">public class DoSomething implements Runnable &#123; </span><br><span class="line">    private String name; </span><br><span class="line"></span><br><span class="line">    public DoSomething(String name) &#123; </span><br><span class="line">        this.name = name; </span><br><span class="line">    &#125; </span><br><span class="line"></span><br><span class="line">    public void run() &#123; </span><br><span class="line">        for (int i = 0; i &lt; 5; i++) &#123; </span><br><span class="line">            for (long k = 0; k &lt; 100000000; k++) ; </span><br><span class="line">            System.out.println(name + &quot;: &quot; + i); </span><br><span class="line">        &#125; </span><br><span class="line">    &#125; </span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/** </span><br><span class="line">* 测试Runnable类实现的多线程程序 </span><br><span class="line">* </span><br><span class="line">* @author leizhimin 2008-9-13 18:15:02 </span><br><span class="line">*/ </span><br><span class="line">public class TestRunnable &#123; </span><br><span class="line">    public static void main(String[] args) &#123; </span><br><span class="line">        DoSomething ds1 = new DoSomething(&quot;阿三&quot;); </span><br><span class="line">        DoSomething ds2 = new DoSomething(&quot;李四&quot;); </span><br><span class="line"></span><br><span class="line">        Thread t1 = new Thread(ds1); </span><br><span class="line">        Thread t2 = new Thread(ds2); </span><br><span class="line"></span><br><span class="line">        t1.start(); </span><br><span class="line">        t2.start(); </span><br><span class="line">    &#125; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>执行结果： &gt; * 李四: 0 * 阿三: 0 * 李四: 1 * 阿三: 1 * 李四: 2 * 李四: 3 * 阿三: 2 * 李四: 4 * 阿三: 3 * 阿三: 4 Process finished with exit code 0</p>
+<h3 id="2、扩展Thread类实现的多线程例子"><a href="#2、扩展Thread类实现的多线程例子" class="headerlink" title="2、扩展Thread类实现的多线程例子"></a>2、扩展Thread类实现的多线程例子</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/** </span><br><span class="line">* 测试扩展Thread类实现的多线程程序 </span><br><span class="line">* </span><br><span class="line">* @author leizhimin 2008-9-13 18:22:13 </span><br><span class="line">*/ </span><br><span class="line">public class TestThread extends Thread&#123; </span><br><span class="line">    public TestThread(String name) &#123; </span><br><span class="line">        super(name); </span><br><span class="line">    &#125; </span><br><span class="line"></span><br><span class="line">    public void run() &#123; </span><br><span class="line">        for(int i = 0;i&lt;5;i++)&#123; </span><br><span class="line">            for(long k= 0; k &lt;100000000;k++); </span><br><span class="line">            System.out.println(this.getName()+&quot; :&quot;+i); </span><br><span class="line">        &#125; </span><br><span class="line">    &#125; </span><br><span class="line"></span><br><span class="line">    public static void main(String[] args) &#123; </span><br><span class="line">        Thread t1 = new TestThread(&quot;阿三&quot;); </span><br><span class="line">        Thread t2 = new TestThread(&quot;李四&quot;); </span><br><span class="line">        t1.start(); </span><br><span class="line">        t2.start(); </span><br><span class="line">    &#125; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>执行结果：</p>
+<blockquote>
+<ul>
+<li>阿三 :0</li>
+<li>李四 :0</li>
+<li>阿三 :1</li>
+<li>李四 :1</li>
+<li>阿三 :2</li>
+<li>李四 :2</li>
+<li>阿三 :3</li>
+<li>阿三 :4</li>
+<li>李四 :3</li>
+<li>李四 :4 Process finished with exit code 0</li>
+</ul>
+</blockquote>
+<p>对于上面的多线程程序代码来说，输出的结果是不确定的。其中的一条语句<code>for(long k= 0; k &lt;100000000;k++);</code>是用来模拟一个非常耗时的操作的。</p>
+<h2 id="五、一些常见问题"><a href="#五、一些常见问题" class="headerlink" title="五、一些常见问题"></a>五、一些常见问题</h2><p>1、线程的名字，一个运行中的线程总是有名字的，名字有两个来源，一个是虚拟机自己给的名字，一个是你自己的定的名字。在没有指定线程名字的情况下，虚拟机总会为线程指定名字，并且主线程的名字总是mian，非主线程的名字不确定。 2、线程都可以设置名字，也可以获取线程的名字，连主线程也不例外。 3、获取当前线程的对象的方法是：Thread.currentThread()； 4、在上面的代码中，只能保证：每个线程都将启动，每个线程都将运行直到完成。一系列线程以某种顺序启动并不意味着将按该顺序执行。对于任何一组启动的线程来说，调度程序不能保证其执行次序，持续时间也无法保证。 5、当线程目标run()方法结束时该线程完成。 6、一旦线程启动，它就永远不能再重新启动。只有一个新的线程可以被启动，并且只能一次。一个可运行的线程或死线程可以被重新启动。 7、线程的调度是JVM的一部分，在一个CPU的机器上上，实际上一次只能运行一个线程。一次只有一个线程栈执行。JVM线程调度程序决定实际运行哪个处于可运行状态的线程。众多可运行线程中的某一个会被选中做为当前线程。可运行线程被选择运行的顺序是没有保障的。 8、尽管通常采用队列形式，但这是没有保障的。队列形式是指当一个线程完成“一轮”时，它移到可运行队列的尾部等待，直到它最终排队到该队列的前端为止，它才能被再次选中。事实上，我们把它称为可运行池而不是一个可运行队列，目的是帮助认识线程并不都是以某种有保障的顺序排列唱呢个一个队列的事实。 9、尽管我们没有无法控制线程调度程序，但可以通过别的方式来影响线程调度的方式。</p>
+]]></content>
+      <categories>
+        <category>develop</category>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>卡瓦普定</title>
+    <url>/2018/11/06/kawah-putih/</url>
+    <content><![CDATA[<p>[hermit auto&#x3D;”1” loop&#x3D;”0” unexpand&#x3D;”0” fullheight&#x3D;”0”]netease_songs#:29764561[&#x2F;hermit] <img src="/../image/mmexport1532865849408-1024x768.jpg"> 这是我见过最美丽的幻境。那天穿着短袖的我，朝着浓郁的硫磺味一路狂奔向湖边，高兴的摘掉了口罩，顺着湖边来回跑，拍照和录像，直到手脚冰凉。 站在那里，你会感觉你在另一个世界。 然后，那些照片和视频就一直放在手机里，没有被翻出来过。   也可能是因为工作太忙，没有时间整理和分享。 工作一直就很忙，有时候忙习惯了反而没觉得有什么，只是突然有事后一想，时间就那么过去了。   最近的各种压力让人很难入睡。 工作一年多来，领导还算比较重视，同事关系也算不错，我的工作内容变动也比较频繁。这一年里，从一开始做解决方案，到富媒体、网页开发、软件客户端开发、软件资料到一些运营工作等。前几个月，几个比较好的哥们离职了，一个为了爱情去了深圳，一个为了家庭和发展选择了其他的工作。然后整个硬件组的工作，断层式的交给了我和其他几个同事。但其实，工作的事我不太担心，只是任务堆积和上手慢让人麻头。 跟家里的联络时多时少，中间忙碌的两三个月，我甚至觉得自己跟家里没什么沟通。自从上个月奶奶走后，让我更多的思考与父母的关系。算一算，离开家乡也已经8年了，我也不知道这8年里让我当北漂的动力是什么。也可能是一种固执吧，这么多年已经多次拒绝家里关于去武汉发展的要求，进入现在的岗位也是抱着磨练自己的想法来的，但现在觉得累的时候也会在想，进了家研究生和本科生一样工资的公司，升职加薪慢，整天忙忙碌碌，图个啥？不过这两天，聊到情感和房子，还是避免不了产生冲突。这个，不提也罢。 十一专程去秦皇岛参加了彬民的婚礼。他是我见过脾气最好的人，在他家那乡下的举办的简朴婚礼，竟也一度让我感动到想哭。我很羡慕这样专情又长情的人，同时又要遇到这样的另一半多不容易啊。还有二赤、天华，估计日子也是快了，我又得去准备份子了。 二赤说我这个人很难约，每次约着约着就约没了。我想了想，好像是的，择日不如撞日，那就本周末见吧。尽管都是海淀居民（不对，我是外来人口)，想见一面还是挺难的，我觉得我住在这个镇子，去哪都得一小时，十分困扰。那天聊了聊以前的同学，我发现我的回答都是，去年啥啥啥时候见过一面，后来很少联系了。最后聊到XXX妹子，二赤说，你们以前是不是关系还挺好的，我说是啊，不过都是毕业之后就没联系了，挺可惜的。 二赤说我这个人就是太被动。尽管不想承认说确实这样，但是头一回被人当面说还是有点尴尬。在同事面前，我觉得自己很外向很开朗，让我上台、主持、录像都没在怕，还能时不时“哗众取宠”逗个乐。但是私底下，我真的还挺不会维护人际关系的。 就是，工作之外的生活，没啥存在感。 扎心，但该反思。   晚上跟我爸打电话，我安慰我爸说，我的事都不用着急啊，又急不来。 工作啥的都挺顺利的，领导很信任；其他的，实在不行明年可以回武汉找点事做嘛。 凡事不能急于求成，我心态挺好的。 [ 并不是:( ]   不过生活总该有点期盼。 大学的时候喜欢刷剧，整个班的同学要看电影电视找我copy就行了，后来想想看剧多没意思，咱们来做字幕啊。然后现在就参与了一个字幕组，偶尔做做字幕。尽管不是什么大字幕组，也算是完成学生时代多年来的一项心愿。 以前喜欢唱歌，如今这破嗓子也没啥唱歌的劲儿了，接下来想再买一把吉他，啥时候能瞎弹一两首原创就好了。再有，顺便练练英语，BEC的书都买了好几年，万一哪年就决定出去常驻了呢。   回头再整理整理自己的回忆，如果有人愿意听，我给你讲讲卡瓦普定的故事。 如果你想去，我可以带你去啊。</p>
+]]></content>
+      <categories>
+        <category>杂记</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>使用Limit Login Attempts限制登陆次数防止被暴力破解插件</title>
+    <url>/2016/04/27/limit-login-attempts/</url>
+    <content><![CDATA[<p>事情是这样的，作为一个睡觉打雷的不会醒的人，我竟然被手机消息炸醒了。 半夜2点52的时候，我查看了一下手机消息，已经被同样标题的邮件刷屏，而且手机还在不停的响，频率非常快。 <img src="/../image/xuzizi.cn_2016-04-27_11-15-44-750x500.png" alt="屏幕快照 2016-04-27 11.15.00"> 很明显是有人在试图暴力破解我的博客，但是貌似他的字典还是不够X[哔]，使用的都是常用英文单词名，密码都是尝试admin，既然这样，本宝宝只好关了邮件提醒，继续睡觉。 那么什么是暴力破解呢？暴力破解的攻击者首先扫描互联网上的Wordpress网站，然后利用Web服务器组建的僵尸网络不断尝试用户名和密码试图登录管理界面，使用的用户名密码一般都是常用的字典库。 起床之后，邮箱里已经是大丰收了，赶紧淘了一个通过限制用户登录次数来防止暴力破解的插件Limit Login Attempts。 <img src="/../image/xuzizi.cn_2016-04-27_11-17-29.png" alt="屏幕快照 2016-04-27 11.05.14"> Limit Login Attempts这款插件的功能很单纯，为WordPress提供登录保护机制，允许博客作者限定可尝试的登录次数，如连续输错三次以上帐号、密码，即封禁该登录IP一段时间的访问登录权限。简单的说，其实就是防止暴力破解、穷举WordPress后台的登录权限。</p>
+<h2 id="插件安装"><a href="#插件安装" class="headerlink" title="插件安装"></a>插件安装</h2><p>1、【英文版】登录WordPress后台—&gt;插件—&gt;安装插件—&gt;搜索“Limit Login Attempts” —&gt;安装并启用。 2、【汉化版】见文末下载，登录WordPress后台—&gt;插件—&gt;安装插件—&gt;上传安装并启用。</p>
+<h2 id="插件设置"><a href="#插件设置" class="headerlink" title="插件设置"></a>插件设置</h2><p>WordPress后台—&gt;设置—&gt; Limit Login Attempts—&gt;设置。 以上设置选项，一般部默认即可，当然为了安全起见，可以适当减少尝试登录的次数和加长锁定时间。 我的设置如下。 <img src="/../image/xuzizi.cn_2016-04-27_11-25-25.jpg" alt="屏幕快照 2016-04-27 11.20.35"></p>
+]]></content>
+      <categories>
+        <category>tech</category>
+        <category>wordpress</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Office for Mac 不能通过exchange登录Outlook.com</title>
+    <url>/2016/04/05/mac-exchange-outlook-com/</url>
+    <content><![CDATA[<p>今天想要在Office for Mac上导入outlook.com上的日历，发现mac下的outlook竟然不能登录，在windows版本和安卓手机日历上却可以正常登录。 我以前在上班的时候，使用mac版日历一切都是正常的。 仔细查询得出结论，outlook.com是需要通过<a href="http://baike.baidu.com/link?url=IkTgzgT7ixydFORWjEZ5PT2dRUbgB6dNoNoRL5xkjKo0049x-UPcxBICtzi_2sSRn9O4Y32IcjsWXhPIkKHz5K">Exchange ActiveSync</a>协议连接，而Exchange ActiveSync是只支持移动客户端的，我以前使用的公司邮箱是通过office365付费订阅得到的，不知道是什么协议。。-，- 想要在mac上使用客户端接受outlook.com的日历，目前解决办法只有使用<a href="http://www.xuzizi.cn/2016/04/24/sunrise-calendar/">Sunrise</a>连接。</p>
+<p> <img src="/../image/20160424221427115.jpg" alt="sunrise"></p>
+]]></content>
+      <categories>
+        <category>tech</category>
+        <category>网络技巧</category>
+      </categories>
+      <tags>
+        <tag>office</tag>
+        <tag>exchange</tag>
+        <tag>mac</tag>
+        <tag>outlook</tag>
+        <tag>Sunrise</tag>
+        <tag>日历</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2023/05/22/macOS_sshpass/</url>
+    <content><![CDATA[<h1 id="MacOS下安装sshpass工具"><a href="#MacOS下安装sshpass工具" class="headerlink" title="MacOS下安装sshpass工具"></a>MacOS下安装sshpass工具</h1><p>由于安全原因，在macOS新版本中无法直接通过<code>brew install sshpass</code>命令安装，只能通过源码安装。</p>
+<p>下载源码包到本地</p>
+<p><code>wget https://udomain.dl.sourceforge.net/project/sshpass/sshpass/1.10/sshpass-1.10.tar.gz</code></p>
+<p>解压并切换到安装包目录</p>
+<p><code>tar xzvf sshpass-1.10.tar.gz</code><br><code>cd sshpass-1.10</code></p>
+<p>编译并编译安装</p>
+<p><code>./configure</code><br><code>sudo make&amp;&amp;sudo make install</code></p>
+<p>检查是否安装成功</p>
+<p><code>sshpass</code></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Markdown: Basics （快速入门）</title>
+    <url>/2016/04/08/markdown-basics/</url>
+    <content><![CDATA[<h3 id="Markdown-Basics-（快速入门）-点击查看完整语法说明"><a href="#Markdown-Basics-（快速入门）-点击查看完整语法说明" class="headerlink" title="Markdown: Basics （快速入门）(点击查看完整语法说明)"></a>Markdown: Basics （快速入门）(<a href="markdown-syntax.md">点击查看完整语法说明</a>)</h3><h2 id="Getting-the-Gist-of-Markdown’s-Formatting-Syntax"><a href="#Getting-the-Gist-of-Markdown’s-Formatting-Syntax" class="headerlink" title="Getting the Gist of Markdown’s Formatting Syntax"></a>Getting the Gist of Markdown’s Formatting Syntax</h2><p>此页提供了 Markdown 的简单概念， <a href="http://gitcafe.com/riku/Markdown-Syntax-CN/blob/master/syntax.md" title="Markdown Syntax">语法说明</a> 页提供了完整详细的文档，说明了每项功能。但是 Markdown 其实很简单就可以上手，此页文档提供了一些范例，并且每个范例都会提供输出的 HTML 结果。 其实直接试试看也是一个很不错的方法， <a href="http://daringfireball.net/projects/markdown/dingus" title="Markdown Dingus">Dingus</a> 是一个网页应用程序，你可以把自已编写的 Markdown 文档转成 XHTML。</p>
+<h2 id="段落、标题、区块代码"><a href="#段落、标题、区块代码" class="headerlink" title="段落、标题、区块代码"></a>段落、标题、区块代码</h2><p>一个段落是由一个以上的连接的行句组成，而一个以上的空行则会划分出不同的段落（空行的定义是显示上看起来像是空行，就被视为空行，例如有一行只有空白和 tab，那该行也会被视为空行），一般的段落不需要用空白或换行缩进。 Markdown 支持两种标题的语法，<a href="http://docutils.sourceforge.net/mirror/setext.html">Setext</a> 和 <a href="http://www.aaronsw.com/2002/atx/">atx</a> 形式。Setext 形式是用底线的形式，利用 <code>=</code> （最高阶标题）和 <code>-</code> （第二阶标题），Atx 形式在行首插入 1 到 6 个 <code>#</code> ，对应到标题 1 到 6 阶。 区块引用则使用 email 形式的 ‘<code>&gt;</code>’ 角括号。 Markdown 语法:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">A First Level Header</span><br><span class="line">====================</span><br><span class="line">A Second Level Header</span><br><span class="line">---------------------</span><br><span class="line"></span><br><span class="line">Now is the time for all good men to come to</span><br><span class="line">the aid of their country. This is just a</span><br><span class="line">regular paragraph.</span><br><span class="line"></span><br><span class="line">The quick brown fox jumped over the lazy</span><br><span class="line">dog&#x27;s back.</span><br><span class="line">### Header 3</span><br><span class="line"></span><br><span class="line">&gt; This is a blockquote.</span><br><span class="line">&gt; </span><br><span class="line">&gt; This is the second paragraph in the blockquote.</span><br><span class="line">&gt;</span><br><span class="line">&gt; ## This is an H2 in a blockquote</span><br></pre></td></tr></table></figure>
+
+<p>输出 HTML 为：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;h1&gt;A First Level Header&lt;/h1&gt;</span><br><span class="line">&lt;h2&gt;A Second Level Header&lt;/h2&gt;</span><br><span class="line">&lt;p&gt;Now is the time for all good men to come to</span><br><span class="line">the aid of their country. This is just a</span><br><span class="line">regular paragraph.&lt;/p&gt;</span><br><span class="line">&lt;p&gt;The quick brown fox jumped over the lazy</span><br><span class="line">dog&#x27;s back.&lt;/p&gt;</span><br><span class="line">&lt;h3&gt;Header 3&lt;/h3&gt;</span><br><span class="line">&lt;blockquote&gt;</span><br><span class="line">&lt;p&gt;This is a blockquote.&lt;/p&gt;</span><br><span class="line">&lt;p&gt;This is the second paragraph in the blockquote.&lt;/p&gt;</span><br><span class="line">&lt;h2&gt;This is an H2 in a blockquote&lt;/h2&gt;</span><br><span class="line">&lt;/blockquote&gt;</span><br></pre></td></tr></table></figure>
+
+<h3 id="修辞和强调"><a href="#修辞和强调" class="headerlink" title="修辞和强调"></a>修辞和强调</h3><p>Markdown 使用星号和底线来标记需要强调的区段。 Markdown 语法:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Some of these words *are emphasized*.</span><br><span class="line">Some of these words _are emphasized also_.</span><br><span class="line">Use two asterisks for **strong emphasis**.</span><br><span class="line">Or, if you prefer, __use two underscores instead__.</span><br></pre></td></tr></table></figure>
+
+<p>输出 HTML 为:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;p&gt;Some of these words &lt;em&gt;are emphasized&lt;/em&gt;.</span><br><span class="line">Some of these words &lt;em&gt;are emphasized also&lt;/em&gt;.&lt;/p&gt;</span><br><span class="line">&lt;p&gt;Use two asterisks for &lt;strong&gt;strong emphasis&lt;/strong&gt;.</span><br><span class="line">Or, if you prefer, &lt;strong&gt;use two underscores instead&lt;/strong&gt;.&lt;/p&gt;</span><br></pre></td></tr></table></figure>
+
+<h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><p>无序列表使用星号、加号和减号来做为列表的项目标记，这些符号是都可以使用的，使用星号：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">* Candy.</span><br><span class="line">* Gum.</span><br><span class="line">* Booze.</span><br></pre></td></tr></table></figure>
+
+<p>加号：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">+ Candy.</span><br><span class="line">+ Gum.</span><br><span class="line">+ Booze.</span><br></pre></td></tr></table></figure>
+
+<p>和减号</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">- Candy.</span><br><span class="line">- Gum.</span><br><span class="line">- Booze.</span><br></pre></td></tr></table></figure>
+
+<p>都会输出 HTML 为：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;ul&gt;</span><br><span class="line">&lt;li&gt;Candy.&lt;/li&gt;</span><br><span class="line">&lt;li&gt;Gum.&lt;/li&gt;</span><br><span class="line">&lt;li&gt;Booze.&lt;/li&gt;</span><br><span class="line">&lt;/ul&gt;</span><br></pre></td></tr></table></figure>
+
+<p>有序的列表则是使用一般的数字接着一个英文句点作为项目标记：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1. Red</span><br><span class="line">2. Green</span><br><span class="line">3. Blue</span><br></pre></td></tr></table></figure>
+
+<p>输出 HTML 为：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;ol&gt;</span><br><span class="line">&lt;li&gt;Red&lt;/li&gt;</span><br><span class="line">&lt;li&gt;Green&lt;/li&gt;</span><br><span class="line">&lt;li&gt;Blue&lt;/li&gt;</span><br><span class="line">&lt;/ol&gt;</span><br></pre></td></tr></table></figure>
+
+<p>如果你在项目之间插入空行，那项目的内容会用 <code>&lt;p&gt;</code> 包起来，你也可以在一个项目内放上多个段落，只要在它前面缩排 4 个空白或 1 个 tab 。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">* A list item.</span><br><span class="line"></span><br><span class="line">    With multiple paragraphs.</span><br><span class="line"></span><br><span class="line">* Another item in the list.</span><br></pre></td></tr></table></figure>
+
+<p>输出 HTML 为：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;ul&gt;</span><br><span class="line">&lt;li&gt;&lt;p&gt;A list item.&lt;/p&gt;</span><br><span class="line">&lt;p&gt;With multiple paragraphs.&lt;/p&gt;&lt;/li&gt;</span><br><span class="line">&lt;li&gt;&lt;p&gt;Another item in the list.&lt;/p&gt;&lt;/li&gt;</span><br><span class="line">&lt;/ul&gt;</span><br></pre></td></tr></table></figure>
+
+<h3 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h3><p>Markdown 支援两种形式的链接语法： <em>行内</em> 和 <em>参考</em> 两种形式，两种都是使用角括号来把文字转成连结。 行内形式是直接在后面用括号直接接上链接：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">This is an [example link](http://example.com/).</span><br></pre></td></tr></table></figure>
+
+<p>输出 HTML 为：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;p&gt;This is an &lt;a href=&quot;http://example.com/&quot;&gt;</span><br><span class="line">example link&lt;/a&gt;.&lt;/p&gt;</span><br></pre></td></tr></table></figure>
+
+<p>你也可以选择性的加上 title 属性：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">This is an [example link](http://example.com/ &quot;With a Title&quot;).</span><br></pre></td></tr></table></figure>
+
+<p>输出 HTML 为：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;p&gt;This is an &lt;a href=&quot;http://example.com/&quot; title=&quot;With a Title&quot;&gt;</span><br><span class="line">example link&lt;/a&gt;.&lt;/p&gt;</span><br></pre></td></tr></table></figure>
+
+<p>参考形式的链接让你可以为链接定一个名称，之后你可以在文件的其他地方定义该链接的内容：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">I get 10 times more traffic from [Google][1] than from</span><br><span class="line">[Yahoo][2] or [MSN][3].</span><br><span class="line"></span><br><span class="line">[1]: http://google.com/ &quot;Google&quot;</span><br><span class="line">[2]: http://search.yahoo.com/ &quot;Yahoo Search&quot;</span><br><span class="line">[3]: http://search.msn.com/ &quot;MSN Search&quot;</span><br></pre></td></tr></table></figure>
+
+<p>输出 HTML 为：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;p&gt;I get 10 times more traffic from &lt;a href=&quot;http://google.com/&quot;</span><br><span class="line">title=&quot;Google&quot;&gt;Google&lt;/a&gt; than from &lt;a href=&quot;http://search.yahoo.com/&quot;</span><br><span class="line">title=&quot;Yahoo Search&quot;&gt;Yahoo&lt;/a&gt; or &lt;a href=&quot;http://search.msn.com/&quot;</span><br><span class="line">title=&quot;MSN Search&quot;&gt;MSN&lt;/a&gt;.&lt;/p&gt;</span><br></pre></td></tr></table></figure>
+
+<p>title 属性是选择性的，链接名称可以用字母、数字和空格，但是不分大小写：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">I start my morning with a cup of coffee and</span><br><span class="line">[The New York Times][NY Times].</span><br><span class="line"></span><br><span class="line">[ny times]: http://www.nytimes.com/</span><br></pre></td></tr></table></figure>
+
+<p>输出 HTML 为：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;p&gt;I start my morning with a cup of coffee and</span><br><span class="line">&lt;a href=&quot;http://www.nytimes.com/&quot;&gt;The New York Times&lt;/a&gt;.&lt;/p&gt;</span><br></pre></td></tr></table></figure>
+
+<h3 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h3><p>图片的语法和链接很像。 行内形式（title 是选择性的）：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![alt text](/path/to/img.jpg &quot;Title&quot;)</span><br></pre></td></tr></table></figure>
+
+<p>参考形式：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![alt text][id]</span><br><span class="line"></span><br><span class="line">[id]: /path/to/img.jpg &quot;Title&quot;</span><br></pre></td></tr></table></figure>
+
+<p>上面两种方法都会输出 HTML 为：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;img src=&quot;/path/to/img.jpg&quot; alt=&quot;alt text&quot; title=&quot;Title&quot; /&gt;</span><br></pre></td></tr></table></figure>
+
+<h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3><p>在一般的段落文字中，你可以使用反引号 <code>`</code> 来标记代码区段，区段内的 <code>&amp;</code>、<code>&lt;</code> 和 <code>&gt;</code> 都会被自动的转换成 HTML 实体，这项特性让你可以很容易的在代码区段内插入 HTML 码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">I strongly recommend against using any `&lt;blink&gt;` tags.</span><br><span class="line"></span><br><span class="line">I wish SmartyPants used named entities like `&amp;mdash;`</span><br><span class="line">instead of decimal-encoded entites like `&amp;#8212;`.</span><br></pre></td></tr></table></figure>
+
+<p>输出 HTML 为：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;p&gt;I strongly recommend against using any</span><br><span class="line">&lt;code&gt;&amp;lt;blink&amp;gt;&lt;/code&gt; tags.&lt;/p&gt;</span><br><span class="line">&lt;p&gt;I wish SmartyPants used named entities like</span><br><span class="line">&lt;code&gt;&amp;amp;mdash;&lt;/code&gt; instead of decimal-encoded</span><br><span class="line">entites like &lt;code&gt;&amp;amp;#8212;&lt;/code&gt;.&lt;/p&gt;</span><br></pre></td></tr></table></figure>
+
+<p>如果要建立一个已经格式化好的代码区块，只要每行都缩进 4 个空格或是一个 tab 就可以了，而 <code>&amp;</code>、<code>&lt;</code> 和 <code>&gt;</code> 也一样会自动转成 HTML 实体。 Markdown 语法:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">If you want your page to validate under XHTML 1.0 Strict,</span><br><span class="line">you&#x27;ve got to put paragraph tags in your blockquotes:</span><br><span class="line"></span><br><span class="line">&lt;blockquote&gt;</span><br><span class="line">&lt;p&gt;For example.&lt;/p&gt;</span><br><span class="line">&lt;/blockquote&gt;</span><br></pre></td></tr></table></figure>
+
+<p>输出 HTML 为：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;p&gt;If you want your page to validate under XHTML 1.0 Strict,</span><br><span class="line">you&#x27;ve got to put paragraph tags in your blockquotes:&lt;/p&gt;</span><br><span class="line">&lt;pre&gt;&lt;code&gt;&amp;lt;blockquote&amp;gt;</span><br><span class="line">&amp;lt;p&amp;gt;For example.&amp;lt;/p&amp;gt;</span><br><span class="line">&amp;lt;/blockquote&amp;gt;</span><br><span class="line">&lt;/code&gt;&lt;/pre&gt;</span><br></pre></td></tr></table></figure>
+
+<p>文章转载自 <a href="http://wowubuntu.com/markdown/basic.html">Markdown: Basics （快速入门）</a></p>
+]]></content>
+      <categories>
+        <category>tech</category>
+        <category>网络技巧</category>
+      </categories>
+      <tags>
+        <tag>markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Markdown 语法说明 (简体中文版)</title>
+    <url>/2016/04/08/markdown-syntax/</url>
+    <content><![CDATA[<h3 id="Markdown-语法说明-简体中文版-x2F-点击查看快速入门"><a href="#Markdown-语法说明-简体中文版-x2F-点击查看快速入门" class="headerlink" title="Markdown 语法说明 (简体中文版) &#x2F; (点击查看快速入门)"></a>Markdown 语法说明 (简体中文版) &#x2F; (<a href="http://www.xuzizi.cn/2016/04/08/markdown-basics/">点击查看快速入门</a>)</h3><ul>
+<li><a href="#overview">概述</a><ul>
+<li><a href="#philosophy">宗旨</a></li>
+<li><a href="#html">兼容 HTML</a></li>
+<li><a href="#autoescape">特殊字符自动转换</a></li>
+</ul>
+</li>
+<li><a href="#block">区块元素</a><ul>
+<li><a href="#p">段落和换行</a></li>
+<li><a href="#header">标题</a></li>
+<li><a href="#blockquote">区块引用</a></li>
+<li><a href="#list">列表</a></li>
+<li><a href="#precode">代码区块</a></li>
+<li><a href="#hr">分隔线</a></li>
+</ul>
+</li>
+<li><a href="#span">区段元素</a><ul>
+<li><a href="#link">链接</a></li>
+<li><a href="#em">强调</a></li>
+<li><a href="#code">代码</a></li>
+<li><a href="#img">图片</a></li>
+</ul>
+</li>
+<li><a href="#misc">其它</a><ul>
+<li><a href="#backslash">反斜杠</a></li>
+<li><a href="#autolink">自动链接</a></li>
+</ul>
+</li>
+<li><a href="#acknowledgement">感谢</a></li>
+<li><a href="#editor">Markdown 免费编辑器</a></li>
+</ul>
+<hr>
+<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><h3 id="宗旨"><a href="#宗旨" class="headerlink" title="宗旨"></a>宗旨</h3><p>Markdown 的目标是实现「易读易写」。 可读性，无论如何，都是最重要的。一份使用 Markdown 格式撰写的文件应该可以直接以纯文本发布，并且看起来不会像是由许多标签或是格式指令所构成。Markdown 语法受到一些既有 text-to-HTML 格式的影响，包括 <a href="http://docutils.sourceforge.net/mirror/setext.html">Setext</a>、<a href="http://www.aaronsw.com/2002/atx/">atx</a>、<a href="http://textism.com/tools/textile/">Textile</a>、<a href="http://docutils.sourceforge.net/rst.html">reStructuredText</a>、<a href="http://www.triptico.com/software/grutatxt.html">Grutatext</a> 和 <a href="http://ettext.taint.org/doc/">EtText</a>，而最大灵感来源其实是纯文本电子邮件的格式。 总之， Markdown 的语法全由一些符号所组成，这些符号经过精挑细选，其作用一目了然。比如：在文字两旁加上星号，看起来就像*强调*。Markdown 的列表看起来，嗯，就是列表。Markdown 的区块引用看起来就真的像是引用一段文字，就像你曾在电子邮件中见过的那样。</p>
+<h3 id="兼容-HTML"><a href="#兼容-HTML" class="headerlink" title="兼容 HTML"></a>兼容 HTML</h3><p>Markdown 语法的目标是：成为一种适用于网络的_书写_语言。 Markdown 并不是想取代 HTML的地位，甚至接近它。它的语法种类很少，只对应 HTML 标记的一小部分。Markdown 的构想_不是_要使得 HTML 文档更容易书写。在我看来， HTML 已经很容易写了。Markdown 的理念是，能让文档更容易读、写和随意改。HTML 是一种_发布_的格式，Markdown 是一种_书写_的格式。就这样，Markdown 的格式语法只涵盖纯文本可以涵盖的范围。 不在 Markdown 涵盖范围之内的标签，都可以直接在文档里面用 HTML 撰写。不需要额外标注这是 HTML 或是 Markdown；只要直接加标签就可以了。 要制约的只有一些 HTML 区块元素――比如 <code>&lt;div&gt;</code>、<code>&lt;table&gt;</code>、<code>&lt;pre&gt;</code>、<code>&lt;p&gt;</code> 等标签，必须在前后加上空行与其它内容区隔开，还要求它们的开始标签与结尾标签不能用制表符或空格来缩进。Markdown 的生成器有足够智能，不会在 HTML 区块标签外加上不必要的 <code>&lt;p&gt;</code> 标签。 例子如下，在 Markdown 文件里加上一段 HTML 表格：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">这是一个普通段落。</span><br><span class="line"></span><br><span class="line">&lt;table&gt;</span><br><span class="line">    &lt;tr&gt;</span><br><span class="line">        &lt;td&gt;Foo&lt;/td&gt;</span><br><span class="line">    &lt;/tr&gt;</span><br><span class="line">&lt;/table&gt;</span><br><span class="line"></span><br><span class="line">这是另一个普通段落。</span><br></pre></td></tr></table></figure>
+
+<p>请注意，在 HTML 区块标签间的 Markdown 格式语法将不会被处理。比如，你在 HTML 区块内使用 Markdown 样式的<code>*强调*</code>会没有效果。 HTML 的区段（行内）标签如 <code>&lt;span&gt;</code>、<code>&lt;cite&gt;</code>、<code>&lt;del&gt;</code> 可以在 Markdown 的段落、列表或是标题里随意使用。依照个人习惯，甚至可以不用 Markdown 格式，而直接采用 HTML 标签来格式化。举例说明：如果比较喜欢 HTML 的 <code>&lt;a&gt;</code> 或 <code>&lt;img&gt;</code> 标签，可以直接使用这些标签，而不用 Markdown 提供的链接或是图像标签语法。 和处在 HTML 区块标签间不同，Markdown 语法在 HTML 区段标签间是有效的。</p>
+<h3 id="特殊字符自动转换"><a href="#特殊字符自动转换" class="headerlink" title="特殊字符自动转换"></a>特殊字符自动转换</h3><p>在 HTML 文件中，有两个字符需要特殊处理： <code>&lt;</code> 和 <code>&amp;</code> 。 <code>&lt;</code> 符号用于起始标签，<code>&amp;</code> 符号则用于标记 HTML 实体，如果你只是想要显示这些字符的原型，你必须要使用实体的形式，像是 <code>&amp;lt;</code> 和 <code>&amp;amp;</code>。 <code>&amp;</code> 字符尤其让网络文档编写者受折磨，如果你要打「<code>AT&amp;T</code>」 ，你必须要写成「<code>AT&amp;amp;T</code>」。而网址中的 <code>&amp;</code> 字符也要转换。比如你要链接到：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">http://images.google.com/images?num=30&amp;q=larry+bird</span><br></pre></td></tr></table></figure>
+
+<p>你必须要把网址转换写为：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">http://images.google.com/images?num=30&amp;amp;q=larry+bird</span><br></pre></td></tr></table></figure>
+
+<p>才能放到链接标签的 <code>href</code> 属性里。不用说也知道这很容易忽略，这也可能是 HTML 标准检验所检查到的错误中，数量最多的。 Markdown 让你可以自然地书写字符，需要转换的由它来处理好了。如果你使用的 <code>&amp;</code> 字符是 HTML 字符实体的一部分，它会保留原状，否则它会被转换成 <code>&amp;amp</code>;。 所以你如果要在文档中插入一个版权符号 <code>©</code>，你可以这样写：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&amp;copy;</span><br></pre></td></tr></table></figure>
+
+<p>Markdown 会保留它不动。而若你写：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">AT&amp;T</span><br></pre></td></tr></table></figure>
+
+<p>Markdown 就会将它转为：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">AT&amp;amp;T</span><br></pre></td></tr></table></figure>
+
+<p>类似的状况也会发生在 <code>&lt;</code> 符号上，因为 Markdown 允许 <a href="#html">兼容 HTML</a> ，如果你是把 <code>&lt;</code> 符号作为 HTML 标签的定界符使用，那 Markdown 也不会对它做任何转换，但是如果你写：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">4 &lt; 5</span><br></pre></td></tr></table></figure>
+
+<p>Markdown 将会把它转换为：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">4 &amp;lt; 5</span><br></pre></td></tr></table></figure>
+
+<p>不过需要注意的是，code 范围内，不论是行内还是区块， <code>&lt;</code> 和 <code>&amp;</code> 两个符号都_一定_会被转换成 HTML 实体，这项特性让你可以很容易地用 Markdown 写 HTML code （和 HTML 相对而言， HTML 语法中，你要把所有的 <code>&lt;</code> 和 <code>&amp;</code> 都转换为 HTML 实体，才能在 HTML 文件里面写出 HTML code。）</p>
+<hr>
+<h2 id="区块元素"><a href="#区块元素" class="headerlink" title="区块元素"></a>区块元素</h2><h3 id="段落和换行"><a href="#段落和换行" class="headerlink" title="段落和换行"></a>段落和换行</h3><p>一个 Markdown 段落是由一个或多个连续的文本行组成，它的前后要有一个以上的空行（空行的定义是显示上看起来像是空的，便会被视为空行。比方说，若某一行只包含空格和制表符，则该行也会被视为空行）。普通段落不该用空格或制表符来缩进。 「由一个或多个连续的文本行组成」这句话其实暗示了 Markdown 允许段落内的强迫换行（插入换行符），这个特性和其他大部分的 text-to-HTML 格式不一样（包括 Movable Type 的「Convert Line Breaks」选项），其它的格式会把每个换行符都转成 <code>&lt;br /&gt;</code> 标签。 如果你_确实_想要依赖 Markdown 来插入 <code>&lt;br /&gt;</code> 标签的话，在插入处先按入两个以上的空格然后回车。 的确，需要多费点事（多加空格）来产生 <code>&lt;br /&gt;</code> ，但是简单地「每个换行都转换为 <code>&lt;br /&gt;</code>」的方法在 Markdown 中并不适合， Markdown 中 email 式的 <a href="#blockquote">区块引用</a> 和多段落的 <a href="#list">列表</a> 在使用换行来排版的时候，不但更好用，还更方便阅读。</p>
+<h3 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h3><p>Markdown 支持两种标题的语法，类 <a href="http://docutils.sourceforge.net/mirror/setext.html">Setext</a> 和类 <a href="http://www.aaronsw.com/2002/atx/">atx</a> 形式。 类 Setext 形式是用底线的形式，利用 <code>=</code> （最高阶标题）和 <code>-</code> （第二阶标题），例如：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">This is an H1</span><br><span class="line">=============</span><br><span class="line"></span><br><span class="line">This is an H2</span><br><span class="line">-------------</span><br></pre></td></tr></table></figure>
+
+<p>任何数量的 <code>=</code> 和 <code>-</code> 都可以有效果。 类 Atx 形式则是在行首插入 1 到 6 个 <code>#</code> ，对应到标题 1 到 6 阶，例如：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 这是 H1</span><br><span class="line"></span><br><span class="line">## 这是 H2</span><br><span class="line"></span><br><span class="line">###### 这是 H6</span><br></pre></td></tr></table></figure>
+
+<p>你可以选择性地「闭合」类 atx 样式的标题，这纯粹只是美观用的，若是觉得这样看起来比较舒适，你就可以在行尾加上 <code>#</code>，而行尾的 <code>#</code> 数量也不用和开头一样（行首的井字符数量决定标题的阶数）：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 这是 H1 #</span><br><span class="line"></span><br><span class="line">## 这是 H2 ##</span><br><span class="line"></span><br><span class="line">### 这是 H3 ######</span><br></pre></td></tr></table></figure>
+
+<h3 id="区块引用-Blockquotes"><a href="#区块引用-Blockquotes" class="headerlink" title="区块引用 Blockquotes"></a>区块引用 Blockquotes</h3><p>Markdown 标记区块引用是使用类似 email 中用 <code>&gt;</code> 的引用方式。如果你还熟悉在 email 信件中的引言部分，你就知道怎么在 Markdown 文件中建立一个区块引用，那会看起来像是你自己先断好行，然后在每行的最前面加上 <code>&gt;</code> ：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt; This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,</span><br><span class="line">&gt; consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.</span><br><span class="line">&gt; Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.</span><br><span class="line">&gt; </span><br><span class="line">&gt; Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse</span><br><span class="line">&gt; id sem consectetuer libero luctus adipiscing.</span><br></pre></td></tr></table></figure>
+
+<p>Markdown 也允许你偷懒只在整个段落的第一行最前面加上 <code>&gt;</code> ：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt; This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,</span><br><span class="line">consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.</span><br><span class="line">Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.</span><br><span class="line"></span><br><span class="line">&gt; Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse</span><br><span class="line">id sem consectetuer libero luctus adipiscing.</span><br></pre></td></tr></table></figure>
+
+<p>区块引用可以嵌套（例如：引用内的引用），只要根据层次加上不同数量的 <code>&gt;</code> ：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt; This is the first level of quoting.</span><br><span class="line">&gt;</span><br><span class="line">&gt; &gt; This is nested blockquote.</span><br><span class="line">&gt;</span><br><span class="line">&gt; Back to the first level.</span><br></pre></td></tr></table></figure>
+
+<p>引用的区块内也可以使用其他的 Markdown 语法，包括标题、列表、代码区块等：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt; ## 这是一个标题。</span><br><span class="line">&gt; </span><br><span class="line">&gt; 1.   这是第一行列表项。</span><br><span class="line">&gt; 2.   这是第二行列表项。</span><br><span class="line">&gt; </span><br><span class="line">&gt; 给出一些例子代码：</span><br><span class="line">&gt; </span><br><span class="line">&gt;     return shell_exec(&quot;echo $input  $markdown_script&quot;);</span><br></pre></td></tr></table></figure>
+
+<p>任何像样的文本编辑器都能轻松地建立 email 型的引用。例如在 BBEdit 中，你可以选取文字后然后从选单中选择_增加引用阶层_。</p>
+<h3 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h3><p>Markdown 支持有序列表和无序列表。 无序列表使用星号、加号或是减号作为列表标记：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">*   Red</span><br><span class="line">*   Green</span><br><span class="line">*   Blue</span><br></pre></td></tr></table></figure>
+
+<p>效果就是</p>
+<ul>
+<li>red</li>
+<li>green</li>
+<li>blue</li>
+</ul>
+<p>等同于：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">+   Red</span><br><span class="line">+   Green</span><br><span class="line">+   Blue</span><br></pre></td></tr></table></figure>
+
+<p>也等同于：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">-   Red</span><br><span class="line">-   Green</span><br><span class="line">-   Blue</span><br></pre></td></tr></table></figure>
+
+<p>有序列表则使用数字接着一个英文句点：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1.  Bird</span><br><span class="line">2.  McHale</span><br><span class="line">3.  Parish</span><br></pre></td></tr></table></figure>
+
+<p>很重要的一点是，你在列表标记上使用的数字并不会影响输出的 HTML 结果，上面的列表所产生的 HTML 标记为：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;ol&gt;</span><br><span class="line">&lt;li&gt;Bird&lt;/li&gt;</span><br><span class="line">&lt;li&gt;McHale&lt;/li&gt;</span><br><span class="line">&lt;li&gt;Parish&lt;/li&gt;</span><br><span class="line">&lt;/ol&gt;</span><br></pre></td></tr></table></figure>
+
+<p>如果你的列表标记写成：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1.  Bird</span><br><span class="line">1.  McHale</span><br><span class="line">1.  Parish</span><br></pre></td></tr></table></figure>
+
+<p>或甚至是：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">3. Bird</span><br><span class="line">1. McHale</span><br><span class="line">8. Parish</span><br></pre></td></tr></table></figure>
+
+<p>你都会得到完全相同的 HTML 输出。重点在于，你可以让 Markdown 文件的列表数字和输出的结果相同，或是你懒一点，你可以完全不用在意数字的正确性。 如果你使用懒惰的写法，建议第一个项目最好还是从 1. 开始，因为 Markdown 未来可能会支持有序列表的 start 属性。 列表项目标记通常是放在最左边，但是其实也可以缩进，最多 3 个空格，项目标记后面则一定要接着至少一个空格或制表符。 要让列表看起来更漂亮，你可以把内容用固定的缩进整理好：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">*   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</span><br><span class="line">    Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,</span><br><span class="line">    viverra nec, fringilla in, laoreet vitae, risus.</span><br><span class="line">*   Donec sit amet nisl. Aliquam semper ipsum sit amet velit.</span><br><span class="line">    Suspendisse id sem consectetuer libero luctus adipiscing.</span><br></pre></td></tr></table></figure>
+
+<p>但是如果你懒，那也行：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">*   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</span><br><span class="line">Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,</span><br><span class="line">viverra nec, fringilla in, laoreet vitae, risus.</span><br><span class="line">*   Donec sit amet nisl. Aliquam semper ipsum sit amet velit.</span><br><span class="line">Suspendisse id sem consectetuer libero luctus adipiscing.</span><br></pre></td></tr></table></figure>
+
+<p>如果列表项目间用空行分开，在输出 HTML 时 Markdown 就会将项目内容用 <code>&lt;p&gt;</code> 标签包起来，举例来说：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">*   Bird</span><br><span class="line">*   Magic</span><br></pre></td></tr></table></figure>
+
+<p>会被转换为：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;ul&gt;</span><br><span class="line">&lt;li&gt;Bird&lt;/li&gt;</span><br><span class="line">&lt;li&gt;Magic&lt;/li&gt;</span><br><span class="line">&lt;/ul&gt;</span><br></pre></td></tr></table></figure>
+
+<p>但是这个：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">*   Bird</span><br><span class="line"></span><br><span class="line">*   Magic</span><br></pre></td></tr></table></figure>
+
+<p>会被转换为：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;ul&gt;</span><br><span class="line">&lt;li&gt;&lt;p&gt;Bird&lt;/p&gt;&lt;/li&gt;</span><br><span class="line">&lt;li&gt;&lt;p&gt;Magic&lt;/p&gt;&lt;/li&gt;</span><br><span class="line">&lt;/ul&gt;</span><br></pre></td></tr></table></figure>
+
+<p>列表项目可以包含多个段落，每个项目下的段落都必须缩进 4 个空格或是 1 个制表符：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1.  This is a list item with two paragraphs. Lorem ipsum dolor</span><br><span class="line">    sit amet, consectetuer adipiscing elit. Aliquam hendrerit</span><br><span class="line">    mi posuere lectus.</span><br><span class="line"></span><br><span class="line">    Vestibulum enim wisi, viverra nec, fringilla in, laoreet</span><br><span class="line">    vitae, risus. Donec sit amet nisl. Aliquam semper ipsum</span><br><span class="line">    sit amet velit.</span><br><span class="line"></span><br><span class="line">2.  Suspendisse id sem consectetuer libero luctus adipiscing.</span><br></pre></td></tr></table></figure>
+
+<p>如果你每行都有缩进，看起来会看好很多，当然，再次地，如果你很懒惰，Markdown 也允许：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">*   This is a list item with two paragraphs.</span><br><span class="line"></span><br><span class="line">    This is the second paragraph in the list item. You&#x27;re</span><br><span class="line">only required to indent the first line. Lorem ipsum dolor</span><br><span class="line">sit amet, consectetuer adipiscing elit.</span><br><span class="line"></span><br><span class="line">*   Another item in the same list.</span><br></pre></td></tr></table></figure>
+
+<p>如果要在列表项目内放进引用，那 <code>&gt;</code> 就需要缩进：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">*   A list item with a blockquote:</span><br><span class="line"></span><br><span class="line">    &gt; This is a blockquote</span><br><span class="line">    &gt; inside a list item.</span><br></pre></td></tr></table></figure>
+
+<p>如果要放代码区块的话，该区块就需要缩进_两次_，也就是 8 个空格或是 2 个制表符：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">*   一列表项包含一个列表区块：</span><br><span class="line"></span><br><span class="line">        &lt;代码写在这&gt;</span><br></pre></td></tr></table></figure>
+
+<p>当然，项目列表很可能会不小心产生，像是下面这样的写法：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1986. What a great season.</span><br></pre></td></tr></table></figure>
+
+<p>换句话说，也就是在行首出现_数字-句点-空白_，要避免这样的状况，你可以在句点前面加上反斜杠。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1986\. What a great season.</span><br></pre></td></tr></table></figure>
+
+<h3 id="代码区块"><a href="#代码区块" class="headerlink" title="代码区块"></a>代码区块</h3><p>和程序相关的写作或是标签语言原始码通常会有已经排版好的代码区块，通常这些区块我们并不希望它以一般段落文件的方式去排版，而是照原来的样子显示，Markdown 会用 <code>&lt;pre&gt;</code> 和 <code>&lt;code&gt;</code> 标签来把代码区块包起来。 要在 Markdown 中建立代码区块很简单，只要简单地缩进 4 个空格或是 1 个制表符就可以，例如，下面的输入：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">这是一个普通段落：</span><br><span class="line"></span><br><span class="line">    这是一个代码区块。</span><br></pre></td></tr></table></figure>
+
+<p>Markdown 会转换成：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;p&gt;这是一个普通段落：&lt;/p&gt;</span><br><span class="line"></span><br><span class="line">&lt;pre&gt;&lt;code&gt;这是一个代码区块。</span><br><span class="line">&lt;/code&gt;&lt;/pre&gt;</span><br></pre></td></tr></table></figure>
+
+<p>这个每行一阶的缩进（4 个空格或是 1 个制表符），都会被移除，例如：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Here is an example of AppleScript:</span><br><span class="line"></span><br><span class="line">    tell application &quot;Foo&quot;</span><br><span class="line">        beep</span><br><span class="line">    end tell</span><br></pre></td></tr></table></figure>
+
+<p>会被转换为：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;p&gt;Here is an example of AppleScript:&lt;/p&gt;</span><br><span class="line"></span><br><span class="line">&lt;pre&gt;&lt;code&gt;tell application &quot;Foo&quot;</span><br><span class="line">    beep</span><br><span class="line">end tell</span><br><span class="line">&lt;/code&gt;&lt;/pre&gt;</span><br></pre></td></tr></table></figure>
+
+<p>一个代码区块会一直持续到没有缩进的那一行（或是文件结尾）。 在代码区块里面， <code>&amp;</code> 、 <code>&lt;</code> 和 <code>&gt;</code> 会自动转成 HTML 实体，这样的方式让你非常容易使用 Markdown 插入范例用的 HTML 原始码，只需要复制贴上，再加上缩进就可以了，剩下的 Markdown 都会帮你处理，例如：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;div class=&quot;footer&quot;&gt;</span><br><span class="line">    &amp;copy; 2004 Foo Corporation</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+
+<p>会被转换为：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&quot;footer&quot;&amp;gt;</span><br><span class="line">    &amp;amp;copy; 2004 Foo Corporation</span><br><span class="line">&amp;lt;/div&amp;gt;</span><br><span class="line">&lt;/code&gt;&lt;/pre&gt;</span><br></pre></td></tr></table></figure>
+
+<p>代码区块中，一般的 Markdown 语法不会被转换，像是星号便只是星号，这表示你可以很容易地以 Markdown 语法撰写 Markdown 语法相关的文件。</p>
+<h3 id="分隔线"><a href="#分隔线" class="headerlink" title="分隔线"></a>分隔线</h3><p>你可以在一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。你也可以在星号或是减号中间插入空格。下面每种写法都可以建立分隔线：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">* * *</span><br><span class="line"></span><br><span class="line">***</span><br><span class="line"></span><br><span class="line">*****</span><br><span class="line"></span><br><span class="line">- - -</span><br><span class="line"></span><br><span class="line">---------------------------------------</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="区段元素"><a href="#区段元素" class="headerlink" title="区段元素"></a>区段元素</h2><h3 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h3><p>Markdown 支持两种形式的链接语法： _行内式_和_参考式_两种形式。 不管是哪一种，链接文字都是用 [方括号] 来标记。 要建立一个_行内式_的链接，只要在方块括号后面紧接着圆括号并插入网址链接即可，如果你还想要加上链接的 title 文字，只要在网址后面，用双引号把 title 文字包起来即可，例如：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">This is [an example](http://example.com/ &quot;Title&quot;) inline link.</span><br><span class="line"></span><br><span class="line">[This link](http://example.net/) has no title attribute.</span><br></pre></td></tr></table></figure>
+
+<p>会产生：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;p&gt;This is &lt;a href=&quot;http://example.com/&quot; title=&quot;Title&quot;&gt;</span><br><span class="line">an example&lt;/a&gt; inline link.&lt;/p&gt;</span><br><span class="line"></span><br><span class="line">&lt;p&gt;&lt;a href=&quot;http://example.net/&quot;&gt;This link&lt;/a&gt; has no</span><br><span class="line">title attribute.&lt;/p&gt;</span><br></pre></td></tr></table></figure>
+
+<p>如果你是要链接到同样主机的资源，你可以使用相对路径：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">See my [About](/about/) page for details.   </span><br></pre></td></tr></table></figure>
+
+<p>_参考式_的链接是在链接文字的括号后面再接上另一个方括号，而在第二个方括号里面要填入用以辨识链接的标记：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">This is [an example][id] reference-style link.</span><br></pre></td></tr></table></figure>
+
+<p>你也可以选择性地在两个方括号中间加上一个空格：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">This is [an example] [id] reference-style link.</span><br></pre></td></tr></table></figure>
+
+<p>接着，在文件的任意处，你可以把这个标记的链接内容定义出来：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[id]: http://example.com/  &quot;Optional Title Here&quot;</span><br></pre></td></tr></table></figure>
+
+<p>链接内容定义的形式为：</p>
+<ul>
+<li>方括号（前面可以选择性地加上至多三个空格来缩进），里面输入链接文字</li>
+<li>接着一个冒号</li>
+<li>接着一个以上的空格或制表符</li>
+<li>接着链接的网址</li>
+<li>选择性地接着 title 内容，可以用单引号、双引号或是括弧包着</li>
+</ul>
+<p>下面这三种链接的定义都是相同：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[foo]: http://example.com/  &quot;Optional Title Here&quot;</span><br><span class="line">[foo]: http://example.com/  &#x27;Optional Title Here&#x27;</span><br><span class="line">[foo]: http://example.com/  (Optional Title Here)</span><br></pre></td></tr></table></figure>
+
+<p><strong>请注意：</strong>有一个已知的问题是 Markdown.pl 1.0.1 会忽略单引号包起来的链接 title。 链接网址也可以用尖括号包起来：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[id]: &lt;http://example.com/&gt;  &quot;Optional Title Here&quot;</span><br></pre></td></tr></table></figure>
+
+<p>你也可以把 title 属性放到下一行，也可以加一些缩进，若网址太长的话，这样会比较好看：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[id]: http://example.com/longish/path/to/resource/here</span><br><span class="line">    &quot;Optional Title Here&quot;</span><br></pre></td></tr></table></figure>
+
+<p>网址定义只有在产生链接的时候用到，并不会直接出现在文件之中。 链接辨别标签可以有字母、数字、空白和标点符号，但是并_不_区分大小写，因此下面两个链接是一样的：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[link text][a]</span><br><span class="line">[link text][A]</span><br></pre></td></tr></table></figure>
+
+<p>_隐式链接标记_功能让你可以省略指定链接标记，这种情形下，链接标记会视为等同于链接文字，要用隐式链接标记只要在链接文字后面加上一个空的方括号，如果你要让 “Google” 链接到 google.com，你可以简化成：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[Google][]</span><br></pre></td></tr></table></figure>
+
+<p>然后定义链接内容：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[Google]: http://google.com/</span><br></pre></td></tr></table></figure>
+
+<p>由于链接文字可能包含空白，所以这种简化型的标记内也许包含多个单词：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Visit [Daring Fireball][] for more information.</span><br></pre></td></tr></table></figure>
+
+<p>然后接着定义链接：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[Daring Fireball]: http://daringfireball.net/</span><br></pre></td></tr></table></figure>
+
+<p>链接的定义可以放在文件中的任何一个地方，我比较偏好直接放在链接出现段落的后面，你也可以把它放在文件最后面，就像是注解一样。 下面是一个参考式链接的范例：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">I get 10 times more traffic from [Google] [1] than from</span><br><span class="line">[Yahoo] [2] or [MSN] [3].</span><br><span class="line"></span><br><span class="line">  [1]: http://google.com/        &quot;Google&quot;</span><br><span class="line">  [2]: http://search.yahoo.com/  &quot;Yahoo Search&quot;</span><br><span class="line">  [3]: http://search.msn.com/    &quot;MSN Search&quot;</span><br></pre></td></tr></table></figure>
+
+<p>如果改成用链接名称的方式写：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">I get 10 times more traffic from [Google][] than from</span><br><span class="line">[Yahoo][] or [MSN][].</span><br><span class="line"></span><br><span class="line">  [google]: http://google.com/        &quot;Google&quot;</span><br><span class="line">  [yahoo]:  http://search.yahoo.com/  &quot;Yahoo Search&quot;</span><br><span class="line">  [msn]:    http://search.msn.com/    &quot;MSN Search&quot;</span><br></pre></td></tr></table></figure>
+
+<p>上面两种写法都会产生下面的 HTML。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;p&gt;I get 10 times more traffic from &lt;a href=&quot;http://google.com/&quot;</span><br><span class="line">title=&quot;Google&quot;&gt;Google&lt;/a&gt; than from</span><br><span class="line">&lt;a href=&quot;http://search.yahoo.com/&quot; title=&quot;Yahoo Search&quot;&gt;Yahoo&lt;/a&gt;</span><br><span class="line">or &lt;a href=&quot;http://search.msn.com/&quot; title=&quot;MSN Search&quot;&gt;MSN&lt;/a&gt;.&lt;/p&gt;</span><br></pre></td></tr></table></figure>
+
+<p>下面是用行内式写的同样一段内容的 Markdown 文件，提供作为比较之用：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">I get 10 times more traffic from [Google](http://google.com/ &quot;Google&quot;)</span><br><span class="line">than from [Yahoo](http://search.yahoo.com/ &quot;Yahoo Search&quot;) or</span><br><span class="line">[MSN](http://search.msn.com/ &quot;MSN Search&quot;).</span><br></pre></td></tr></table></figure>
+
+<p>参考式的链接其实重点不在于它比较好写，而是它比较好读，比较一下上面的范例，使用参考式的文章本身只有 81 个字符，但是用行内形式的却会增加到 176 个字元，如果是用纯 HTML 格式来写，会有 234 个字元，在 HTML 格式中，标签比文本还要多。 使用 Markdown 的参考式链接，可以让文件更像是浏览器最后产生的结果，让你可以把一些标记相关的元数据移到段落文字之外，你就可以增加链接而不让文章的阅读感觉被打断。</p>
+<h3 id="强调"><a href="#强调" class="headerlink" title="强调"></a>强调</h3><p>Markdown 使用星号（<code>*</code>）和底线（<code>_</code>）作为标记强调字词的符号，被 <code>*</code> 或 <code>_</code> 包围的字词会被转成用 <code>&lt;em&gt;</code> 标签包围，用两个 <code>*</code> 或 <code>_</code> 包起来的话，则会被转成 <code>&lt;strong&gt;</code>，例如：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">*single asterisks*</span><br><span class="line"></span><br><span class="line">_single underscores_</span><br><span class="line"></span><br><span class="line">**double asterisks**</span><br><span class="line"></span><br><span class="line">__double underscores__</span><br></pre></td></tr></table></figure>
+
+<p>会转成：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;em&gt;single asterisks&lt;/em&gt;</span><br><span class="line"></span><br><span class="line">&lt;em&gt;single underscores&lt;/em&gt;</span><br><span class="line"></span><br><span class="line">&lt;strong&gt;double asterisks&lt;/strong&gt;</span><br><span class="line"></span><br><span class="line">&lt;strong&gt;double underscores&lt;/strong&gt;</span><br></pre></td></tr></table></figure>
+
+<p>你可以随便用你喜欢的样式，唯一的限制是，你用什么符号开启标签，就要用什么符号结束。 强调也可以直接插在文字中间：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">un*frigging*believable</span><br></pre></td></tr></table></figure>
+
+<p>但是<strong>如果你的 <code>*</code> 和 <code>_</code> 两边都有空白的话，它们就只会被当成普通的符号</strong>。 如果要在文字前后直接插入普通的星号或底线，你可以用反斜线：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">\*this text is surrounded by literal asterisks\*</span><br></pre></td></tr></table></figure>
+
+<h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3><p>如果要标记一小段行内代码，你可以用反引号把它包起来（<code>`</code>），例如：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Use the `printf()` function.</span><br></pre></td></tr></table></figure>
+
+<p>会产生：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;p&gt;Use the &lt;code&gt;printf()&lt;/code&gt; function.&lt;/p&gt;</span><br></pre></td></tr></table></figure>
+
+<p>如果要在代码区段内插入反引号，你可以用多个反引号来开启和结束代码区段：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">``There is a literal backtick (`) here.``</span><br></pre></td></tr></table></figure>
+
+<p>这段语法会产生：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;p&gt;&lt;code&gt;There is a literal backtick (`) here.&lt;/code&gt;&lt;/p&gt;</span><br></pre></td></tr></table></figure>
+
+<p>代码区段的起始和结束端都可以放入一个空白，起始端后面一个，结束端前面一个，这样你就可以在区段的一开始就插入反引号：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">A single backtick in a code span: `` ` ``</span><br><span class="line"></span><br><span class="line">A backtick-delimited string in a code span: `` `foo` ``</span><br></pre></td></tr></table></figure>
+
+<p>会产生：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;p&gt;A single backtick in a code span: &lt;code&gt;`&lt;/code&gt;&lt;/p&gt;</span><br><span class="line"></span><br><span class="line">&lt;p&gt;A backtick-delimited string in a code span: &lt;code&gt;`foo`&lt;/code&gt;&lt;/p&gt;</span><br></pre></td></tr></table></figure>
+
+<p>在代码区段内，<code>&amp;</code> 和尖括号<strong>都</strong>会被自动地转成 HTML 实体，这使得插入 HTML 原始码变得很容易，Markdown 会把下面这段：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Please don&#x27;t use any `&lt;blink&gt;` tags.</span><br></pre></td></tr></table></figure>
+
+<p>转为：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;p&gt;Please don&#x27;t use any &lt;code&gt;&amp;lt;blink&amp;gt;&lt;/code&gt; tags.&lt;/p&gt;</span><br></pre></td></tr></table></figure>
+
+<p>你也可以这样写：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">`&amp;#8212;` is the decimal-encoded equivalent of `&amp;mdash;`.</span><br></pre></td></tr></table></figure>
+
+<p>以产生：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;p&gt;&lt;code&gt;&amp;amp;#8212;&lt;/code&gt; is the decimal-encoded</span><br><span class="line">equivalent of &lt;code&gt;&amp;amp;mdash;&lt;/code&gt;.&lt;/p&gt;</span><br></pre></td></tr></table></figure>
+
+<h3 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h3><p>很明显地，要在纯文字应用中设计一个「自然」的语法来插入图片是有一定难度的。 Markdown 使用一种和链接很相似的语法来标记图片，同样也允许两种样式： _行内式_和_参考式_。 行内式的图片语法看起来像是：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![Alt text](/path/to/img.jpg)</span><br><span class="line"></span><br><span class="line">![Alt text](/path/to/img.jpg &quot;Optional title&quot;)</span><br></pre></td></tr></table></figure>
+
+<p>详细叙述如下：</p>
+<ul>
+<li>一个惊叹号 <code>!</code></li>
+<li>接着一个方括号，里面放上图片的替代文字</li>
+<li>接着一个普通括号，里面放上图片的网址，最后还可以用引号包住并加上 选择性的 ‘title’ 文字。</li>
+</ul>
+<p>参考式的图片语法则长得像这样：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![Alt text][id]</span><br></pre></td></tr></table></figure>
+
+<p>「id」是图片参考的名称，图片参考的定义方式则和链接参考一样：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[id]: url/to/image  &quot;Optional title attribute&quot;</span><br></pre></td></tr></table></figure>
+
+<p>到目前为止， Markdown 还没有办法指定图片的宽高，如果你需要的话，你可以使用普通的 <code>&lt;img&gt;</code> 标签。</p>
+<hr>
+<h2 id="其它"><a href="#其它" class="headerlink" title="其它"></a>其它</h2><h3 id="自动链接"><a href="#自动链接" class="headerlink" title="自动链接"></a>自动链接</h3><p>Markdown 支持以比较简短的自动链接形式来处理网址和电子邮件信箱，只要是用尖括号包起来， Markdown 就会自动把它转成链接。一般网址的链接文字就和链接地址一样，例如：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;http://example.com/&gt;</span><br></pre></td></tr></table></figure>
+
+<p>Markdown 会转为：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;a href=&quot;http://example.com/&quot;&gt;http://example.com/&lt;/a&gt;</span><br></pre></td></tr></table></figure>
+
+<p>邮址的自动链接也很类似，只是 Markdown 会先做一个编码转换的过程，把文字字符转成 16 进位码的 HTML 实体，这样的格式可以糊弄一些不好的邮址收集机器人，例如：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;address@example.com&gt;</span><br></pre></td></tr></table></figure>
+
+<p>Markdown 会转成：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;a href=&quot;&amp;#x6D;&amp;#x61;i&amp;#x6C;&amp;#x74;&amp;#x6F;:&amp;#x61;&amp;#x64;&amp;#x64;&amp;#x72;&amp;#x65;</span><br><span class="line">&amp;#115;&amp;#115;&amp;#64;&amp;#101;&amp;#120;&amp;#x61;&amp;#109;&amp;#x70;&amp;#x6C;e&amp;#x2E;&amp;#99;&amp;#111;</span><br><span class="line">&amp;#109;&quot;&gt;&amp;#x61;&amp;#x64;&amp;#x64;&amp;#x72;&amp;#x65;&amp;#115;&amp;#115;&amp;#64;&amp;#101;&amp;#120;&amp;#x61;</span><br><span class="line">&amp;#109;&amp;#x70;&amp;#x6C;e&amp;#x2E;&amp;#99;&amp;#111;&amp;#109;&lt;/a&gt;</span><br></pre></td></tr></table></figure>
+
+<p>在浏览器里面，这段字串（其实是 <code>&lt;a href=&quot;mailto:address@example.com&quot;&gt;address@example.com&lt;/a&gt;</code>）会变成一个可以点击的「<a href="mailto:&#97;&#x64;&#x64;&#114;&#x65;&#115;&#x73;&#x40;&#101;&#x78;&#97;&#x6d;&#x70;&#x6c;&#101;&#x2e;&#99;&#x6f;&#x6d;">&#97;&#x64;&#x64;&#114;&#x65;&#115;&#x73;&#x40;&#101;&#x78;&#97;&#x6d;&#x70;&#x6c;&#101;&#x2e;&#99;&#x6f;&#x6d;</a>」链接。 （这种作法虽然可以糊弄不少的机器人，但并不能全部挡下来，不过总比什么都不做好些。不管怎样，公开你的信箱终究会引来广告信件的。）</p>
+<h3 id="反斜杠"><a href="#反斜杠" class="headerlink" title="反斜杠"></a>反斜杠</h3><p>Markdown 可以利用反斜杠来插入一些在语法中有其它意义的符号，例如：如果你想要用星号加在文字旁边的方式来做出强调效果（但不用 <code>&lt;em&gt;</code> 标签），你可以在星号的前面加上反斜杠：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">\*literal asterisks\*</span><br></pre></td></tr></table></figure>
+
+<p>Markdown 支持以下这些符号前面加上反斜杠来帮助插入普通的符号：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">\   反斜线</span><br><span class="line">`   反引号</span><br><span class="line">*   星号</span><br><span class="line">_   底线</span><br><span class="line">&#123;&#125;  花括号</span><br><span class="line">[]  方括号</span><br><span class="line">()  括弧</span><br><span class="line">#   井字号</span><br><span class="line">+   加号</span><br><span class="line">-   减号</span><br><span class="line">.   英文句点</span><br><span class="line">!   惊叹号</span><br></pre></td></tr></table></figure>
+
+<h2 id="感谢"><a href="#感谢" class="headerlink" title="感谢"></a>感谢</h2><p>感谢 <a href="https://twitter.com/#!/leafy7382">leafy7382</a> 协助翻译，<a href="http://iamhlb.com/">hlb</a>、<a href="http://twitter.com/randylien">Randylien</a> 帮忙润稿，<a href="https://twitter.com/#!/ethantw">ethantw</a> 的<a href="http://ethantw.net/projects/han/">汉字标准格式・CSS Reset</a>， <a href="http://kidwm.net/">WM</a> 回报文字错误。 感谢 <a href="https://github.com/fenprace">fenprace</a>，<a href="https://github.com/addv">addv</a>。 ———-</p>
+<h2 id="Markdown-免费编辑器"><a href="#Markdown-免费编辑器" class="headerlink" title="Markdown 免费编辑器"></a>Markdown 免费编辑器</h2><p>Windows 平台</p>
+<ul>
+<li><a href="http://markdownpad.com/">MarkdownPad</a></li>
+<li><a href="http://code52.org/DownmarkerWPF/">MarkPad</a></li>
+</ul>
+<p>Linux 平台</p>
+<ul>
+<li><a href="http://sourceforge.net/p/retext/home/ReText/">ReText</a></li>
+</ul>
+<p>Mac 平台</p>
+<ul>
+<li><a href="http://mouapp.com/">Mou</a></li>
+</ul>
+<p>在线编辑器</p>
+<ul>
+<li><a href="http://markable.in/">Markable.in</a></li>
+<li><a href="http://dillinger.io/">Dillinger.io</a></li>
+</ul>
+<p>浏览器插件</p>
+<ul>
+<li><a href="https://chrome.google.com/webstore/detail/oknndfeeopgpibecfjljjfanledpbkog">MaDe</a> (Chrome)</li>
+</ul>
+<p>高级应用</p>
+<ul>
+<li><a href="http://www.sublimetext.com/2">Sublime Text 2</a> + <a href="http://ttscoff.github.com/MarkdownEditing/">MarkdownEditing</a> &#x2F; <a href="http://lucifr.com/2012/07/12/markdownediting-for-sublime-text-2/">教程</a></li>
+</ul>
+<p>  文章转载自<a href="http://wowubuntu.com/markdown/index.html">Markdown 语法说明 (简体中文版)</a></p>
+]]></content>
+      <categories>
+        <category>tech</category>
+        <category>网络技巧</category>
+      </categories>
+      <tags>
+        <tag>markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WTF，该网站因为过度消耗资源暂时无法访问？！</title>
+    <url>/2016/05/04/move-back/</url>
+    <content><![CDATA[<p>昨天刚更新<a href="http://www.xuzizi.cn/2016/05/03/move-to-aliyun/">一篇博文</a>，以为搬到阿里云解脱了，直到中午收到邮件提示我站点主机被暂停了。。嗯。。 <img src="/../image/xuzizi.cn_2016-05-05_14-39-35.jpg" alt="屏幕快照 2016-05-04 16.04.57"> 我刚搬站24小时，按理不会流量消耗完的，查了下后台昨天消耗了125M，可能搬站安装插件消耗了点，顺手从后台点击开启主机想在博客后台看看有没有什么情况。 刚打开后台查看消息的时候，邮箱提示我站点又停了，这次开启不到五分钟就挂掉了。看来不是流量的问题，仔细看了看后台帮助，考虑应该是wordpress插件状态多，系统内存消耗厉害？ 抱着这种心态又重启主机，抓紧时间从后台删除了几个插件，等了十分钟也没有挂掉，貌似就正常了。结果出门半个小时就收到短信，继续挂掉。 没办法，迁回来了。 大家有推荐的高性价比国内主机请联系我TAT。 学生党，贵的就不要推荐了TAT。 跪谢。</p>
+]]></content>
+      <categories>
+        <category>杂记</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>摆脱辣鸡新网，网站迁到阿里云</title>
+    <url>/2016/05/03/move-to-aliyun/</url>
+    <content><![CDATA[<p>五一放假结束，突然发现我自己的博客又打不开了。 又又又又又又打不开了。 查看一下监控邮件，从昨天晚上10点网站就已经无法访问，直到中午12点，我还是打不开网站。 从3月份网站重建以来，一直使用低配的新网主机，我总以为付费主机的稳定性不至于太差。直到半个月前连续一个星期的连环当机，让我产生了迁移到阿里云的想法。曾经写了半篇吐槽新网的博客，一想自己没必要那么激进，再考虑到域名未在阿里下备案，暂时无法迁移到阿里云，又坚持用了下去。坎坎坷坷的用了半个月，我也是忍无可忍了，当机半天多也没人管，也是没谁了，我要是不迁移，估计得当机一天都有可能。 买了两年的主机，还剩一年多，想退款找不到入口，搜索后台帮助，退款的帮助页面也已经被删除了。话说2012年我注册域名的时候新网是不比万网差多少的，现在新网的服务真的是一塌糊涂。随便百度一下，都能找到大家吐槽新网的帖子，比如『客服打电话说现在使用的虚拟主机不稳定，不如试试新款云主机』之类的脑残营销策略，我以前倒也接到过武汉新网的好几个营销电话，不过当时我的虚机未备案，所以没有正常使用，才让他们挂了电话。 对了，还有个很神奇的事。尽管新网主机也有每月流量限制，但是你的网站流量是没法查询的，即使通过人工客服也是无法查询的！我发了个工单吐槽了一番，我说流量没法查，万一流量超了你们直接就关站么？客服回复是，一般不会超的。。 一般不会超的！一般不会超的！！一般不会超的！！！ &#x3D; &#x3D;# 我知道我是新站，但是你表酱紫欺负本宝宝 我啊，不是要搞个大新闻，把新网批判一番。 我只是想说，**各位都是**</p>
+]]></content>
+      <categories>
+        <category>杂记</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>一行代码实现 链接新窗口打开</title>
+    <url>/2017/03/11/open-in-new-window/</url>
+    <content><![CDATA[<p>更新资源时发现点击资源链接会在本页打开，考虑到用户可能需要的后续操作，还需返回本页，使得操作非常复杂。 为了一劳永逸，有一个可以使全站链接默认跳转到新窗口方法：   主题的header模版中找到 <head> 在</head>前加上：<base target="\_blank"> 那么，所有链接都将从新窗口中打开。   比如wordpress只需要在主题header.php中修改即可。</p>
+]]></content>
+      <categories>
+        <category>tech</category>
+        <category>wordpress</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>炸裂！开发者版Opera内置VPN！三条路线可选！</title>
+    <url>/2016/04/22/opera-vpn/</url>
+    <content><![CDATA[<p> </p>
+<blockquote>
+<p>近年来随着网络安全和隐私侵犯方面的事件频繁，互联网用户都希望能安全上网希望安全上网。其选择之一便是 VPN 上网。不过一般免费的 VPN 因为有流量限制等问题不大好用，而服务好的 VPN 又要收费，难得两全其美。现在浏览器 Opera 最新推出的开发版希望通过内置免费的无限量的 VPN 服务来能解决这个问题。</p>
+</blockquote>
+<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>Opera是浏览器界的先驱，适用于多平台、小巧的体积、首创的标签化浏览在国际上十分流行，与firefox、chrome一同被认为是最好的三款浏览器。 然而在天朝本土，却排名在不少浏览器的后面，Opera浏览器在近期的开发版中，加入了VPN (番羽土啬)功能内置 VPN 服务的好处还在于免去了用户的下载、安装和配置工作，对于许多技术小白来说尤其有利，而这也许会成为 Opera 吸引用户的一个优势。<img src="/../image/xuzizi.cn_2016-04-22_11-35-03-750x500.png" alt="屏幕快照 2016-04-22 11.03.33"></p>
+<h2 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h2><ul>
+<li>Windows用户在： 菜单-设置-隐私和安全，勾选相应的按钮即可使用。</li>
+<li>Mac用户在 Opera-首选项-隐私和安全，勾选相应的按钮即可使用。</li>
+</ul>
+<p><img src="/../image/xuzizi.cn_2016-04-22_11-49-34-750x500.png" alt="屏幕快照 2016-04-22 10.52.56"> </p>
+<p>目前为止，Opera 开放的虚拟位置包括美国、加拿大和德国，可以正常访问google、facebook等，可以选择多条线路，适合开发人员使用。 <img src="http://www.xuzizi.cn/wp-content/uploads/2016/04/xuzizi.cn_2016-04-22_11-07-36-750x500.png" alt="屏幕快照 2016-04-22 10.57.08"> </p>
+<p>当然速度肯定没有付费的服务快，但是对于偶尔出去看看的人来说，还是存在电脑里，以备不时之需。 <code>请低调使用</code></p>
+]]></content>
+      <categories>
+        <category>soft</category>
+        <category>Mac</category>
+        <category>Windows</category>
+      </categories>
+      <tags>
+        <tag>google</tag>
+        <tag>Opera</tag>
+        <tag>VPN</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>SQL Select语句完整的执行顺序</title>
+    <url>/2016/03/17/slq-select/</url>
+    <content><![CDATA[<h2 id="一、sql语句的执行步骤："><a href="#一、sql语句的执行步骤：" class="headerlink" title="一、sql语句的执行步骤："></a>一、sql语句的执行步骤：</h2><ul>
+<li>1）语法分析，分析语句的语法是否符合规范，衡量语句中各表达式的意义。</li>
+<li>2） 语义分析，检查语句中涉及的所有数据库对象是否存在，且用户有相应的权限。</li>
+<li>3）视图转换，将涉及视图的查询语句转换为相应的对基表查询语句。</li>
+<li>4）表达式转换， 将复杂的 SQL 表达式转换为较简单的等效连接表达式。</li>
+<li>5）选择优化器，不同的优化器一般产生不同的“执行计划”</li>
+<li>6）选择连接方式， ORACLE 有三种连接方式，对多表连接 ORACLE 可选择适当的连接方式。</li>
+<li>7）选择连接顺序， 对多表连接 ORACLE 选择哪一对表先连接，选择这两表中哪个表做为源数据表。</li>
+<li>8）选择数据的搜索路径，根据以上条件选择合适的数据搜索路径，如是选用全表搜索还是利用索引或是其他的方式。</li>
+<li>9）运行“执行计划”</li>
+</ul>
+<h2 id="二、SQL-Select语句完整的执行顺序："><a href="#二、SQL-Select语句完整的执行顺序：" class="headerlink" title="二、SQL Select语句完整的执行顺序："></a>二、SQL Select语句完整的执行顺序：</h2><ul>
+<li>1、from子句组装来自不同数据源的数据；</li>
+<li>2、where子句基于指定的条件对记录行进行筛选；</li>
+<li>3、group by子句将数据划分为多个分组；</li>
+<li>4、使用聚集函数进行计算；</li>
+<li>5、使用having子句筛选分组；</li>
+<li>6、计算所有的表达式；</li>
+<li>7、使用order by对结果集进行排序。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>develop</category>
+        <category>SQL</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>SQL TOP 子句</title>
+    <url>/2016/03/17/sql-top/</url>
+    <content><![CDATA[<h1 id="TOP-子句"><a href="#TOP-子句" class="headerlink" title="TOP 子句"></a>TOP 子句</h1><p>TOP 子句用于规定要返回的记录的数目。<br>对于拥有数千条记录的大型表来说，TOP 子句是非常有用的。<br>注释：并非所有的数据库系统都支持 TOP 子句。<br>SQL Server 的语法：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">SELECT TOP number percent column_name(s)</span><br><span class="line">FROM table_name</span><br></pre></td></tr></table></figure>
+
+<p><strong>MySQL 和 Oracle 中的 SQL SELECT TOP 是等价的</strong></p>
+<h2 id="MySQL-语法"><a href="#MySQL-语法" class="headerlink" title="MySQL 语法"></a>MySQL 语法</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">SELECT column_name(s)  </span><br><span class="line">FROM table_name</span><br><span class="line">LIMIT number</span><br></pre></td></tr></table></figure>
+
+<p>例子</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">SELECT *</span><br><span class="line">FROM Persons</span><br><span class="line">LIMIT 5</span><br></pre></td></tr></table></figure>
+
+<h2 id="Oracle-语法"><a href="#Oracle-语法" class="headerlink" title="Oracle 语法"></a>Oracle 语法</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">SELECT column_name(s)</span><br><span class="line">FROM table_name</span><br><span class="line">WHERE ROWNUM &lt;= number</span><br></pre></td></tr></table></figure>
+
+<p>例子</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">SELECT *</span><br><span class="line">FROM Persons</span><br><span class="line">WHERE ROWNUM &lt;= 5</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>develop</category>
+        <category>SQL</category>
+      </categories>
+      <tags>
+        <tag>java</tag>
+        <tag>sql</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>开始工作啦！</title>
+    <url>/2014/01/22/start-working/</url>
+    <content><![CDATA[<p>寒假回来十天了，天天趴在电脑上斗地主看电视剧，也该考虑考虑毕业设计和论文了。。</p>
+<p>一年多没敲代码，学的东西都忘光了。</p>
+<p>昨天装好了sdk8.0，然后下了点wp开发的视频，重新自学ing   <img src="/../image/20140121214230_96641.png" alt="20140121214230_96641"></p>
+]]></content>
+      <categories>
+        <category>杂记</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Sunrise Calendar – 多平台同步日历[mac,chrome,ios,android]</title>
+    <url>/2016/04/24/sunrise-calendar/</url>
+    <content><![CDATA[<p>最近发现生活中的事情真的太多了，于是发现没有好的计划的话，真的是很混乱，所以我开始使用日历应用。如果在找一款跨平台的日历应用，那么拥有这些功能的Sunrise也许会是个好选择。</p>
+<h2 id="软件介绍"><a href="#软件介绍" class="headerlink" title="软件介绍"></a>软件介绍</h2><p><img src="/../image/xuzizi.cn_2016-04-24_22-10-25-750x500.png" alt="屏幕快照 2016-04-24 22.05.11"> </p>
+<p>Sunrise Calendar 是一款 多平台支持的网络日历应用，拥有MAC、iPhone、Android客户端，也可以在网页上使用，如果你是一位Chrome的重度用户，那么你还可以通过Chrome插件使用Sunrise。虽然其整个界面和Web版的Sunrise一模一样，但它的优点就是你可以在Chrome应用启动器中直接打开它。 Sunrise的整个界面非常美观，同时日历视图切换时的动画效果也非常流畅。此外，当你按周查看日历时还可以快速切换时区。 Sunrise Calendar 可以将众多网络提醒集中到一处，方便管理。除了上面提到的服务，除了支持常见的 Google Calendar、iCloud、Exchange，还可以导入 Facebook 事件与生日、Foursquare 签到、Evernote 提醒等等，还支持Twitter、Linkedin、Producteev、GitHub、Songkick、Asana 时间事件的导入。 当然了上述大部分服务国内无法使用。。我只是用来连接我的outlook.com日历使用😢</p>
+]]></content>
+      <categories>
+        <category>soft</category>
+        <category>Mac</category>
+        <category>Windows</category>
+      </categories>
+      <tags>
+        <tag>mac</tag>
+        <tag>Sunrise</tag>
+        <tag>日历</tag>
+        <tag>andriod</tag>
+        <tag>chrome</tag>
+        <tag>windows</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>这感觉就像在读高十</title>
+    <url>/2017/08/13/the-first-working-month/</url>
+    <content><![CDATA[<p>一个多月没进城，今天趁着大雨进了次城，但是好像又不知道该干什么了。 当然昨天在家也不知道该干啥~ 于是去公司加班到10点-。-   进部门一个月了，每天8点吃完早饭到工位，晚上9点多10点多下班~ 到家累的什么都不想做，但是还是会习惯性熬夜，最近几天感觉自己都要爆炸了。 好在我师傅和主管人都很好，部门内部也都很和睦，每个人都是优秀而敬业的加班狂魔。 同一批的新员工，个个名校毕业，每次自我介绍好像只有我的部分会比较没有共鸣，也是蜜汁尴尬hhh   -.- 不过没事，蜀黍现在也可以很刻苦呀~ 本科时考试前怎么也不会算子网划分，读研时完全弄不懂神马OSPF，入公司第一周就全自学会了呢 感觉每天都在挑战极限，想尽快的吸收电脑里所有的学习资料，然后完美的输出各种交付件 但是最近，越来越感觉自己没有自己的生活了 就算是高三也会带副扑克牌研究研究魔术，被班主任抓到也不会怕的人 现在回家什么都不想做   我发现上个月搬过来的一箱书，还有几箱没有拆 新台机、第二块4T硬盘以及躺在床上看电影用的投影仪从购物清单划掉了，没时间 从家里带过来的电视机顶盒，插在电视上就没用过   觉得很难过 于是 下午买了几件好看的衣服~ 晚上从箱子里挑出了几本书，列了个list~ 下载了这个月错过的所有好片~ 给自己做了每周时间规划~ 跟同事定了运动计划~ 每天提高效率早点下班~ 我要愉快的上高十~ 我也要光芒万丈~   不行不行12点了，我要去睡觉了~ 没写完也算了（捂脸）</p>
+]]></content>
+      <categories>
+        <category>杂记</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>The last day</title>
+    <url>/2014/01/10/the-last-day/</url>
+    <content><![CDATA[<p>中午跟顺德去取了火车票，回来时顺便回一趟考研自习室拿下书。只有两三个学弟学妹在教室玩电脑，教室的书已经搬走了一大半，教室也就空了一大半，只有黑板上的“考研专用”见证了这里奋斗的岁月。 坐下来整理了下书，没多少需要带回去的。找了块毛巾仔细的擦了擦坐过的桌子，让它看起来跟曾经一样干净。然后，就这样吧。</p>
+<p> <img src="/../image/wpid-wp-1389336899033-750x500.jpg" alt="wpid-wp-1389336899033"></p>
+]]></content>
+      <categories>
+        <category>杂记</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>垃圾车定律 The Law of the Garbage Truck</title>
+    <url>/2014/01/23/the-law-of-the-garbage-truck/</url>
+    <content><![CDATA[<p>垃圾车定律(The Law of the Garbage Truck)的解释：许多人就像“垃圾车”。他们到处跑来跑去，身上充满了垃圾、充满了沮丧、充满了愤怒、充满了忌妒、充满了贪心不满足、充满了怨言、充满了比较、充满了见不得人好、充满了算计、充满了仇恨、充满了傲慢与偏见、充满了无知、充满了愚痴、充满了烦恼、充满了报复、和充满了失望。 随着心中的垃圾堆积又堆积，他们终需找个地方倾倒；有时候，我们刚好碰上了，垃圾就往我们身上丢。所以，不要介意，只要微笑、挥挥手、祝福他们，然后继续走我们自己的路就行。千万别将他们的垃圾接收扩散给同事、家人、或其它路人。 成功的人绝对不让垃圾车接管自己生活当中的任何一天；人生苦短，早上醒来绝对不要带着遗憾。所以，仁爱对待与你以礼相待的人；不用去理会那群无理取闹者。生命只有10%由自己决定，但90%看你如何利用它。可以天天过着心里没有垃圾的日子，你今天所栽植的种子，会决定你明天的收获。 <img src="/../image/wpid-342ac65c103853435fc60e089113b07eca80888a-1-375x250.jpg" alt="wpid-342ac65c103853435fc60e089113b07eca80888a (1)"></p>
+]]></content>
+      <categories>
+        <category>杂记</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>宕机138天</title>
+    <url>/2017/02/11/the-lost-138-days/</url>
+    <content><![CDATA[<p>[hermit auto&#x3D;”1” loop&#x3D;”0” unexpand&#x3D;”0” fullheight&#x3D;”0”]remote#:2[&#x2F;hermit]  </p>
+<p>正月十五，过年结束。</p>
+<p>在家里伏案一天，终于把网站又弄了起来。</p>
+<p>删掉了大量的资源文章，然后使用了最简单的主题。</p>
+<p>看起来low low的。</p>
+<p>________________________________</p>
+<p>要不是昨日新网客服电话推销，我都不会记得我还有个网站了。</p>
+<p>再次搬到阿里云，代码上传完立马就收到监控邮件提醒。</p>
+<p>138天。</p>
+<p><img src="/../image/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7-2017-02-11-19.04.35.png"></p>
+<p>________________________________</p>
+<p>去年开学之后，就跟各位同学全身心的投入到找工作的大军之中了。</p>
+<p>新网打电话说网站太占内存要升级，完全没在care，</p>
+<p>我说暂时不会升级更贵的服务器，</p>
+<p>我看运行的挺好的，你总不能给我关了吧。</p>
+<p>…</p>
+<p>然后特么的就给我关了。</p>
+<p>________________________________</p>
+<p>当然这都是小事，当时在写简历的我没时间扯淡，</p>
+<p>倒是工作的事才让人糟心。</p>
+<p>在武汉和北京徘徊了好久，尽管大家都觉得回武汉比较好，可是我还是固执的要留在北京。</p>
+<p>有的事情就是道理都懂，可是我不试试我不甘心。</p>
+<p>________________________________</p>
+<p>朋友聚会上了解到大家的生活都很充实。</p>
+<p>在家乡可以有足够的工资和闲适的生活，</p>
+<p>北上广深工作的同学能有很好的待遇和发展空间，</p>
+<p>在武汉可以对收支有一个很好的平衡。</p>
+<p>再看我，感觉是哪一头都不占。</p>
+<p>我可能我会喜欢那种熬夜加班奋斗的生活吧。</p>
+<p>在完成『稳定的工作』『幸福的婚姻』之前，</p>
+<p>让我一个人安安静静的做个奋斗者吧。</p>
+<p>________________________________</p>
+<p>在我当机138天后的新学期，最后一个学期，正式工作前的5个月。</p>
+<p>我也定几个小目标好了，我希望可以好好写论文，锻炼健身，然后继续钻研一些有用的东西。电器维修就算了，昨天电池没炸就感激涕零了。😅</p>
+<p>bug什么的，慢慢调吧，我有时间。</p>
+]]></content>
+      <categories>
+        <category>杂记</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>解决Tinection下markdown代码块显示问题</title>
+    <url>/2016/04/05/tinection-markdown/</url>
+    <content><![CDATA[<p>使用Tinection，发现使用markdown写文章插入代码会在代码前后加入<code></code> 如下</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;code&gt;</span><br><span class="line">public static void main(String[] args) &#123;</span><br><span class="line">        // TODO Auto-generated method stub</span><br><span class="line">        long num=Math.round(-2.6);</span><br><span class="line">        System.out.println(num);</span><br><span class="line">    &#125;</span><br><span class="line">&lt;/code&gt;</span><br></pre></td></tr></table></figure>
+
+<p>网上提供了一种方法修改markdown插件里的文件 比如修改jetpack-markdown&#x2F;lib&#x2F;markdown&#x2F;extra.php 中的 <code>$codeblock = &quot;&lt;pre&gt;&lt;code&gt;$codeblock\n&lt;/code&gt;\&lt;/pre&gt;”;</code> <code>$codeblock = &quot;&lt;pre$pre_attr_str&gt;&lt;code&gt;$codeblock&lt;/code&gt;\&lt;/pre&gt;”;</code> 这2处删除 <code> 标签即可。还有下面这个</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">function _doFencedCodeBlocks_callback($matches) &#123;</span><br><span class="line">$classname =&amp; $matches[2];</span><br><span class="line">$attrs =&amp; $matches[3];</span><br><span class="line">$codeblock = $matches[4];</span><br><span class="line">$codeblock = htmlspecialchars($codeblock, ENT_NOQUOTES);</span><br></pre></td></tr></table></figure>
+
+<p>找到这个地方，注释掉最后一行，这里是禁止把 < 和 > 这两个符号转化为 html 的尖括号。 这种情况下可以解决在线markdown发表文章产生<code>标签 但是这是一种治标不治本的问题，经过大量代码修改测试，发现修改一个地方就可以解决。。。 在模板函数 (functions.php)找到以下代码</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">function pre_content_filter( $content ) &#123;</span><br><span class="line">    return preg_replace_callback( &#x27;&lt;pre.*&gt;(.*)&lt;/preisU&#x27; , &#x27;convert_pre_entities&#x27;, $content );</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>修改为</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">function pre_content_filter( $content ) &#123;</span><br><span class="line">    return preg_replace_callback( &#x27;&lt;pre.*&gt;&lt;code.*&gt;(.*)&lt;/code&gt;&lt;/preisU&#x27; , &#x27;convert_pre_entities&#x27;, $content );</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>即可解决问题</p>
+<hr>
+<p>上文更新完后发现严重的字符转义现象，经过仔细查证 在模板函数 (functions.php)找到以下代码</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">function convert_pre_entities( $matches ) &#123;</span><br><span class="line">    $code = str_replace( $matches[0], &#x27;&lt;div class=&quot;precode clearfix&quot;&gt;&lt;pre class=&quot;prettyprint linenums&quot;&gt;&#x27;.htmlspecialchars( $matches[1],ENT_COMPAT,&#x27;UTF-8&#x27; ).&#x27;&lt;/pre&gt;&lt;/div&#x27;, $matches[0] );</span><br><span class="line">    return str_replace(&quot;\t&quot;, &#x27;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&#x27;, $code);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>修改为</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">function convert_pre_entities( $matches ) &#123;</span><br><span class="line">    $code = str_replace( $matches[0], &#x27;&lt;div class=&quot;precode clearfix&quot;&gt;&lt;pre class=&quot;prettyprint linenums&quot;&gt;&#x27;.$matches[1].&#x27;&lt;/pre&gt;&lt;/div&#x27;, $matches[0] );</span><br><span class="line">    return str_replace(&quot;\t&quot;, &#x27;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&#x27;, $code);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>即可解决代码转义问题</p>
+]]></content>
+      <categories>
+        <category>杂记</category>
+        <category>tech</category>
+        <category>wordpress</category>
+      </categories>
+      <tags>
+        <tag>markdown</tag>
+        <tag>wordpress</tag>
+        <tag>tinection</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>微博登录&amp;QQ登录接入错误的解决过程</title>
+    <url>/2016/04/07/tinection-social/</url>
+    <content><![CDATA[<p>今天把微博登录和QQ登录的key申请到了，但是使用过程中出现了一些问题。</p>
+<h2 id="QQ登录-redirect-uri-is-illegal-100010-解决办法"><a href="#QQ登录-redirect-uri-is-illegal-100010-解决办法" class="headerlink" title="QQ登录 redirect uri is illegal(100010)解决办法"></a>QQ登录 redirect uri is illegal(100010)解决办法</h2><p><img src="/../image/44181561jw1f2ofheo14vj20zo0k2mye.jpg" alt="QQ登录redirect uri is illegal(100010)"></p>
+<p>主要是腾讯回调地址的问题，回到开放中心设置处将回调地址写成<a href="http://site/index.php">http://site/index.php</a> 或者 <a href="http://site/%E5%BD%A2%E5%BC%8F%EF%BC%8C%E8%80%8C%E4%B8%8D%E8%A6%81%E4%BD%BF%E7%94%A8">http://site/形式，而不要使用</a> <a href="http://site/">http://site</a> 形式即可解决问题。</p>
+<h2 id="微博登录-error-10006-msg-source-paramter-appkey-is-missing"><a href="#微博登录-error-10006-msg-source-paramter-appkey-is-missing" class="headerlink" title="微博登录 error 10006 msg source paramter(appkey) is missing"></a>微博登录 error 10006 msg source paramter(appkey) is missing</h2><p><img src="/../image/44181561jw1f2ofgl0eeuj20n80aydgu.jpg" alt="微博登录 error 10006 msg source paramter(appkey) is missing"></p>
+<p>遇到这个问题之后处理了一下午都没有弄好，网上说是token过期的问题<a href="http://blog.csdn.net/kite1988/article/details/20121305">Sina Weibo API 10006 错误</a>，未能解决问题，又求助于 <a href="http://zhangnew.com/">@张New</a>，商量之后未果。</p>
+<p>从三个方向考虑：</p>
+<p>第一是微博端设置的问题，如果跟QQ登录设置回调地址一致，则不是微博端问题（事实上微博上的回调地址不用设置）；</p>
+<p>第二是清空本地缓存，考虑是否本地缓存问题；</p>
+<p>第三是网页代码问题，考虑到之前修改主题代码，最怕自己改错地方，找了一大堆地方之后，将functions&#x2F;open-social.php替换旧版解决了问题。</p>
+]]></content>
+      <categories>
+        <category>tech</category>
+        <category>wordpress</category>
+        <category>建站</category>
+      </categories>
+      <tags>
+        <tag>wordpress</tag>
+        <tag>社会化登录</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>折腾Qnap / Transmission 安装  / Web control 更新</title>
+    <url>/2018/11/17/transmission-web-control-404/</url>
+    <content><![CDATA[<p>当年买这台入门级QNAP专门买了迅雷版，用迅雷加速4T硬盘很快就塞满了。幸福了那么几个月之后，迅雷为了推下载宝停止了其他厂商的合作，而qnap也长期不维护此机型，逐步不再支持百度网盘和transmission、utorrent更新。两年前在官网反馈过两次，没有答复，于是QNAP也就闲置落灰。 这几天需要下一个片子，只在一个法国网站和俄罗斯网站找到了资源，度盘和迅雷统统无效。反正nas也通着电，只有用bt慢慢往下拖，正好这两天求了一个pt小站的邀，于是开始折腾一下我的古董级nas。</p>
+<h1 id="无需折腾的Download-Station"><a href="#无需折腾的Download-Station" class="headerlink" title="无需折腾的Download Station"></a>无需折腾的Download Station</h1><p>Download Station 是QNAP 自带的官方组件，如果只是BT下载的话呢，是可以直接使用的。但是能不能下载下来全靠运气，亲测人人影视部分热门资源的种子根本下不动（也可能是我网络有问题…），当然这种情况，一般用什么都下不动。。 当然，Download Station 还是有优点的，就是可以通过手机app远程控制，非常方便，如果在外面看到想下载的电影，手机搜索扔到Q-Get就行了。（继续为远程迅雷默哀） PT站的效果就好多了，正常下载上传没有问题，也支持多种模式切换。但是上周断电之后，ds把我的种子都重新下载了一次，然后没两天又重新下载了一次，于是我那个账号的分享率不够了。。。想来想去，还是迁移到transmission吧。 <img src="/../image/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7-2018-11-17-10.33.14-1024x583.png"></p>
+<h1 id="Transmission的安装-x2F-获取"><a href="#Transmission的安装-x2F-获取" class="headerlink" title="Transmission的安装&#x2F;获取"></a>Transmission的安装&#x2F;获取</h1><p>QNAP系统版本升级到4.3.3固件之后，App Store里便下架了Transmission 和 uTorrent。 之前安装过的，正常升级系统不受影响。如果想安装可以从国外的store下载，方法参考 <a href="https://qnapclub.eu/index.php">https://qnapclub.eu/index.php</a> ，也可以搜索国内论坛、网盘分享的版本。  </p>
+<h1 id="Transmission-web-control的升级"><a href="#Transmission-web-control的升级" class="headerlink" title="Transmission web control的升级"></a>Transmission web control的升级</h1><p>可能是天生手欠，把transmission的设置全看了一遍，发现有update的按钮，于是开心的一通狂按。 <img src="/../image/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7-2018-11-17-09.53.03-1024x715.png"> 然后。 Transmission就打不开了。 在上面挂了几十个种子的我，真是想扔电脑。 <img src="/../image/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7-2018-11-17-09.52.24-1024x793.png"> 参考了官方文档，发现web control和transmission是分离的，所以不用重装transmission，只是web control从Google Code托管迁移到了GitHub，更换地址导致UI更新失败。 安装手册更是_非常有用_，感觉用mac和QNAP的根本没有人权。。 <img src="/../image/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7-2018-11-17-10.47.14.png"> 大概看了一下，下载了web包，用filezilla ssh连接（QNAP SSH默认是开启的），上传到出错提示的路径。<img src="/../image/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7-2018-11-17-10.51.43-1024x506.png">   Done！ <img src="/../image/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7-2018-11-17-10.55.58-1024x497.png"></p>
+]]></content>
+      <categories>
+        <category>杂记</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Mac下制作带图标的网页快捷方式文件.webloc</title>
+    <url>/2016/04/09/webloc-with-logo/</url>
+    <content><![CDATA[<p><img src="/../image/44181561jw1f2qu06zbs9j20lu0bvmzl.jpg"></p>
+<p> .webloc文件是MAC OS（苹果)操作系统里的浏览器创建的网址快捷方式，我经常在很多软件镜像里看到这个文件，那么如何做一个.webloc快捷方式文件呢-。-</p>
+<h2 id="制作方法一"><a href="#制作方法一" class="headerlink" title="制作方法一:"></a>制作方法一:</h2><p>使用文本编辑器写入以下代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</span><br><span class="line">&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;</span><br><span class="line">&lt;plist version=&quot;1.0&quot;&gt;</span><br><span class="line">&lt;dict&gt;</span><br><span class="line">    &lt;key&gt;URL&lt;/key&gt;</span><br><span class="line">    &lt;string&gt;http://www.xuzizi.cn&lt;/string&gt;</span><br><span class="line">&lt;/dict&gt;</span><br><span class="line">&lt;/plist&gt;</span><br></pre></td></tr></table></figure>
+
+<p>保存成.webloc文件即可。</p>
+<h2 id="制作方法二："><a href="#制作方法二：" class="headerlink" title="制作方法二："></a>制作方法二：</h2><p>打开safari，输入你需要生成链接的网址。通过拖拽浏览器地址栏左侧的网址图标到桌面上即生成了.webloc文件。还可以直接拖拽到Dock栏中。</p>
+<h2 id="添加Logo："><a href="#添加Logo：" class="headerlink" title="添加Logo："></a>添加Logo：</h2><p>以上这两种方法都没有办法生成带Logo快捷方式，那么如何给.webloc添加你所需要的icon呢？</p>
+<ol>
+<li>用“预览”打开你所要设置的图标文件，全选图片（command+a)，复制（command+c）</li>
+<li>在finder里选中通过上述方法生成的.webloc文件</li>
+<li>按commond+i弹出文件简介面板，用鼠标点住左上角的空白图标，并粘贴command+v。</li>
+</ol>
+<p>这样就完成了生成带图标的webloc文件了。</p>
+]]></content>
+      <categories>
+        <category>tech</category>
+        <category>网络技巧</category>
+      </categories>
+      <tags>
+        <tag>mac</tag>
+        <tag>小技巧</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>为什么你要写博客？ -  陈素封</title>
+    <url>/2016/04/17/why-write-blog/</url>
+    <content><![CDATA[<p>为什么你要写博客？ 陈素封</p>
+<h2 id="一个选择"><a href="#一个选择" class="headerlink" title="一个选择"></a>一个选择</h2><p>我知道现在可能说这话有点不合时宜，毕竟博客时代都已经过去了，再号召大家用过就好像时的东西是不是有点逆流而上？ 我曾经也问过自己这个问题，但是我觉得，博客时代过去跟我们要开博客是没有多大关系的，就好像你的读书时代已经过去你就不再读书一样。 判断一件事情值不值得去做有一个方法：在一张白纸的左边写不值得做的原因，然后在右边写值得做的原因，写完一比较，一权衡，自然能够得出结果。 大家都成年人了，你会觉得这样思考分析总结的过程才是正确的思考的方法吧？ 所以，我在这里列出要写（独立）博客的原因，供大家去选择，然后填在你白纸的右边。 注意，我不是给你一个建议，而是提供一个选择，这个选择蕴藏着我也不知道的可能。</p>
+<h2 id="博客的内容"><a href="#博客的内容" class="headerlink" title="博客的内容"></a>博客的内容</h2><p>写博客不难，你可以当作是生活的记录，但是这样的记录没有任何的意义。写要对得住写本身，写出来的东西应该是思考的结果。我认为，如果你要开一个博客，博客的内容应该是这样的：</p>
+<ul>
+<li> 不是生活杂记、不是流水账、不是牢骚、不是抱怨、不是心情琐记……；</li>
+<li> 有目的地写，要务实，追求质量；</li>
+<li> 承认真实的自己，不要吹嘘，不要装逼，无需讨好读者；</li>
+<li> 记录自己学习、思考、总结的过程；</li>
+<li> 分享你的故事、所得、感想、经验；</li>
+</ul>
+<h2 id="值得写的原因"><a href="#值得写的原因" class="headerlink" title="值得写的原因"></a>值得写的原因</h2><p>以下是一个清单，可以根据自己的情况匹配，然后选择。</p>
+<h2 id="重新认识自己"><a href="#重新认识自己" class="headerlink" title="重新认识自己"></a>重新认识自己</h2><p>是不是很久没有跟自己对话了？ 你可以尝试从回答一些问题开始，将你过去要回避的问题写下来，例如就可以从这个九个问题开始：</p>
+<ul>
+<li>请你介绍一下你自己，你是个什么样的人？</li>
+<li>你有什么理想吗？这个理想是怎么形成的？</li>
+<li>你理想的伴侣关系是什么样的？你自己在这个伴侣关系中扮演什么样的角色？要承担什么样的责任？</li>
+<li>你理想的事业是什么，你正在做的工作符合你的事业理想吗？这份工作对你的意义是什么？</li>
+<li>你对亲子关系怎么看？对你来说，什么是一个理想的父亲（母亲），你期望自己成为这样一个理想父亲（母亲）吗？</li>
+<li>你对钱怎么看，你认为赚到多少钱是足够的？如果你明天一早醒来，已经有足够的钱，你将会如何继续安排自己的生活？</li>
+<li>对你来说，什么是理想的性生活？什么是理想的性道德，在你的性道德观中，什么样的性生活是禁忌的，需要避免的，什么样的性生活是美好的，需要得到鼓励和发展的？</li>
+<li>你的择友标准是什么？什么样的人你会愿意交往，什么样的人你会拒绝和他交往？</li>
+<li>你对死亡怎么看？你希望自己活到多少岁，你准备怎么度过从现在到死亡的这段时间？如果你要立遗嘱，这份遗嘱会怎么写？</li>
+</ul>
+<p>以上的这九个问题摘自《很少人能顺畅回答这9个问题——心理治疗刚开始医生常常会先问你的 》by 李孟潮。 这些问题的答案你可以选择不发，但是我强烈地建议写下来，只有在写的时候你才可以慎重地思考这些问题，而不会回避跳过或者留下空白，这是接受自己的第一步。</p>
+<h2 id="提供持续学习的动力"><a href="#提供持续学习的动力" class="headerlink" title="提供持续学习的动力"></a>提供持续学习的动力</h2><p>例如，我为自己设限每天写一千字，信息的不断输出给我带来恐惧，我害怕有一天我写无可写，于是我不停地阅读，通过个人的知识管理促使自己不断学习，提高核心竞争力。 详细的知识管理可以看我的这篇文章：《个人知识管理的方法》，回复「知识」可见</p>
+<h2 id="积累更多的知识"><a href="#积累更多的知识" class="headerlink" title="积累更多的知识"></a>积累更多的知识</h2><p>写并不是单纯的写。 例如你写着写着，你突然忘记了一个概念，于是上网找，找回来这个概念的时候，你重温这个概念，可能还会顺便看了一下这个概念的其他东西。 例如你需要获取第一手的资料，寻找信息来源本身就是一个知识积累的过程，同时，你慢慢就学会了鉴别知识：什么是没有用的心灵鸡汤，什么是不值得关注的吐槽名人，还有，在这个过程中，你还养成你的心智。</p>
+<h2 id="提高将事情讲清楚的能力"><a href="#提高将事情讲清楚的能力" class="headerlink" title="提高将事情讲清楚的能力"></a>提高将事情讲清楚的能力</h2><p>很多东西你以为懂了，但当你在写下来的时候，你就觉得无从下手了。</p>
+<blockquote>
+<p>如果一件事情你不能讲清楚，十有八九你还没有完全理解。</p>
+</blockquote>
+<p>将事情写下来，慢慢就可以提高你的逻辑思维能力，分析能力，写会迫使你在你脑中搭建一个有条理的框架。例如我写这篇文章一样，我就将值得写博客的原因一点一点地罗列出来，事情就更加清晰，你也可以更好的思考问题。</p>
+<h2 id="分享带来的连锁反应"><a href="#分享带来的连锁反应" class="headerlink" title="分享带来的连锁反应"></a>分享带来的连锁反应</h2><blockquote>
+<p>“通过分享，你获得了直接而快速的回报，你最终或许会发现你已将版权和“保留所有权利”抛诸脑后。新的经济学准则是：参与你作品的人越多，回报越高。在分享主义里，如果你愿意你可以保留所有权，但是我乐于分享。” by 毛向辉 《分享主义：一场思维革命》</p>
+</blockquote>
+<p>互联网精神其中最重要的就是分享主义，基于分享主义，你可以享受到社会化及互联网给你带来的种种便利和好处，你分享了一个知识，你就成为了互联网中的一个点，这个点的大小由你自己来决定，互联网的大潮会将你的这个点推送到它所能触及的每个角落，让需要的人得到，同时，你的这个点也会继续扩大，连接到整个网络，这个点有可能连接成一张网，而你就是这张网的中心。</p>
+<h2 id="帮你找到志同道合的人"><a href="#帮你找到志同道合的人" class="headerlink" title="帮你找到志同道合的人"></a>帮你找到志同道合的人</h2><p>在微博，在朋友圈，你可能找不到跟你志同道合的人，而在博客，你可以通过看他的几篇文章就迅速地理解认同这个人，即使你没有见过这个人，但你也可以通过这种关联来相互学习。 如果你在一个领域有相当的了解，你将这些内容发在网络上，网络上跟你志趣相投的人也会被你吸引过来，根据吸引力法则，你是怎样的人你就被怎么样的人吸引，这就是博客所能赋予你的魅力。</p>
+<blockquote>
+<p>即使博客没有被他人关注，我们依然可以找到同好，你可以自己将博文转载到其他站点，人们会通过搜索引擎找到你，有邮件、微博等工具，我们不乏与他人交流的途径。by Gabriel Weinberg《Why I blog》</p>
+</blockquote>
+<h2 id="记录成长"><a href="#记录成长" class="headerlink" title="记录成长"></a>记录成长</h2><p>隔一段时间，你再回头看你写的博客，你会发现自己正在通过这样的方式在不断的成长，这种成长在自己眼里是一种财富，在别人眼里是一张地图，你得到了收获，不断修正自己的错误，别人得到了指引，避免走弯路。 更多的情况是当你回望自己的时候你会发现自己是一个傻逼，so what，that is what I am！</p>
+<h2 id="培养持续做一件事情的能力"><a href="#培养持续做一件事情的能力" class="headerlink" title="培养持续做一件事情的能力"></a>培养持续做一件事情的能力</h2><p>开始是坚持，后来是习惯，接着喜欢。以后当有人对你说，「你写那么多有用的东西，你真的很厉害啊！」你可以笑而不语，也可以大声说道：「你妹，你不知道我开始的时候多么痛苦！」 让你长久地去跑步，你可能做不到；让你每个月看一本书，你也可能做不到；但让你持续地写一个博客，你可以做得到。 你不相信？你不试试你怎么知道？ 默默地持续做一件事是一种难得的能力，也是一种难得的品质。</p>
+<h2 id="讨论反思"><a href="#讨论反思" class="headerlink" title="讨论反思"></a>讨论反思</h2><p>每人都会有思维的盲点，就好像这篇文章一样，可能你觉得我可能说得不对，你可以反驳我，我欢迎这种讨论，因为讨论的过程中会产生各种的思维的碰撞，这种碰撞会让你反思，也会激发出你新的灵感，这种讨论反思给自己的带来巨大的受益。 互联网给你的反馈就是让你承受更多，接受更多，成为一个更好的人。</p>
+<h2 id="搜寻到你意想不到东西"><a href="#搜寻到你意想不到东西" class="headerlink" title="搜寻到你意想不到东西"></a>搜寻到你意想不到东西</h2><p>世界不止是你的家，你的公司，你的朋友圈，你应该去发现一个更大的世界，通过写博客，你会知道世界上还有很多人像你一样在写博客，这些人和知识正在世界的某个角落在等着你。 例如，在写这篇文章的过程中，我才知道了Gabriel Weinberg，我才要将阳志平的博客重读一遍。写的过程会让你有很多新的发现，这些新的发现都值得你去再写下来，总结分享出去。</p>
+<h2 id="一个人在做一件属于自己的事"><a href="#一个人在做一件属于自己的事" class="headerlink" title="一个人在做一件属于自己的事"></a>一个人在做一件属于自己的事</h2><p>很多你认为自己很牛逼的事情都是自己一个人做出来。 别人在刷微博，你在看书，别人在看穿越剧，你在学英文，别人在去唱K，你在写个人总结。吃饭也要找同伴，出游要找同伴，看电影要找同伴，你上一次一个人在做一件属于自己的事是在什么时候？</p>
+<blockquote>
+<p>如果你想要清晰地思考，就必须远离人群。但是走得越远，你的处境就会越困难，收到的阻力也会越大。因为你没有迎合社会习俗，而是一步步地与它背道而驰。如果自己就是潮水的一部分 ，怎么能看见潮流的方向呢？你只能永远保持质疑，问自己，什么话是我不能说的？为什么？——Paul Graham《不能说的话》</p>
+</blockquote>
+<h2 id="互联网的身份识别："><a href="#互联网的身份识别：" class="headerlink" title="互联网的身份识别："></a>互联网的身份识别：</h2><blockquote>
+<p>一个长期的价值博客是一份很好的简历。这里的“简历”并非是狭义上的求职简历，毕竟现在还没有到价值博客的时代，很多人写博客都是到处转载或者干脆碎碎念，正因此面试官未必拿个人博客当成了解一个人的更可靠窗口。 这里的“简历”是指一个让别人了解自己的窗口，虽然我们未必做得到像罗永浩、Keso这样的博客，个人的影响力已经足以支撑出一份事业（牛博和5gme），但至少你会因此而结识更多的人，你的博客价值越高，你结识的人就越牛，跟牛人交流又会让你的眼界得到极大的开阔，打开一扇又一扇你原本不知道的门，于是你就变得更牛… 这是一个良性循环。by 刘未鹏</p>
+</blockquote>
+<h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>你可能想不到在白纸的左边（不值得写博客的原因）写什么了，想不到写个「博客时代已经过去」或者「我没有时间」也可以，但与此同时，你也可以用那些时间去思考一下「怎么做到长期写一个价值博客」。 如果你不想思考，也可以回复「价值」看看别人的建议。 推荐写作平台：</p>
+<ul>
+<li>简书（推荐）</li>
+<li>自己搭建一个独立博客</li>
+<li>新浪博客</li>
+</ul>
+]]></content>
+      <categories>
+        <category>杂记</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+        <tag>独立博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Wordpress虚拟主机不支持发送邮件的解决办法 - WP SMTP</title>
+    <url>/2016/04/17/wordpress-mail-by-using-wp-smtp/</url>
+    <content><![CDATA[<p>Wordpress虚拟主机不支持发送邮件的解决办法 - WP SMTP Wordpress本身是采用mail()函数发邮件的，但是貌似我从来都没看到过有邮件，直到今天测试一个插件时才意识到这个问题，使用探针检测后发现貌似是不支持发邮件的。 但是“评论回复邮件通知”“新用户注册邮件”这些功能都需要wordpress的邮件功能正常才行，从网上找到WP SMTP这个插件可以解决系统发送邮件的问题。</p>
+<blockquote>
+<p>WP SMTP插件下载地址：<a href="http://wordpress.org/plugins/wp-smtp/">http://wordpress.org/plugins/wp-smtp/</a> WP SMTP插件使用说明：<a href="http://boliquan.com/wp-smtp/">http://boliquan.com/wp-smtp/</a></p>
+</blockquote>
+<p><img src="http://plugins.svn.wordpress.org/wp-smtp/trunk/screenshot-1.png"> 我使用的配置是：</p>
+<blockquote>
+<p>接收邮件服务器：imap.exmail.qq.com  ，使用SSL，端口号993 发送邮件服务器：smtp.exmail.qq.com ，使用SSL，端口号465</p>
+</blockquote>
+<p>各位可以查询自己的邮箱相应的地址进行设置。</p>
+]]></content>
+      <categories>
+        <category>tech</category>
+        <category>wordpress</category>
+      </categories>
+      <tags>
+        <tag>wordpress</tag>
+        <tag>插件</tag>
+        <tag>WP SMTP</tag>
+        <tag>虚拟主机</tag>
+        <tag>邮件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Wordpress搬迁常见问题及解决方案大全</title>
+    <url>/2016/04/16/wordpress-move/</url>
+    <content><![CDATA[<p>wordpress 搬迁常见问题及解决方案大全 经常搬迁，总结总结经验，本文会不断更新。</p>
+<h2 id="数据库连接出错"><a href="#数据库连接出错" class="headerlink" title="数据库连接出错"></a>数据库连接出错</h2><p>修改文件目录下 wp-config.php，填入正确的数据库连接信息。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">// ** MySQL 设置 - 具体信息来自您正在使用的主机 ** //</span><br><span class="line">/** WordPress数据库的名称 */</span><br><span class="line">define(&#x27;DB_NAME&#x27;, &#x27;wordpress&#x27;);</span><br><span class="line"></span><br><span class="line">/** MySQL数据库用户名 */</span><br><span class="line">define(&#x27;DB_USER&#x27;, &#x27;root&#x27;);</span><br><span class="line"></span><br><span class="line">/** MySQL数据库密码 */</span><br><span class="line">define(&#x27;DB_PASSWORD&#x27;, &#x27;123&#x27;);</span><br><span class="line"></span><br><span class="line">/** MySQL主机 */</span><br><span class="line">define(&#x27;DB_HOST&#x27;, &#x27;localhost’);</span><br></pre></td></tr></table></figure>
+
+<h2 id="WP-Super-Cache-错误"><a href="#WP-Super-Cache-错误" class="headerlink" title="WP Super Cache 错误"></a>WP Super Cache 错误</h2><p>WP Super Cache：这个插件，在搬家后，需要重新安装WP Super Cache 。 登入FTP空间删除文件wp-content&#x2F;wp-cache-config.php和wp-content&#x2F;advanced-cache.php 编辑文件wp-config.php，删除以下两行开头的代码： define(‘WP_CACHE’,true); define(‘WPCACHEHOME’,’ 然后重新安装WP Super Cache即可。</p>
+<h2 id="更换域名问题"><a href="#更换域名问题" class="headerlink" title="更换域名问题"></a>更换域名问题</h2><p>需要修改数据库中，wp_options表中的home和siteurl两个字短的值为当前域名地址。</p>
+<h2 id="排版错乱问题"><a href="#排版错乱问题" class="headerlink" title="排版错乱问题"></a>排版错乱问题</h2><p>首先，我们需要检查一下网站的PHP版本设置是否正确，WordPress的话，一般是使用5.3或者5.4的PHP版本，如果是5.2的话，是有可能导致网站排版混乱的问题。以许滋博客使用的阿里云为例，登录到控制面板，在select php version 处修改为5.3版本即可。</p>
+<h2 id="网站主页可访问，其他页面提示404错误"><a href="#网站主页可访问，其他页面提示404错误" class="headerlink" title="网站主页可访问，其他页面提示404错误"></a>网站主页可访问，其他页面提示404错误</h2><p>也可能提示为 <code>The requested URL was not found on this server</code> 登录主机空间控制面板，在文件管理处开启查看隐藏文件，查看.htaccess是否有正确的内容。一般初始化的.htaccess文件内容为：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># BEGIN WordPress</span><br><span class="line">&lt;IfModule mod_rewrite.c&gt;</span><br><span class="line">RewriteEngine On</span><br><span class="line">RewriteBase /WP/</span><br><span class="line">RewriteRule ^index\.php$ - [L]</span><br><span class="line">RewriteCond %&#123;REQUEST_FILENAME&#125; !-f</span><br><span class="line">RewriteCond %&#123;REQUEST_FILENAME&#125; !-d</span><br><span class="line">RewriteRule . /WP/index.php [L]</span><br><span class="line">&lt;/IfModule&gt;# END WordPress</span><br></pre></td></tr></table></figure>
+
+<p>如果有设置重定向或者静态链接之类的也需要添加与之前网站相同的内容。</p>
+]]></content>
+      <categories>
+        <category>tech</category>
+        <category>wordpress</category>
+      </categories>
+      <tags>
+        <tag>wordpress</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>从WordPress迁移到Hexo</title>
+    <url>/2022/09/17/wordpress2hexo/</url>
+    <content><![CDATA[<p>付费了5年之后，终于还是决定停掉阿里云虚机了，尽管这里只是一个没人访问的小站，但是经常性宕机真的不可接受。这次迁移干脆也抛弃臃肿的WordPress，考虑平时记录主要使用Markdown，所以选用了Hexo+Github Action自动生成静态页面，干净又卫生。</p>
+<h2 id="本地安装Hexo"><a href="#本地安装Hexo" class="headerlink" title="本地安装Hexo"></a>本地安装Hexo</h2><h3 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h3><p>首先，需要安装node.js、npm和Git</p>
+<ul>
+<li>Git可直接下载安装包进行安装。<a href="https://link.zhihu.com/?target=https://git-scm.com/downloads">点击下载</a>。安装后，需要下载xcode才可以。否则在使用中会遇到错误。这里我出现的问题是起初没有下载xcode，在后面初始化的时候，一直提示找不到Git，下载了xcode也不行，后来我打开了xcode，然后在关闭，就可以了。因为是小白，具体原因不明</li>
+<li>接下来安装node.js。打开终端，输入命令</li>
+</ul>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+
+<p>这里遇到的问题是，提示没有权限，于是在上面的命令增加了sudo，如下:</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">sudo npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>然后安装node.js。我也是直接下载安装程序来进行安装的。<a href="https://link.zhihu.com/?target=https://nodejs.org/en/">点击下载</a></li>
+<li>安装完后，可输入以下命令进行检查，输入每个命令后，都会弹出相应版本号。</li>
+</ul>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">node -v</span><br><span class="line"></span><br><span class="line">npm -v</span><br><span class="line"></span><br><span class="line">Git --version</span><br></pre></td></tr></table></figure>
+
+<p>然后在进行安装hexo，输入以下命令即可，遇到的问题与安装node.js类似。所以直接加了sudo</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">sudo npm install -g hexo</span><br></pre></td></tr></table></figure>
+
+<h3 id="博客初始化"><a href="#博客初始化" class="headerlink" title="博客初始化"></a>博客初始化</h3><p>首先创建一个文件夹，该文件夹用于存储博客的文件。然后通过终端，进入到该文件夹，命令如下：</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">cd youblogfiles</span><br></pre></td></tr></table></figure>
+
+<p>然后初始化本地博客，输入以下命令。初始化时，切记文件夹要空的才可以，否则会初始化失败。若失败了建议删除文件夹在重新创建。</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure>
+
+<p>完成后在进行安装npm</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">sudo npm install</span><br></pre></td></tr></table></figure>
+
+<p>执行下述命令生成本地网页文件并开启服务器，然后通过<a href="http://localhost:4000/">http://localhost:4000</a> 查看本地博客。</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="安装主题"><a href="#安装主题" class="headerlink" title="安装主题"></a>安装主题</h3><p>这里选用了<a href="https://github.com/next-theme/hexo-theme-next">hexo-theme-next</a>：</p>
+<p>If you’re using Hexo 5.0 or later, the simplest way to install is through npm:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ cd hexo-site</span><br><span class="line">$ npm install hexo-theme-next</span><br></pre></td></tr></table></figure>
+
+<p>Or you can clone the entire repository:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ cd hexo-site</span><br><span class="line">$ git clone https://github.com/next-theme/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure>
+
+<p>See <a href="https://theme-next.js.org/docs/getting-started/installation.html">detailed installation instructions</a> if you want any other variant.</p>
+<p>After the installation, open Hexo config file and set <code>theme</code> variable to <code>next</code>.</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">theme: next</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="从WordPress迁移到Hexo"><a href="#从WordPress迁移到Hexo" class="headerlink" title="从WordPress迁移到Hexo"></a>从WordPress迁移到Hexo</h2><p>首先，安装 <code>hexo-migrator-wordpress</code> 插件。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-migrator-wordpress --save</span><br></pre></td></tr></table></figure>
+
+<p>在 WordPress 仪表盘中导出数据(“Tools” → “Export” → “WordPress”)（详情参考<a href="https://wordpress.com/zh-cn/support/export/">WP支持页面</a>）。</p>
+<p>插件安装完成后，执行下列命令来迁移所有文章。<code>source</code> 可以是 WordPress 导出的文件路径或网址。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ hexo migrate wordpress &lt;source&gt;</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="Github-Action-自动更新页面"><a href="#Github-Action-自动更新页面" class="headerlink" title="Github Action 自动更新页面"></a>Github Action 自动更新页面</h2><p>Gihub Action搭建 Hexo的教程有很多。</p>
+<p>原理是源码放在私有仓库，更新时通过Github Action自动生成静态化页面同步到 username.github.io页面。</p>
+<p>这里不再赘述。</p>
+<h2 id="绑定域名"><a href="#绑定域名" class="headerlink" title="绑定域名"></a>绑定域名</h2><p>这里没什么难度，需要注意的一点是，在xx.github.io下设置cname会在更新内容是被清洗掉。</p>
+<p>需要将CNAME文件放到源文件的source下，便可在更新时同步过来。</p>
+]]></content>
+      <categories>
+        <category>建站</category>
+      </categories>
+      <tags>
+        <tag>WordPress</tag>
+        <tag>网站</tag>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>网页访问出现 You don&#39;t have permission to access /index.html on this server. 在虚机/服务器上的解决方法</title>
+    <url>/2016/04/11/you-dont-have-permission-to-access-index-html-on-this-server/</url>
+    <content><![CDATA[<h2 id="虚机问题"><a href="#虚机问题" class="headerlink" title="虚机问题"></a>虚机问题</h2><p>昨天虚机上传网页，打开测试页面的时候出现如下错误： Forbidden. You don’t have permission to access &#x2F;index.html on this server. 开始我以为我网页出错，后来发现是权限问题，立马搞定了. 原因：index.html是用root用户建的文件，虚机上权限限制且无法修改，只能修改网页访问权限。 解决方法： 更改文件权限：chmod 755 index.html 或者在ftp软件中设置该文件权限 <img src="/../image/44181561jw1f2sjzle6kwj20og0ke0xd.jpg"></p>
+<h2 id="配置修改"><a href="#配置修改" class="headerlink" title="配置修改"></a>配置修改</h2><p>如果是WinServer下出现这个问题,请打开apache下配置文件httpd.conf，找到：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;Directory /&gt;</span><br><span class="line">     Options FollowSymLinks</span><br><span class="line">     AllowOverride None</span><br><span class="line">     Order deny,allow</span><br><span class="line">     deny from all</span><br><span class="line">&lt;/Directory&gt;</span><br></pre></td></tr></table></figure>
+
+<p>然后试着把deny from all中的deny改成了allow，保存后重起apache，测试网站就可以访问了。</p>
+]]></content>
+      <categories>
+        <category>tech</category>
+        <category>建站</category>
+      </categories>
+      <tags>
+        <tag>网站</tag>
+        <tag>apache</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>碎碎念</title>
+    <url>/2014/01/25/%E7%A2%8E%E7%A2%8E%E5%BF%B5/</url>
+    <content><![CDATA[<p>下午去一中踢了下球， 阳光很好，跑起来也很带劲。 冲撞，摔倒，爬起来。 我有释放不完的能量。   晚上请王骚骚去吃每次回家都会一起去吃的面条，夜宵~ 这也是一种习惯~   夜晚照例做电脑维修工， 还是比较开心而顺手的工作~ #表扬神马的真的不是很在乎哈哈哈哈哈哈哈# ———————— 睡前补一句。。 脱衣服睡觉时才发现脚已经痛的不能要了。。π_π</p>
+]]></content>
+      <categories>
+        <category>杂记</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>404 - 好巧，竟然在这里遇到你！</title>
+    <url>//404.html</url>
+    <content><![CDATA[<!-- markdownlint-disable MD039 MD033 -->
+
+<h2 id="这是一个不存在的页面"><a href="#这是一个不存在的页面" class="headerlink" title="这是一个不存在的页面"></a>这是一个不存在的页面</h2><p>对不起，您所访问的页面不存在或者已删除。</p>
+<p>预计将在约 <span id="timeout">5</span> 秒后返回首页。</p>
+<p>当然，你可以 <strong><a href="https://www.xuzizi.cn/">点这里</a></strong> 直接返回首页。</p>
+<script>
+let countTime = 5;
+
+function count() {
+
+  document.getElementById('timeout').textContent = countTime;
+  countTime -= 1;
+  if(countTime === 0){
+    location.href = 'https://www.xuzizi.cn';
+  }
+  setTimeout(() => {
+    count();
+  }, 1000);
+}
+
+count();
+</script>
+]]></content>
+  </entry>
+  <entry>
+    <title>关于</title>
+    <url>/about/index.html</url>
+    <content><![CDATA[<blockquote>
+<p>其实这个站曾经很早就建立了。。。</p>
+</blockquote>
+<h2 id="关于本人"><a href="#关于本人" class="headerlink" title="关于本人"></a>关于本人</h2><p>略懂技术 研究狗，程序猿 喜欢电脑，喜欢电影，喜欢音乐 <a href="#">KNOW MORE</a></p>
+<h2 id="关于本站"><a href="#关于本站" class="headerlink" title="关于本站"></a>关于本站</h2><p>记录一些技术文章、生活笔记，分享一些电影音乐。</p>
+<h2 id="建站大事件"><a href="#建站大事件" class="headerlink" title="建站大事件"></a>建站大事件</h2><h3 id="2012年-2014年"><a href="#2012年-2014年" class="headerlink" title="2012年-2014年"></a>2012年-2014年</h3><p>站点从Godaddy迁移到HawkHost，因大学毕业之季较少更新，后来主机访问缓慢—被墙—未续期—数据丢失。</p>
+<h3 id="2016年4月3日-2016年底"><a href="#2016年4月3日-2016年底" class="headerlink" title="2016年4月3日-2016年底"></a>2016年4月3日-2016年底</h3><p>新网重新建站。（<a href="http://www.xuzizi.cn/update/">网站更新记录</a>）</p>
+<h3 id="2017年2月"><a href="#2017年2月" class="headerlink" title="2017年2月"></a>2017年2月</h3><p>迁至阿里云，大改版，删除部分文章。</p>
+<h3 id="2022年9月"><a href="#2022年9月" class="headerlink" title="2022年9月"></a>2022年9月</h3><p>从WordPress迁移到Hexo，并搬迁到Github</p>
+<h2 id="支持本站"><a href="#支持本站" class="headerlink" title="支持本站"></a>支持本站</h2><p>小站的发展离不开大家的关心～ :) <img src="http://www.xuzizi.cn/wp-content/uploads/2016/04/dashangheng.jpg" alt="dashangheng"></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>文章归档</title>
+    <url>/archives/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>categories</title>
+    <url>/categories/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>留言板</title>
+    <url>/guestbook/index.html</url>
+    <content><![CDATA[<p>您可以通过以下方式联系我： Email： xuzizi#xuzizi.cn  #换成@ 您也可以通过下方评论框留言，我会及时回复。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>友情链接</title>
+    <url>/links/index.html</url>
+    <content><![CDATA[<p>一、申请友链可以直接在本页面留言，内容包括网站名称、链接以及相关说明，做好本站链接并此处留言，我将尽快答复 二、欢迎申请友情链接，只要是正规站常更新即可，申请首页链接需符合以下几点要求： 本站优先招同类原创、内容相近的博客或网站，您的站点主题内容是IT科技、互联网、生活、技术类； Baidu和Google有正常收录，不含有违法国家法律内容的合法网站。 友情链接的目的是常来常往，凡是加了友链的朋友，我都会经常访问的，也欢迎你来我的网站参观、留言等。 友链申请示例 本站名称：许滋博客 Xuzizi’s Life 本站链接：<a href="http://www.xuzizi.cn/">http://www.xuzizi.cn/</a> 本站描述：许滋博客 Xuzizi’s Life，专注于IT科技和互联网，分享学习与生活的个人博客。 PS:链接由于无法访问或您的博客没有发现本站链接等其他原因，将会暂时撤销超链接，恢复请留言通知我，望请谅解，谢谢！</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>tags</title>
+    <url>/tags/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>电视直播</title>
+    <url>/tv/index.html</url>
+    <content><![CDATA[<html><iframe width='+w+' height='+h+' src="http://live.64ma.com/tv/live.html" frameborder=0 border=0 marginwidth=0 marginheight=0 scrolling='+s+'></iframe></html>
+
+]]></content>
+  </entry>
+  <entry>
+    <title>博客维护更新记录</title>
+    <url>/update/index.html</url>
+    <content><![CDATA[<h2 id="2022-09-17"><a href="#2022-09-17" class="headerlink" title="2022-09-17"></a>2022-09-17</h2><p>从WordPress迁移到Hexo，并搬迁到Github</p>
+<h2 id="2016-2017年"><a href="#2016-2017年" class="headerlink" title="2016-2017年"></a>2016-2017年</h2><h3 id="2017-02-11"><a href="#2017-02-11" class="headerlink" title="2017.02.11"></a>2017.02.11</h3><p>搬迁到阿里云，内容、框架调整</p>
+<h3 id="2016-05-05"><a href="#2016-05-05" class="headerlink" title="2016.05.05"></a>2016.05.05</h3><p>大规模修改网站配色</p>
+<h3 id="2016-05-04"><a href="#2016-05-04" class="headerlink" title="2016.05.04"></a>2016.05.04</h3><p><a href="http://www.xuzizi.cn/2016/05/04/move-back/">阿里云崩溃，整站搬回 &#x3D; &#x3D;#</a></p>
+<h3 id="2016-05-03"><a href="#2016-05-03" class="headerlink" title="2016.05.03"></a>2016.05.03</h3><p><a href="http://www.xuzizi.cn/2016/05/03/move-to-aliyun/">整站迁移到阿里云</a></p>
+<h3 id="2016-04-28"><a href="#2016-04-28" class="headerlink" title="2016.04.28"></a>2016.04.28</h3><p>百度收录内页</p>
+<h3 id="2016-04-27"><a href="#2016-04-27" class="headerlink" title="2016.04.27"></a>2016.04.27</h3><p>更换代码高亮插件、加入防暴力破解插件。</p>
+<h3 id="2016-04-16"><a href="#2016-04-16" class="headerlink" title="2016.04.16"></a>2016.04.16</h3><p>新增备份、HERMIT、七牛，迁站到河南主机上失败（《备案问题》《CNAME和MX干扰》）未做更改。 主流搜索引擎均已收录（然而百度并没有收录内页，哭哭）。</p>
+<h3 id="2016-04-07"><a href="#2016-04-07" class="headerlink" title="2016.04.07"></a>2016.04.07</h3><p>新增微博登录&amp;QQ登录 (<a href="http://www.xuzizi.cn/2016/04/07/tinection-social/">《微博登录&amp;QQ登录接入错误的解决方法》</a>)</p>
+<h3 id="2016-04-05"><a href="#2016-04-05" class="headerlink" title="2016.04.05"></a>2016.04.05</h3><p>修复主题bug （<a href="http://www.xuzizi.cn/2016/04/05/tinection-markdown/">《解决Tinection下Markdown代码块显示问题》</a>）</p>
+<h3 id="2016-04-03"><a href="#2016-04-03" class="headerlink" title="2016.04.03"></a>2016.04.03</h3><p>xuzizi.cn在新网重新建站</p>
+<h3 id="2016-03-30"><a href="#2016-03-30" class="headerlink" title="2016.03.30"></a>2016.03.30</h3><p>xuzizi.cn完成备案</p>
+<h3 id="2016-03-12"><a href="#2016-03-12" class="headerlink" title="2016.03.12"></a>2016.03.12</h3><p>筹备新网主机备案 使用xuzizi.win+香港主机重建博客</p>
+<h2 id="2015年以前"><a href="#2015年以前" class="headerlink" title="2015年以前"></a>2015年以前</h2><h3 id="2015年5月"><a href="#2015年5月" class="headerlink" title="2015年5月"></a>2015年5月</h3><p>在京上班，开通新网主机。</p>
+<h3 id="2014"><a href="#2014" class="headerlink" title="2014"></a>2014</h3><p>xuzizi.cn迁移到HawkHost xuzizi.cn被墙 JayChou.me域名过期 xuzizi.cn资料丢失</p>
+<h3 id="2013"><a href="#2013" class="headerlink" title="2013"></a>2013</h3><p>xuzizi.cn解析到Godaddy空间 申请域名JayChou.me解析到Godaddy 谷歌收录xuzizi.cn &amp; JayChou.me</p>
+<h3 id="2012-06-06"><a href="#2012-06-06" class="headerlink" title="2012.06.06"></a>2012.06.06</h3><p>申请域名xuzizi.cn</p>
+]]></content>
+  </entry>
+</search>

@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 6.3.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <meta name="google-site-verification" content="s9zKjz7EjWFDMD6hy-KzeXJQp8kJ0U_JGlbCgkrudmI">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha256-AbA177XfpSnFEvgpYu1jMygiLabzPCJCRIBtR5jGc0k=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"www.xuzizi.cn","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.13.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="wordpress 搬迁常见问题及解决方案大全 经常搬迁，总结总结经验，本文会不断更新。 数据库连接出错修改文件目录下 wp-config.php，填入正确的数据库连接信息。 123456789101112&#x2F;&#x2F; ** MySQL 设置 - 具体信息来自您正在使用的主机 ** &#x2F;&#x2F;&#x2F;** WordPress数据库的名称 *&#x2F;define(&amp;#x27;DB_NAME&amp;#x27;, &amp;#x27;word">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Wordpress搬迁常见问题及解决方案大全">
+<meta property="og:url" content="http://www.xuzizi.cn/2016/04/16/wordpress-move/index.html">
+<meta property="og:site_name" content="Fred&#39;s Blog">
+<meta property="og:description" content="wordpress 搬迁常见问题及解决方案大全 经常搬迁，总结总结经验，本文会不断更新。 数据库连接出错修改文件目录下 wp-config.php，填入正确的数据库连接信息。 123456789101112&#x2F;&#x2F; ** MySQL 设置 - 具体信息来自您正在使用的主机 ** &#x2F;&#x2F;&#x2F;** WordPress数据库的名称 *&#x2F;define(&amp;#x27;DB_NAME&amp;#x27;, &amp;#x27;word">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2016-04-16T15:46:49.000Z">
+<meta property="article:modified_time" content="2023-05-22T06:38:37.264Z">
+<meta property="article:author" content="Fred Xu">
+<meta property="article:tag" content="wordpress">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="http://www.xuzizi.cn/2016/04/16/wordpress-move/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://www.xuzizi.cn/2016/04/16/wordpress-move/","path":"2016/04/16/wordpress-move/","title":"Wordpress搬迁常见问题及解决方案大全"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>Wordpress搬迁常见问题及解决方案大全 | Fred's Blog</title>
+  
+
+  <script src="/js/third-party/analytics/baidu-analytics.js"></script>
+  <script async src="https://hm.baidu.com/hm.js?b51acbabd1ce9c167d6d08b300610887"></script>
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">Fred's Blog</p>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%95%B0%E6%8D%AE%E5%BA%93%E8%BF%9E%E6%8E%A5%E5%87%BA%E9%94%99"><span class="nav-number">1.</span> <span class="nav-text">数据库连接出错</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#WP-Super-Cache-%E9%94%99%E8%AF%AF"><span class="nav-number">2.</span> <span class="nav-text">WP Super Cache 错误</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9B%B4%E6%8D%A2%E5%9F%9F%E5%90%8D%E9%97%AE%E9%A2%98"><span class="nav-number">3.</span> <span class="nav-text">更换域名问题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%8E%92%E7%89%88%E9%94%99%E4%B9%B1%E9%97%AE%E9%A2%98"><span class="nav-number">4.</span> <span class="nav-text">排版错乱问题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BD%91%E7%AB%99%E4%B8%BB%E9%A1%B5%E5%8F%AF%E8%AE%BF%E9%97%AE%EF%BC%8C%E5%85%B6%E4%BB%96%E9%A1%B5%E9%9D%A2%E6%8F%90%E7%A4%BA404%E9%94%99%E8%AF%AF"><span class="nav-number">5.</span> <span class="nav-text">网站主页可访问，其他页面提示404错误</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Fred Xu</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">47</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">15</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">43</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://www.xuzizi.cn/2016/04/16/wordpress-move/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Fred Xu">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Fred's Blog">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="Wordpress搬迁常见问题及解决方案大全 | Fred's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Wordpress搬迁常见问题及解决方案大全
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2016-04-16 23:46:49" itemprop="dateCreated datePublished" datetime="2016-04-16T23:46:49+08:00">2016-04-16</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2023-05-22 14:38:37" itemprop="dateModified" datetime="2023-05-22T14:38:37+08:00">2023-05-22</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/tech/" itemprop="url" rel="index"><span itemprop="name">tech</span></a>
+        </span>
+          ，
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/tech/wordpress/" itemprop="url" rel="index"><span itemprop="name">wordpress</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>1.2k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>1 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p>wordpress 搬迁常见问题及解决方案大全 经常搬迁，总结总结经验，本文会不断更新。</p>
+<h2 id="数据库连接出错"><a href="#数据库连接出错" class="headerlink" title="数据库连接出错"></a>数据库连接出错</h2><p>修改文件目录下 wp-config.php，填入正确的数据库连接信息。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">// ** MySQL 设置 - 具体信息来自您正在使用的主机 ** //</span><br><span class="line">/** WordPress数据库的名称 */</span><br><span class="line">define(&#x27;DB_NAME&#x27;, &#x27;wordpress&#x27;);</span><br><span class="line"></span><br><span class="line">/** MySQL数据库用户名 */</span><br><span class="line">define(&#x27;DB_USER&#x27;, &#x27;root&#x27;);</span><br><span class="line"></span><br><span class="line">/** MySQL数据库密码 */</span><br><span class="line">define(&#x27;DB_PASSWORD&#x27;, &#x27;123&#x27;);</span><br><span class="line"></span><br><span class="line">/** MySQL主机 */</span><br><span class="line">define(&#x27;DB_HOST&#x27;, &#x27;localhost’);</span><br></pre></td></tr></table></figure>
+
+<h2 id="WP-Super-Cache-错误"><a href="#WP-Super-Cache-错误" class="headerlink" title="WP Super Cache 错误"></a>WP Super Cache 错误</h2><p>WP Super Cache：这个插件，在搬家后，需要重新安装WP Super Cache 。 登入FTP空间删除文件wp-content&#x2F;wp-cache-config.php和wp-content&#x2F;advanced-cache.php 编辑文件wp-config.php，删除以下两行开头的代码： define(‘WP_CACHE’,true); define(‘WPCACHEHOME’,’ 然后重新安装WP Super Cache即可。</p>
+<h2 id="更换域名问题"><a href="#更换域名问题" class="headerlink" title="更换域名问题"></a>更换域名问题</h2><p>需要修改数据库中，wp_options表中的home和siteurl两个字短的值为当前域名地址。</p>
+<h2 id="排版错乱问题"><a href="#排版错乱问题" class="headerlink" title="排版错乱问题"></a>排版错乱问题</h2><p>首先，我们需要检查一下网站的PHP版本设置是否正确，WordPress的话，一般是使用5.3或者5.4的PHP版本，如果是5.2的话，是有可能导致网站排版混乱的问题。以许滋博客使用的阿里云为例，登录到控制面板，在select php version 处修改为5.3版本即可。</p>
+<h2 id="网站主页可访问，其他页面提示404错误"><a href="#网站主页可访问，其他页面提示404错误" class="headerlink" title="网站主页可访问，其他页面提示404错误"></a>网站主页可访问，其他页面提示404错误</h2><p>也可能提示为 <code>The requested URL was not found on this server</code> 登录主机空间控制面板，在文件管理处开启查看隐藏文件，查看.htaccess是否有正确的内容。一般初始化的.htaccess文件内容为：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"># BEGIN WordPress</span><br><span class="line">&lt;IfModule mod_rewrite.c&gt;</span><br><span class="line">RewriteEngine On</span><br><span class="line">RewriteBase /WP/</span><br><span class="line">RewriteRule ^index\.php$ - [L]</span><br><span class="line">RewriteCond %&#123;REQUEST_FILENAME&#125; !-f</span><br><span class="line">RewriteCond %&#123;REQUEST_FILENAME&#125; !-d</span><br><span class="line">RewriteRule . /WP/index.php [L]</span><br><span class="line">&lt;/IfModule&gt;# END WordPress</span><br></pre></td></tr></table></figure>
+
+<p>如果有设置重定向或者静态链接之类的也需要添加与之前网站相同的内容。</p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/wordpress/" rel="tag"># wordpress</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2016/04/15/hermit-music/" rel="prev" title="好看的Hermit播放器插件">
+                  <i class="fa fa-chevron-left"></i> 好看的Hermit播放器插件
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2016/04/16/google-fonts-cn/" rel="next" title="WordPress彻底禁用、替换谷歌字体的解决方案大全">
+                  WordPress彻底禁用、替换谷歌字体的解决方案大全 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="beian"><a href="https://beian.miit.gov.cn/" rel="noopener" target="_blank">京ICP备16014697号-1 </a>
+  </div>
+
+<div class="copyright">
+  &copy; 2012 – 
+  <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Fred Xu</span>
+</div>
+<div class="wordcount">
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-line"></i>
+    </span>
+    <span title="站点总字数">61k</span>
+  </span>
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    <span title="站点阅读时长">56 分钟</span>
+  </span>
+</div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/next-boot.js"></script>
+
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.0/search.js" integrity="sha256-vXZMYLEqsROAXkEw93GGIvaB2ab+QW6w3+1ahD9nXXA=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+
+
+  
+
+
+
+
+
+</body>
+</html>

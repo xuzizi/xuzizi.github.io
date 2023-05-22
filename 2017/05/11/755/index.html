@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 6.3.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <meta name="google-site-verification" content="s9zKjz7EjWFDMD6hy-KzeXJQp8kJ0U_JGlbCgkrudmI">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha256-AbA177XfpSnFEvgpYu1jMygiLabzPCJCRIBtR5jGc0k=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"www.xuzizi.cn","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.13.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="在写论文的时候需要经常用到文献标注来指明所引内容的来源、出处，手动标注参考文献非常费时费力，而且有时一处小小的改动需要整顿全篇文章，特别是毕业论文之类几十页甚至上百页的文章，工作量是非常庞大的的……由此可见，学习如何自动标注文献，是非常必要的！   下面将介绍的尾注插入方法~~   第一步 设置第一个尾注 1. 光标移到需要插入参考文献标注的地方。 2. 在菜单栏“插入（I）”→“引用（N）”→选">
+<meta property="og:type" content="article">
+<meta property="og:title" content="利用word尾注来自动标注参考文献">
+<meta property="og:url" content="http://www.xuzizi.cn/2017/05/11/755/index.html">
+<meta property="og:site_name" content="Fred&#39;s Blog">
+<meta property="og:description" content="在写论文的时候需要经常用到文献标注来指明所引内容的来源、出处，手动标注参考文献非常费时费力，而且有时一处小小的改动需要整顿全篇文章，特别是毕业论文之类几十页甚至上百页的文章，工作量是非常庞大的的……由此可见，学习如何自动标注文献，是非常必要的！   下面将介绍的尾注插入方法~~   第一步 设置第一个尾注 1. 光标移到需要插入参考文献标注的地方。 2. 在菜单栏“插入（I）”→“引用（N）”→选">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://image48.360doc.com/DownloadImg/2011/12/1216/19975275_1.png">
+<meta property="og:image" content="http://image48.360doc.com/DownloadImg/2011/12/1216/19975275_3.png">
+<meta property="og:image" content="http://image48.360doc.com/DownloadImg/2011/12/1216/19975275_4.png">
+<meta property="og:image" content="http://image48.360doc.com/DownloadImg/2011/12/1216/19975275_5.png">
+<meta property="og:image" content="http://www.xuzizi.cn/wp-content/uploads/2017/05/360%E6%88%AA%E5%9B%BE20170511220558862.jpg">
+<meta property="article:published_time" content="2017-05-11T14:06:52.000Z">
+<meta property="article:modified_time" content="2023-05-22T06:38:37.260Z">
+<meta property="article:author" content="Fred Xu">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://image48.360doc.com/DownloadImg/2011/12/1216/19975275_1.png">
+
+
+<link rel="canonical" href="http://www.xuzizi.cn/2017/05/11/755/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://www.xuzizi.cn/2017/05/11/755/","path":"2017/05/11/755/","title":"利用word尾注来自动标注参考文献"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>利用word尾注来自动标注参考文献 | Fred's Blog</title>
+  
+
+  <script src="/js/third-party/analytics/baidu-analytics.js"></script>
+  <script async src="https://hm.baidu.com/hm.js?b51acbabd1ce9c167d6d08b300610887"></script>
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">Fred's Blog</p>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-overview-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Fred Xu</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">47</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">15</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">43</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://www.xuzizi.cn/2017/05/11/755/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Fred Xu">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Fred's Blog">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="利用word尾注来自动标注参考文献 | Fred's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          利用word尾注来自动标注参考文献
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2017-05-11 22:06:52" itemprop="dateCreated datePublished" datetime="2017-05-11T22:06:52+08:00">2017-05-11</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2023-05-22 14:38:37" itemprop="dateModified" datetime="2023-05-22T14:38:37+08:00">2023-05-22</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%9D%82%E8%AE%B0/" itemprop="url" rel="index"><span itemprop="name">杂记</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>2k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>2 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p>在写论文的时候需要经常用到文献标注来指明所引内容的来源、出处，手动标注参考文献非常费时费力，而且有时一处小小的改动需要整顿全篇文章，特别是毕业论文之类几十页甚至上百页的文章，工作量是非常庞大的的……由此可见，学习如何自动标注文献，是非常必要的！   下面将介绍的尾注插入方法~~   <strong>第一步 设置第一个尾注</strong> 1. 光标移到需要插入参考文献标注的地方。 2. 在菜单栏“插入（I）”→“引用（N）”→选择“脚注和尾注（G）…”选项。 于是，弹出窗口，按照下图进行各项的设置：</p>
+<p><img src="http://image48.360doc.com/DownloadImg/2011/12/1216/19975275_1.png" alt="【小技巧】word尾注，教你如何自动标注参考文献 - 羊小吉 - Chem"></p>
+<p> 3. 尾注设置：<strong>这是最重要的</strong> （1）在“位置”选项中，选择“尾注（E）——节的结尾”； （2）在“格式”选项中，①选择“编号格式（N）——1，2，3，…”也就是阿拉伯数字， ②自定义标记不需要填， ③“起始编号（S）——1”， ④“编号方式（M）——连续” （3）在“应用更改”选项中，选择“将更改应用于（P）——整篇文档” 最后，点按钮“插入（I）”，便在你所选的地方插入了第一个参考文献标注。可以看到，在所选地方上角出现了一个小1。 4．双击上标“1”，光标自动跳到文章最后，前面就是一个上标“1”，这就是输入第一个参考文献的地方。 按照上面的步骤，在其他地方标注参考文献，可以看到系统是自动为我们进行排序的，而与我们插入的先后顺序没有关系。这样，我们便完成了第一步操作。   <strong>第二部分 标注格式的修改</strong> 通过第一步设置的尾注，就是我们所需要的标注，是正文所插入地方上角的小数字，和文章末尾对应的小数字。其实这些都不是正确的参考文献标注格式，我们还需要动手稍作修改。下面就是讲这一内容啦： 5. 将全文所涉及的尾注都改为“[n]”的标准格式： <strong>注意是修改，而不是删除后重新输入上标！</strong> （1）给数字加中括号 首先，需要强调的是，在进行这一步操作时，光标应在正文范围内，而不是最后的尾注区域。 然后， 在菜单栏“编辑（E）”→“查找（E）”或者通过快捷键“Ctrl+F”可以打开“查找和替换”窗口。按照下图进行各项的设置   在“查找内容（N）”选项中填入“^e”，表示尾注。如果以后需要查找脚注，则是搜索“^f”。 在“替换为（I）”选项中填入“[^&amp;]”。 并单击右下方第一个按钮“常规（L）”展开窗口。注意下方“搜索”选项选择“全部”，其他格式要求的前方要去掉勾勾。 选项全部设置好后，点击“全部替换（A）”即可完成全文参考文献标注，即尾注格式的第一部分修改。 （2）尾注部分的标号从上标改为正文格式 与上一步不同的是，此时光标应在尾注区域内，重新打开“查找和替代”窗口，按照下图进行各项的设置</p>
+<p><img src="http://image48.360doc.com/DownloadImg/2011/12/1216/19975275_3.png" alt="【小技巧】word尾注，教你如何自动标注参考文献 - 羊小吉 - Chem"></p>
+<p><img src="http://image48.360doc.com/DownloadImg/2011/12/1216/19975275_4.png" alt="【小技巧】word尾注，教你如何自动标注参考文献 - 羊小吉 - Chem"></p>
+<p>在“查找内容（N）”选项中填入“[^e]”。并在“格式（O）”中选择“字体（F）…”选项，弹出常规的“查找字体”窗口。在下方选择上标，打上勾。 在“替换为（I）”选项中填入“^&amp;”。同样方法，在“查找字体”窗口中，将勾勾消除掉。 设置完成后，直接点击“全部替换（A）”，使尾注区域内的参考文献编号改为常见期刊所要求的格式，并在后面输入参考文献的各项内容。这样，我们在保证参考文献标注格式符合要求的同时，完成了参考文献部分的编写。 对着参考文献前面的“1”双击，光标就回到了文章内容中插入参考文献的地方，可以继续写文章了。   <strong>第三部分 文章的美化</strong> 以上的修改内容完成后，我们便完成了参考文献标注（尾注）的全部工作。但是，通过菜单“文件（F）”→“打印预览（V）”，可以看到，在尾注前边有一条线段分割线，如果参考文献跨页了，在跨页的地方还有一条长横线，这些线无法选中，也无法删除。这是尾注的标志，但一般科技论文格式中都不能有这样的线，所以一定要把它们删除。 这一部分，将详细讲讲，如何删除这两条横线： 6. 切换到普通视图，可以点击页面左下方的“<img src="http://image48.360doc.com/DownloadImg/2011/12/1216/19975275_5.png" alt="【小技巧】word尾注，教你如何自动标注参考文献 - 羊小吉 - Chem"> ”，也可以通过菜单栏中“视图（V）”→“普通（N）”进行切换。 再通过“视图（V）”→“脚注（F）”，在页面最下方展开尾注的编辑栏。 （1）在尾注右边的下拉菜单中选择“尾注分隔符”，这时那条短横线出现了，选中它，删除。 （2）再在下拉菜单中选择“尾注延续分隔符”，这是那条长横线出现了，选中它，删除。 最后，切换回到页面视图，参考文献插入已经完成了。   全部工作真正完成！恭喜恭喜！ 这时，无论文章如何改动，参考文献都会自动地排好序了。如果删除了，后面的参考文献也会自动消失，绝不出错。当参考文献越多，这种方法的优势就体现的越大。 特别是对于我们这一类经常写文章的人来说，这一个方法是不是特别的实用呢？呵呵，常常关注我的博客吧~   最后，是参考文献代码 （1）参考文献类型：专著［M］，论文集［C］，报纸文章［N］，期刊文章［J］，学位论文［D］，报告［R］，标准［S］，专利［P］，论文集中的文献［A］ （2）电子文献类型：数据库［DB］，计算机［CP］，电子公告［EB］ （3）电子文献的载体类型：互联网［OL］，光盘［CD］，磁带［MT］，磁盘［DK］       那么。。。。这么复杂的话还是放弃吧。。。 简单方法是，百度学术里有引用的功能，如图 <img src="http://www.xuzizi.cn/wp-content/uploads/2017/05/360%E6%88%AA%E5%9B%BE20170511220558862.jpg"></p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2017/05/11/add-equation-numbers-to-microsoft-word-equations/" rel="prev" title="如何在 Word 中插入公式时自动编号？">
+                  <i class="fa fa-chevron-left"></i> 如何在 Word 中插入公式时自动编号？
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2017/05/11/124/" rel="next" title="去掉word中尾注上面的横线和空行">
+                  去掉word中尾注上面的横线和空行 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="beian"><a href="https://beian.miit.gov.cn/" rel="noopener" target="_blank">京ICP备16014697号-1 </a>
+  </div>
+
+<div class="copyright">
+  &copy; 2012 – 
+  <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Fred Xu</span>
+</div>
+<div class="wordcount">
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-line"></i>
+    </span>
+    <span title="站点总字数">61k</span>
+  </span>
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    <span title="站点阅读时长">56 分钟</span>
+  </span>
+</div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/next-boot.js"></script>
+
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.0/search.js" integrity="sha256-vXZMYLEqsROAXkEw93GGIvaB2ab+QW6w3+1ahD9nXXA=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+
+
+  
+
+
+
+
+
+</body>
+</html>

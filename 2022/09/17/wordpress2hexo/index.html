@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 6.3.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <meta name="google-site-verification" content="s9zKjz7EjWFDMD6hy-KzeXJQp8kJ0U_JGlbCgkrudmI">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha256-AbA177XfpSnFEvgpYu1jMygiLabzPCJCRIBtR5jGc0k=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"www.xuzizi.cn","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.13.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="付费了5年之后，终于还是决定停掉阿里云虚机了，尽管这里只是一个没人访问的小站，但是经常性宕机真的不可接受。这次迁移干脆也抛弃臃肿的WordPress，考虑平时记录主要使用Markdown，所以选用了Hexo+Github Action自动生成静态页面，干净又卫生。 本地安装Hexo环境准备首先，需要安装node.js、npm和Git  Git可直接下载安装包进行安装。点击下载。安装后，需要下载xc">
+<meta property="og:type" content="article">
+<meta property="og:title" content="从WordPress迁移到Hexo">
+<meta property="og:url" content="http://www.xuzizi.cn/2022/09/17/wordpress2hexo/index.html">
+<meta property="og:site_name" content="Fred&#39;s Blog">
+<meta property="og:description" content="付费了5年之后，终于还是决定停掉阿里云虚机了，尽管这里只是一个没人访问的小站，但是经常性宕机真的不可接受。这次迁移干脆也抛弃臃肿的WordPress，考虑平时记录主要使用Markdown，所以选用了Hexo+Github Action自动生成静态页面，干净又卫生。 本地安装Hexo环境准备首先，需要安装node.js、npm和Git  Git可直接下载安装包进行安装。点击下载。安装后，需要下载xc">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2022-09-17T05:26:00.000Z">
+<meta property="article:modified_time" content="2023-05-22T06:38:37.264Z">
+<meta property="article:author" content="Fred Xu">
+<meta property="article:tag" content="WordPress">
+<meta property="article:tag" content="网站">
+<meta property="article:tag" content="Hexo">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="http://www.xuzizi.cn/2022/09/17/wordpress2hexo/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://www.xuzizi.cn/2022/09/17/wordpress2hexo/","path":"2022/09/17/wordpress2hexo/","title":"从WordPress迁移到Hexo"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>从WordPress迁移到Hexo | Fred's Blog</title>
+  
+
+  <script src="/js/third-party/analytics/baidu-analytics.js"></script>
+  <script async src="https://hm.baidu.com/hm.js?b51acbabd1ce9c167d6d08b300610887"></script>
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">Fred's Blog</p>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9C%AC%E5%9C%B0%E5%AE%89%E8%A3%85Hexo"><span class="nav-number">1.</span> <span class="nav-text">本地安装Hexo</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%8E%AF%E5%A2%83%E5%87%86%E5%A4%87"><span class="nav-number">1.1.</span> <span class="nav-text">环境准备</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8D%9A%E5%AE%A2%E5%88%9D%E5%A7%8B%E5%8C%96"><span class="nav-number">1.2.</span> <span class="nav-text">博客初始化</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%85%E4%B8%BB%E9%A2%98"><span class="nav-number">1.3.</span> <span class="nav-text">安装主题</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BB%8EWordPress%E8%BF%81%E7%A7%BB%E5%88%B0Hexo"><span class="nav-number">2.</span> <span class="nav-text">从WordPress迁移到Hexo</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Github-Action-%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0%E9%A1%B5%E9%9D%A2"><span class="nav-number">3.</span> <span class="nav-text">Github Action 自动更新页面</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D"><span class="nav-number">4.</span> <span class="nav-text">绑定域名</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Fred Xu</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">47</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">15</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">43</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://www.xuzizi.cn/2022/09/17/wordpress2hexo/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Fred Xu">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Fred's Blog">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="从WordPress迁移到Hexo | Fred's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          从WordPress迁移到Hexo
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2022-09-17 13:26:00" itemprop="dateCreated datePublished" datetime="2022-09-17T13:26:00+08:00">2022-09-17</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2023-05-22 14:38:37" itemprop="dateModified" datetime="2023-05-22T14:38:37+08:00">2023-05-22</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E5%BB%BA%E7%AB%99/" itemprop="url" rel="index"><span itemprop="name">建站</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>1.6k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>1 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p>付费了5年之后，终于还是决定停掉阿里云虚机了，尽管这里只是一个没人访问的小站，但是经常性宕机真的不可接受。这次迁移干脆也抛弃臃肿的WordPress，考虑平时记录主要使用Markdown，所以选用了Hexo+Github Action自动生成静态页面，干净又卫生。</p>
+<h2 id="本地安装Hexo"><a href="#本地安装Hexo" class="headerlink" title="本地安装Hexo"></a>本地安装Hexo</h2><h3 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h3><p>首先，需要安装node.js、npm和Git</p>
+<ul>
+<li>Git可直接下载安装包进行安装。<a href="https://link.zhihu.com/?target=https://git-scm.com/downloads">点击下载</a>。安装后，需要下载xcode才可以。否则在使用中会遇到错误。这里我出现的问题是起初没有下载xcode，在后面初始化的时候，一直提示找不到Git，下载了xcode也不行，后来我打开了xcode，然后在关闭，就可以了。因为是小白，具体原因不明</li>
+<li>接下来安装node.js。打开终端，输入命令</li>
+</ul>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+
+<p>这里遇到的问题是，提示没有权限，于是在上面的命令增加了sudo，如下:</p>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>然后安装node.js。我也是直接下载安装程序来进行安装的。<a href="https://link.zhihu.com/?target=https://nodejs.org/en/">点击下载</a></li>
+<li>安装完后，可输入以下命令进行检查，输入每个命令后，都会弹出相应版本号。</li>
+</ul>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">node -v</span><br><span class="line"></span><br><span class="line">npm -v</span><br><span class="line"></span><br><span class="line">Git --version</span><br></pre></td></tr></table></figure>
+
+<p>然后在进行安装hexo，输入以下命令即可，遇到的问题与安装node.js类似。所以直接加了sudo</p>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo npm install -g hexo</span><br></pre></td></tr></table></figure>
+
+<h3 id="博客初始化"><a href="#博客初始化" class="headerlink" title="博客初始化"></a>博客初始化</h3><p>首先创建一个文件夹，该文件夹用于存储博客的文件。然后通过终端，进入到该文件夹，命令如下：</p>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd youblogfiles</span><br></pre></td></tr></table></figure>
+
+<p>然后初始化本地博客，输入以下命令。初始化时，切记文件夹要空的才可以，否则会初始化失败。若失败了建议删除文件夹在重新创建。</p>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure>
+
+<p>完成后在进行安装npm</p>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo npm install</span><br></pre></td></tr></table></figure>
+
+<p>执行下述命令生成本地网页文件并开启服务器，然后通过<a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000</a> 查看本地博客。</p>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="安装主题"><a href="#安装主题" class="headerlink" title="安装主题"></a>安装主题</h3><p>这里选用了<a target="_blank" rel="noopener" href="https://github.com/next-theme/hexo-theme-next">hexo-theme-next</a>：</p>
+<p>If you’re using Hexo 5.0 or later, the simplest way to install is through npm:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ cd hexo-site</span><br><span class="line">$ npm install hexo-theme-next</span><br></pre></td></tr></table></figure>
+
+<p>Or you can clone the entire repository:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ cd hexo-site</span><br><span class="line">$ git clone https://github.com/next-theme/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure>
+
+<p>See <a target="_blank" rel="noopener" href="https://theme-next.js.org/docs/getting-started/installation.html">detailed installation instructions</a> if you want any other variant.</p>
+<p>After the installation, open Hexo config file and set <code>theme</code> variable to <code>next</code>.</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">theme: next</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="从WordPress迁移到Hexo"><a href="#从WordPress迁移到Hexo" class="headerlink" title="从WordPress迁移到Hexo"></a>从WordPress迁移到Hexo</h2><p>首先，安装 <code>hexo-migrator-wordpress</code> 插件。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-migrator-wordpress --save</span><br></pre></td></tr></table></figure>
+
+<p>在 WordPress 仪表盘中导出数据(“Tools” → “Export” → “WordPress”)（详情参考<a target="_blank" rel="noopener" href="https://wordpress.com/zh-cn/support/export/">WP支持页面</a>）。</p>
+<p>插件安装完成后，执行下列命令来迁移所有文章。<code>source</code> 可以是 WordPress 导出的文件路径或网址。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo migrate wordpress &lt;source&gt;</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="Github-Action-自动更新页面"><a href="#Github-Action-自动更新页面" class="headerlink" title="Github Action 自动更新页面"></a>Github Action 自动更新页面</h2><p>Gihub Action搭建 Hexo的教程有很多。</p>
+<p>原理是源码放在私有仓库，更新时通过Github Action自动生成静态化页面同步到 username.github.io页面。</p>
+<p>这里不再赘述。</p>
+<h2 id="绑定域名"><a href="#绑定域名" class="headerlink" title="绑定域名"></a>绑定域名</h2><p>这里没什么难度，需要注意的一点是，在xx.github.io下设置cname会在更新内容是被清洗掉。</p>
+<p>需要将CNAME文件放到源文件的source下，便可在更新时同步过来。</p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/WordPress/" rel="tag"># WordPress</a>
+              <a href="/tags/%E7%BD%91%E7%AB%99/" rel="tag"># 网站</a>
+              <a href="/tags/Hexo/" rel="tag"># Hexo</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2018/11/17/transmission-web-control-404/" rel="prev" title="折腾Qnap / Transmission 安装  / Web control 更新">
+                  <i class="fa fa-chevron-left"></i> 折腾Qnap / Transmission 安装  / Web control 更新
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2022/09/18/git/" rel="next" title="Git常用命令记录">
+                  Git常用命令记录 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="beian"><a href="https://beian.miit.gov.cn/" rel="noopener" target="_blank">京ICP备16014697号-1 </a>
+  </div>
+
+<div class="copyright">
+  &copy; 2012 – 
+  <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Fred Xu</span>
+</div>
+<div class="wordcount">
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-line"></i>
+    </span>
+    <span title="站点总字数">61k</span>
+  </span>
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    <span title="站点阅读时长">56 分钟</span>
+  </span>
+</div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/next-boot.js"></script>
+
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.0/search.js" integrity="sha256-vXZMYLEqsROAXkEw93GGIvaB2ab+QW6w3+1ahD9nXXA=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+
+
+  
+
+
+
+
+
+</body>
+</html>

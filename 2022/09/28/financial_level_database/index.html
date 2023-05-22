@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 6.3.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <meta name="google-site-verification" content="s9zKjz7EjWFDMD6hy-KzeXJQp8kJ0U_JGlbCgkrudmI">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha256-AbA177XfpSnFEvgpYu1jMygiLabzPCJCRIBtR5jGc0k=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"www.xuzizi.cn","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.13.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="如何选择金融级云数据平台？一个简单的银行转账操作会产生多少数据的流动呢？  在用户转账行为的同时，考虑到转账资金的安全性，银行可能会需要存储本次用户转账的时间、金额、位置等数据，通过反欺诈应用系统进行风险预警与交易阻断，当大量用户的转账行为同时发生时，会有大量并发的数据涌入。 转账完成后短暂时间里，交易双方会有转账相关信息的查询需求，确认资金正确的交易，银行可能会需要按用户需求提供部分时间段的交易">
+<meta property="og:type" content="article">
+<meta property="og:title" content="如何选择金融级云数据平台">
+<meta property="og:url" content="http://www.xuzizi.cn/2022/09/28/financial_level_database/index.html">
+<meta property="og:site_name" content="Fred&#39;s Blog">
+<meta property="og:description" content="如何选择金融级云数据平台？一个简单的银行转账操作会产生多少数据的流动呢？  在用户转账行为的同时，考虑到转账资金的安全性，银行可能会需要存储本次用户转账的时间、金额、位置等数据，通过反欺诈应用系统进行风险预警与交易阻断，当大量用户的转账行为同时发生时，会有大量并发的数据涌入。 转账完成后短暂时间里，交易双方会有转账相关信息的查询需求，确认资金正确的交易，银行可能会需要按用户需求提供部分时间段的交易">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://www.xuzizi.cn/image/202209271528824.png">
+<meta property="og:image" content="http://www.xuzizi.cn/image/202209301748910.png">
+<meta property="og:image" content="http://www.xuzizi.cn/image/202209301723389.png">
+<meta property="article:published_time" content="2022-09-28T15:07:26.000Z">
+<meta property="article:modified_time" content="2023-05-22T06:38:37.260Z">
+<meta property="article:author" content="Fred Xu">
+<meta property="article:tag" content="数据库">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://www.xuzizi.cn/image/202209271528824.png">
+
+
+<link rel="canonical" href="http://www.xuzizi.cn/2022/09/28/financial_level_database/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://www.xuzizi.cn/2022/09/28/financial_level_database/","path":"2022/09/28/financial_level_database/","title":"如何选择金融级云数据平台"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>如何选择金融级云数据平台 | Fred's Blog</title>
+  
+
+  <script src="/js/third-party/analytics/baidu-analytics.js"></script>
+  <script async src="https://hm.baidu.com/hm.js?b51acbabd1ce9c167d6d08b300610887"></script>
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">Fred's Blog</p>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%A6%82%E4%BD%95%E9%80%89%E6%8B%A9%E9%87%91%E8%9E%8D%E7%BA%A7%E4%BA%91%E6%95%B0%E6%8D%AE%E5%B9%B3%E5%8F%B0%EF%BC%9F"><span class="nav-number">1.</span> <span class="nav-text">如何选择金融级云数据平台？</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%87%91%E8%9E%8D%E8%A1%8C%E4%B8%9A%E9%9C%80%E8%A6%81%E4%BB%80%E4%B9%88%E6%A0%B7%E7%9A%84%E6%95%B0%E6%8D%AE%E5%BA%93%EF%BC%9F"><span class="nav-number">1.1.</span> <span class="nav-text">金融行业需要什么样的数据库？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%87%91%E8%9E%8D%E7%BA%A7%E5%88%86%E5%B8%83%E5%BC%8F%E6%95%B0%E6%8D%AE%E5%BA%93%E8%B7%9F%E6%99%AE%E9%80%9A%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E5%8C%BA%E5%88%AB%EF%BC%9F"><span class="nav-number">1.2.</span> <span class="nav-text">金融级分布式数据库跟普通数据库的区别？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#OushuDB%E2%80%94%E2%80%94%E4%BA%91%E5%8E%9F%E7%94%9F%E6%95%B0%E6%8D%AE%E5%BA%93%E6%96%B0%E9%94%90%E7%8B%AC%E8%A7%92%E5%85%BD"><span class="nav-number">1.3.</span> <span class="nav-text">OushuDB——云原生数据库新锐独角兽</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BB%80%E4%B9%88%E6%98%AFOushuDB%EF%BC%9F"><span class="nav-number">1.3.1.</span> <span class="nav-text">什么是OushuDB？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9F%BA%E4%BA%8EOushuDB%E7%9A%84%E5%AE%9E%E6%97%B6%E6%B9%96%E4%BB%93%E4%B8%80%E4%BD%93%E6%96%B9%E6%A1%88"><span class="nav-number">1.3.2.</span> <span class="nav-text">基于OushuDB的实时湖仓一体方案</span></a></li></ol></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Fred Xu</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">47</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">15</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">43</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://www.xuzizi.cn/2022/09/28/financial_level_database/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Fred Xu">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Fred's Blog">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="如何选择金融级云数据平台 | Fred's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          如何选择金融级云数据平台
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2022-09-28 23:07:26" itemprop="dateCreated datePublished" datetime="2022-09-28T23:07:26+08:00">2022-09-28</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2023-05-22 14:38:37" itemprop="dateModified" datetime="2023-05-22T14:38:37+08:00">2023-05-22</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/" itemprop="url" rel="index"><span itemprop="name">数据库</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>3.5k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>3 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <h1 id="如何选择金融级云数据平台？"><a href="#如何选择金融级云数据平台？" class="headerlink" title="如何选择金融级云数据平台？"></a>如何选择金融级云数据平台？</h1><p>一个简单的银行转账操作会产生多少数据的流动呢？</p>
+<ul>
+<li>在用户转账行为的同时，考虑到转账资金的安全性，银行可能会需要存储本次用户转账的时间、金额、位置等数据，通过反欺诈应用系统进行风险预警与交易阻断，当大量用户的转账行为同时发生时，会有大量并发的数据涌入。</li>
+<li>转账完成后短暂时间里，交易双方会有转账相关信息的查询需求，确认资金正确的交易，银行可能会需要按用户需求提供部分时间段的交易流水信息。</li>
+<li>在一些较长时间的间隔里，银行还可能会对用户的转账的数据进行分析统计、进行用户画像，以便于银行相关的业务决策。</li>
+</ul>
+<p>在这个过程中涉及到数据库的实时流处理、实时按需分析、离线分析等复杂需求，如果没有高效的数据平台支撑，很难保障数据分析和应用的有效性和安全性，甚至会对企业对企业数字化战略造成重大影响。</p>
+<h2 id="金融行业需要什么样的数据库？"><a href="#金融行业需要什么样的数据库？" class="headerlink" title="金融行业需要什么样的数据库？"></a>金融行业需要什么样的数据库？</h2><p>信通院于2021年发布了《金融级分布式数据库白皮书》，报告中指出金融行业普遍对数据库的安全性、可靠性、稳定性有着全行业最为严苛的要求，因此，满足金融行业需求的金融级数据库产品几乎成为所有行业中的标杆。报告认为金融级分布式数据库是能够满足金融级要求的<strong>高可用、高性能、低成本、线性水平扩展、企业级安全、便捷性运维</strong>的分布式数据库。</p>
+<h2 id="金融级分布式数据库跟普通数据库的区别？"><a href="#金融级分布式数据库跟普通数据库的区别？" class="headerlink" title="金融级分布式数据库跟普通数据库的区别？"></a>金融级分布式数据库跟普通数据库的区别？</h2><p>报告认为，虽然分布式数据库起源于互联网行业，但是金融级业务数据的价值较高，对数据库的<strong>高可用、强一致、低时延、可扩展性、高容灾性、供应链安全性</strong>等要求更为严苛。这也是金融级分布式数据库与普通分布式数据库的主要不同点。</p>
+<p><img src="/../image/202209271528824.png" alt="image-20220927152800711"></p>
+<p>那么，要达到金融级分布式数据库的要求，需要做到满足：</p>
+<ol>
+<li><strong>数据强一致性</strong>的需求：金融级分布式数据库通常用于存储各行业的核心数据，其任意一笔数据错乱、丢失将带来严重影响。因此即使在某些软件故障、硬件异常的情况下，数据库都应保证数据的强一致性。</li>
+<li><strong>业务连续性</strong>和数据可靠性的需求：金融级分布式数据库服务于涉及国计民生的重要业务系统，其对运行连续性要求异常严格。此要求来自于金融业，也来自于政务、大型企业本身需求、监管机构要求和用户舆论压力等。数据库作为业务系统的基础，其通用的可用性要求在 99.999% 以上。为确保在异常情况下数据不丢失、不错乱，即使极端异常情况仍需确保数据的留存，金融级分布式数据库的可靠性通常要求在 99.999999% 以上。</li>
+<li><strong>快速扩展、敏捷迭代</strong>的需求：在金融级场景中，存在短时间用户规模增大或业务迭代需求强劲的情况，金融级数据库要求适配上述场景，即数据库具有快速扩展的能力， 同时业务系统要具备快速匹配的敏捷迭代能力。而在传统建设模型中，快速扩展、敏捷迭代几乎是不可行的。因此分布式、微服务、标准开发框架等开始在金融级数据库中得到普及与推广。</li>
+<li><strong>低成本与云计算</strong>的需求：金融级业务种类繁多，随着时间增长数据也会快速增加，带来支撑性数据库变得越来越庞大。这意味着如果每个系统都按照传统商用数据库建设标准来建设，会带来极高的成本。因此云计算环境的金融级数据库的集约模式建设方案正逐步成为主流趋势。</li>
+<li>高端服务器等<strong>供应链风险</strong>：受国际政治格局影响，采购国外高端服务器（芯片）等存在诸多不确定性。一旦出现国外服务器（芯片）断供，可能导致严重的后果。而短期内，国内对于芯片的供应可能仅在 28nm 或者更低的水平，单一服务器的算力不足会对金融业务建设系统带来诸多问题。</li>
+</ol>
+<h2 id="OushuDB——云原生数据库新锐独角兽"><a href="#OushuDB——云原生数据库新锐独角兽" class="headerlink" title="OushuDB——云原生数据库新锐独角兽"></a>OushuDB——云原生数据库新锐独角兽</h2><p>了解了金融行业的需求，以及金融级数据库产品的定义，我们来看看云原生数据库新锐准独角兽偶数科技如何通过OushuDB逐条破解难题。</p>
+<h3 id="什么是OushuDB？"><a href="#什么是OushuDB？" class="headerlink" title="什么是OushuDB？"></a>什么是OushuDB？</h3><p>OushuDB是由偶数科技自主研发的新一代极速云原生架构的分布式数据库，支持高并发，高吞吐，高性能的弹性计算。OushuDB兼容国产软硬件平台，符合国家信创标准，支持各大公有云和私有云。通过计算存储分离架构解决了传统数据库高成本、低性能、高门槛、难维护、难扩展的问题。</p>
+<p>OushuDB具有以下特点：</p>
+<p><strong>云原生</strong>：采用计算存储分离架构，利用云服务器、分布式存储，对数据基础设施的可扩展性进行深度优化，充分满足云端应用高度弹性、无限扩容的要求。支持腾讯云、阿里云、华为云、金山云、微软Azure、AWS等主流云平台。</p>
+<p><strong>高性能</strong>：面向PB级大数据的复杂查询，相比MPP和SQL-on-Hadoop快一个数量级。全新设计的执行器让性能提升5~10倍，显著降低批处理和即席查询所需的时间。</p>
+<p><strong>强兼容</strong>：具备完善的SQL标准和ACID特性，支持HDFS和多种对象存储的增删改查、以及偶数自研的Magma存储。兼容基于Oracle，PostgreSQL，Greenplum开发的数字应用，用户可以轻松实现不同数据基础设施的平稳迁移。</p>
+<p><strong>自主可控</strong>：OushuDB由国内顶尖数据库内核研发团队自主开发，符合国家信创标准。偶数研发团队曾主导国际顶级的数据库开源项目。</p>
+<p><strong>应用广</strong>：OushuDB已在金融、电信、政府、制造、互联网等行业的数百家头部企业得到广泛应用，助力各类企业完成数字化转型。</p>
+<p>可以说，OushuDB数据库所具有的高可用、高性能、低成本、易扩展、自主可控的特性，完全符合金融级分布式数据库的定义，并满足金融行业的业务需求。借助OushuDB作为底座，更可以快速搭建偶数科技的湖仓一体和实时湖仓方案。</p>
+<h3 id="基于OushuDB的实时湖仓一体方案"><a href="#基于OushuDB的实时湖仓一体方案" class="headerlink" title="基于OushuDB的实时湖仓一体方案"></a>基于OushuDB的实时湖仓一体方案</h3><p>什么是湖仓一体方案呢？</p>
+<p> 在企业进行湖仓一体化探索时，可能对原有的IT系统和平台产生路径依赖，从而选择采用湖仓分体的技术模式，即湖是湖，仓是仓，而这个各自独立部署，数据通过ETL的方式打通，即业内常常提到的Hadoop+MPP模式。这种方式尽管在逻辑上可以为用户提供统一的数据管理能力，但在物理层面数据湖和数据仓库仍然是分离的，同一份数据可能分别存在于多个存储集群中，从而不可避免的形成数据孤岛。而在企业克服湖仓分体模式带来的种种弊端的过程中，又可能进一步催生ETL逻辑复杂、数据变更困难、数据不一致等一系列实施与运维问题，最终不仅无法最大化湖仓性能，还极大增加了管理运维成本。</p>
+<p>偶数科技研发的OushuDB创新性的采用了存算分离的云原生架构，突破了传统MPP和Hadoop的局限，将计算和存储部署在不同的物理集群中，使得计算和存储资源可以独立的弹性伸缩；通过构建虚拟计算集群，OushuDB可以在数十万节点的超大规模集群上满足高并发需求，形成了统一的数据体系，不仅使得湖仓更适应云环境，还降低了用户的成本；通过支持分布式表存储Magma，OushuDB的计算引擎便于实现快照视图，能够高效实现实时查询需求，从而在性能和事务方面的支持更加完善。</p>
+<p><img src="/../image/202209301748910.png" alt="image-20220930172357179"></p>
+<p>（偶数科技湖仓一体化解决方案） </p>
+<p>为了同时满足实时流处理、实时按需分析和离线分析需求，偶数科技独创性的探索出了Omega全实时数据处理架构。Omega架构通过流处理系统WASP实现实时连续的流处理或批流一体处理，并通过存储于实时数仓的快照视图完成实时查询，从而解决了传统Kappa架构落地困难、Lambda架构难以保证数据一致性的问题，并极大简化了数据架构。</p>
+<p> <img src="/../image/202209301723389.png" alt="image-20220930172346552"></p>
+<p>（Omega架构逻辑图）</p>
+<p>满足用户“既要也要”的要求，偶数科技的突破性技术和前瞻性观点并非空中楼阁，而是以多年的行业实践和用户洞察为基础支点形成的经验沉淀。偶数科技正在赋能用户的过程中不断完成自我迭代，探索最佳实践。</p>
+<p>结语：</p>
+<p>作为企业数字化转型的先锋行业，银行业自80-90年代起就已经开始了信息化探索，在自手工统计到信息化再到数智化的较长技术发展过程中，大多数的银行形成了较为复杂的技术体系。偶数科技率先洞察到了银行面对大数据时代的高性能、安全性、可靠性、稳定性需求，早在2020年就与建设银行成立了高性能大数据联合实验室，共同探索金融级数据平台的实施路径。</p>
+<p>银行业是所有行业中对应用的自主可控、高可用、高可靠性的要求最高的领域之一，偶数科技解决方案在银行业的落地正是其技术实力和对用户痛点理解力的明证。除了银行业以外，截至目前，偶数科技的产品和解决方案已在非银金融、电信、政府、能源、制造和互联网等行业中被广泛的部署和应用。同时，其商业模式的可行性与成长性也得到了资本的认可，连续获得了国内顶级投资机构红杉中国、腾讯、红点中国与金山云的四轮投资。</p>
+<p>而随着未来物联网、工业互联网的逐步建立，大数据领域将面临越来越广的数据来源、越来越大的数据量、越来越多的非结构化数据、越来越丰富的应用场景和越来越复杂的技术栈，大数据处理和分析的难度将进一步提升。集合了众多组件的强大能力，OushuDB已然成为企业打造金融级数据库平台的最佳选择之一，将会持续的为包括金融在内的等众多行业用户提供更加优秀的数据服务。</p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/" rel="tag"># 数据库</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2022/09/18/git/" rel="prev" title="Git常用命令记录">
+                  <i class="fa fa-chevron-left"></i> Git常用命令记录
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2022/10/01/Sphinx/" rel="next" title="Sphinx搭建命令整理">
+                  Sphinx搭建命令整理 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="beian"><a href="https://beian.miit.gov.cn/" rel="noopener" target="_blank">京ICP备16014697号-1 </a>
+  </div>
+
+<div class="copyright">
+  &copy; 2012 – 
+  <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Fred Xu</span>
+</div>
+<div class="wordcount">
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-line"></i>
+    </span>
+    <span title="站点总字数">61k</span>
+  </span>
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    <span title="站点阅读时长">56 分钟</span>
+  </span>
+</div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/next-boot.js"></script>
+
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.0/search.js" integrity="sha256-vXZMYLEqsROAXkEw93GGIvaB2ab+QW6w3+1ahD9nXXA=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+
+
+  
+
+
+
+
+
+</body>
+</html>

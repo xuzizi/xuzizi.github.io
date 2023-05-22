@@ -1,0 +1,1408 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 6.3.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <meta name="google-site-verification" content="s9zKjz7EjWFDMD6hy-KzeXJQp8kJ0U_JGlbCgkrudmI">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha256-AbA177XfpSnFEvgpYu1jMygiLabzPCJCRIBtR5jGc0k=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"www.xuzizi.cn","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.13.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta property="og:type" content="website">
+<meta property="og:title" content="Fred&#39;s Blog">
+<meta property="og:url" content="http://www.xuzizi.cn/index.html">
+<meta property="og:site_name" content="Fred&#39;s Blog">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="Fred Xu">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="http://www.xuzizi.cn/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"zh-CN","comments":"","permalink":"","path":"index.html","title":""}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>Fred's Blog</title>
+  
+
+  <script src="/js/third-party/analytics/baidu-analytics.js"></script>
+  <script async src="https://hm.baidu.com/hm.js?b51acbabd1ce9c167d6d08b300610887"></script>
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">Fred's Blog</h1>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-overview-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Fred Xu</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">47</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">15</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">43</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner index posts-expand">
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://www.xuzizi.cn/2023/05/22/macOS_sshpass/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Fred Xu">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Fred's Blog">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | Fred's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2023/05/22/macOS_sshpass/" class="post-title-link" itemprop="url">未命名</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2023-05-22 14:38:37" itemprop="dateCreated datePublished" datetime="2023-05-22T14:38:37+08:00">2023-05-22</time>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>284</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>1 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h1 id="MacOS下安装sshpass工具"><a href="#MacOS下安装sshpass工具" class="headerlink" title="MacOS下安装sshpass工具"></a>MacOS下安装sshpass工具</h1><p>由于安全原因，在macOS新版本中无法直接通过<code>brew install sshpass</code>命令安装，只能通过源码安装。</p>
+<p>下载源码包到本地</p>
+<p><code>wget https://udomain.dl.sourceforge.net/project/sshpass/sshpass/1.10/sshpass-1.10.tar.gz</code></p>
+<p>解压并切换到安装包目录</p>
+<p><code>tar xzvf sshpass-1.10.tar.gz</code><br><code>cd sshpass-1.10</code></p>
+<p>编译并编译安装</p>
+<p><code>./configure</code><br><code>sudo make&amp;&amp;sudo make install</code></p>
+<p>检查是否安装成功</p>
+<p><code>sshpass</code></p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://www.xuzizi.cn/2022/10/01/Sphinx/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Fred Xu">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Fred's Blog">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | Fred's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2022/10/01/Sphinx/" class="post-title-link" itemprop="url">Sphinx搭建命令整理</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2022-10-01 21:07:26" itemprop="dateCreated datePublished" datetime="2022-10-01T21:07:26+08:00">2022-10-01</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2023-05-22 14:38:37" itemprop="dateModified" datetime="2023-05-22T14:38:37+08:00">2023-05-22</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E5%BB%BA%E7%AB%99/" itemprop="url" rel="index"><span itemprop="name">建站</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>94</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>1 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>Sphinx</p>
+<p>sphinx-autobuild zh build&#x2F;html –port 8019 </p>
+<p>sphinx-autobuild source build&#x2F;html –port 8009 </p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://www.xuzizi.cn/2022/09/28/financial_level_database/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Fred Xu">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Fred's Blog">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | Fred's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2022/09/28/financial_level_database/" class="post-title-link" itemprop="url">如何选择金融级云数据平台</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2022-09-28 23:07:26" itemprop="dateCreated datePublished" datetime="2022-09-28T23:07:26+08:00">2022-09-28</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2023-05-22 14:38:37" itemprop="dateModified" datetime="2023-05-22T14:38:37+08:00">2023-05-22</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/" itemprop="url" rel="index"><span itemprop="name">数据库</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>3.5k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>3 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h1 id="如何选择金融级云数据平台？"><a href="#如何选择金融级云数据平台？" class="headerlink" title="如何选择金融级云数据平台？"></a>如何选择金融级云数据平台？</h1><p>一个简单的银行转账操作会产生多少数据的流动呢？</p>
+<ul>
+<li>在用户转账行为的同时，考虑到转账资金的安全性，银行可能会需要存储本次用户转账的时间、金额、位置等数据，通过反欺诈应用系统进行风险预警与交易阻断，当大量用户的转账行为同时发生时，会有大量并发的数据涌入。</li>
+<li>转账完成后短暂时间里，交易双方会有转账相关信息的查询需求，确认资金正确的交易，银行可能会需要按用户需求提供部分时间段的交易流水信息。</li>
+<li>在一些较长时间的间隔里，银行还可能会对用户的转账的数据进行分析统计、进行用户画像，以便于银行相关的业务决策。</li>
+</ul>
+<p>在这个过程中涉及到数据库的实时流处理、实时按需分析、离线分析等复杂需求，如果没有高效的数据平台支撑，很难保障数据分析和应用的有效性和安全性，甚至会对企业对企业数字化战略造成重大影响。</p>
+<h2 id="金融行业需要什么样的数据库？"><a href="#金融行业需要什么样的数据库？" class="headerlink" title="金融行业需要什么样的数据库？"></a>金融行业需要什么样的数据库？</h2><p>信通院于2021年发布了《金融级分布式数据库白皮书》，报告中指出金融行业普遍对数据库的安全性、可靠性、稳定性有着全行业最为严苛的要求，因此，满足金融行业需求的金融级数据库产品几乎成为所有行业中的标杆。报告认为金融级分布式数据库是能够满足金融级要求的<strong>高可用、高性能、低成本、线性水平扩展、企业级安全、便捷性运维</strong>的分布式数据库。</p>
+<h2 id="金融级分布式数据库跟普通数据库的区别？"><a href="#金融级分布式数据库跟普通数据库的区别？" class="headerlink" title="金融级分布式数据库跟普通数据库的区别？"></a>金融级分布式数据库跟普通数据库的区别？</h2><p>报告认为，虽然分布式数据库起源于互联网行业，但是金融级业务数据的价值较高，对数据库的<strong>高可用、强一致、低时延、可扩展性、高容灾性、供应链安全性</strong>等要求更为严苛。这也是金融级分布式数据库与普通分布式数据库的主要不同点。</p>
+<p><img src="/../image/202209271528824.png" alt="image-20220927152800711"></p>
+<p>那么，要达到金融级分布式数据库的要求，需要做到满足：</p>
+<ol>
+<li><strong>数据强一致性</strong>的需求：金融级分布式数据库通常用于存储各行业的核心数据，其任意一笔数据错乱、丢失将带来严重影响。因此即使在某些软件故障、硬件异常的情况下，数据库都应保证数据的强一致性。</li>
+<li><strong>业务连续性</strong>和数据可靠性的需求：金融级分布式数据库服务于涉及国计民生的重要业务系统，其对运行连续性要求异常严格。此要求来自于金融业，也来自于政务、大型企业本身需求、监管机构要求和用户舆论压力等。数据库作为业务系统的基础，其通用的可用性要求在 99.999% 以上。为确保在异常情况下数据不丢失、不错乱，即使极端异常情况仍需确保数据的留存，金融级分布式数据库的可靠性通常要求在 99.999999% 以上。</li>
+<li><strong>快速扩展、敏捷迭代</strong>的需求：在金融级场景中，存在短时间用户规模增大或业务迭代需求强劲的情况，金融级数据库要求适配上述场景，即数据库具有快速扩展的能力， 同时业务系统要具备快速匹配的敏捷迭代能力。而在传统建设模型中，快速扩展、敏捷迭代几乎是不可行的。因此分布式、微服务、标准开发框架等开始在金融级数据库中得到普及与推广。</li>
+<li><strong>低成本与云计算</strong>的需求：金融级业务种类繁多，随着时间增长数据也会快速增加，带来支撑性数据库变得越来越庞大。这意味着如果每个系统都按照传统商用数据库建设标准来建设，会带来极高的成本。因此云计算环境的金融级数据库的集约模式建设方案正逐步成为主流趋势。</li>
+<li>高端服务器等<strong>供应链风险</strong>：受国际政治格局影响，采购国外高端服务器（芯片）等存在诸多不确定性。一旦出现国外服务器（芯片）断供，可能导致严重的后果。而短期内，国内对于芯片的供应可能仅在 28nm 或者更低的水平，单一服务器的算力不足会对金融业务建设系统带来诸多问题。</li>
+</ol>
+<h2 id="OushuDB——云原生数据库新锐独角兽"><a href="#OushuDB——云原生数据库新锐独角兽" class="headerlink" title="OushuDB——云原生数据库新锐独角兽"></a>OushuDB——云原生数据库新锐独角兽</h2><p>了解了金融行业的需求，以及金融级数据库产品的定义，我们来看看云原生数据库新锐准独角兽偶数科技如何通过OushuDB逐条破解难题。</p>
+<h3 id="什么是OushuDB？"><a href="#什么是OushuDB？" class="headerlink" title="什么是OushuDB？"></a>什么是OushuDB？</h3><p>OushuDB是由偶数科技自主研发的新一代极速云原生架构的分布式数据库，支持高并发，高吞吐，高性能的弹性计算。OushuDB兼容国产软硬件平台，符合国家信创标准，支持各大公有云和私有云。通过计算存储分离架构解决了传统数据库高成本、低性能、高门槛、难维护、难扩展的问题。</p>
+<p>OushuDB具有以下特点：</p>
+<p><strong>云原生</strong>：采用计算存储分离架构，利用云服务器、分布式存储，对数据基础设施的可扩展性进行深度优化，充分满足云端应用高度弹性、无限扩容的要求。支持腾讯云、阿里云、华为云、金山云、微软Azure、AWS等主流云平台。</p>
+<p><strong>高性能</strong>：面向PB级大数据的复杂查询，相比MPP和SQL-on-Hadoop快一个数量级。全新设计的执行器让性能提升5~10倍，显著降低批处理和即席查询所需的时间。</p>
+<p><strong>强兼容</strong>：具备完善的SQL标准和ACID特性，支持HDFS和多种对象存储的增删改查、以及偶数自研的Magma存储。兼容基于Oracle，PostgreSQL，Greenplum开发的数字应用，用户可以轻松实现不同数据基础设施的平稳迁移。</p>
+<p><strong>自主可控</strong>：OushuDB由国内顶尖数据库内核研发团队自主开发，符合国家信创标准。偶数研发团队曾主导国际顶级的数据库开源项目。</p>
+<p><strong>应用广</strong>：OushuDB已在金融、电信、政府、制造、互联网等行业的数百家头部企业得到广泛应用，助力各类企业完成数字化转型。</p>
+<p>可以说，OushuDB数据库所具有的高可用、高性能、低成本、易扩展、自主可控的特性，完全符合金融级分布式数据库的定义，并满足金融行业的业务需求。借助OushuDB作为底座，更可以快速搭建偶数科技的湖仓一体和实时湖仓方案。</p>
+<h3 id="基于OushuDB的实时湖仓一体方案"><a href="#基于OushuDB的实时湖仓一体方案" class="headerlink" title="基于OushuDB的实时湖仓一体方案"></a>基于OushuDB的实时湖仓一体方案</h3><p>什么是湖仓一体方案呢？</p>
+<p> 在企业进行湖仓一体化探索时，可能对原有的IT系统和平台产生路径依赖，从而选择采用湖仓分体的技术模式，即湖是湖，仓是仓，而这个各自独立部署，数据通过ETL的方式打通，即业内常常提到的Hadoop+MPP模式。这种方式尽管在逻辑上可以为用户提供统一的数据管理能力，但在物理层面数据湖和数据仓库仍然是分离的，同一份数据可能分别存在于多个存储集群中，从而不可避免的形成数据孤岛。而在企业克服湖仓分体模式带来的种种弊端的过程中，又可能进一步催生ETL逻辑复杂、数据变更困难、数据不一致等一系列实施与运维问题，最终不仅无法最大化湖仓性能，还极大增加了管理运维成本。</p>
+<p>偶数科技研发的OushuDB创新性的采用了存算分离的云原生架构，突破了传统MPP和Hadoop的局限，将计算和存储部署在不同的物理集群中，使得计算和存储资源可以独立的弹性伸缩；通过构建虚拟计算集群，OushuDB可以在数十万节点的超大规模集群上满足高并发需求，形成了统一的数据体系，不仅使得湖仓更适应云环境，还降低了用户的成本；通过支持分布式表存储Magma，OushuDB的计算引擎便于实现快照视图，能够高效实现实时查询需求，从而在性能和事务方面的支持更加完善。</p>
+<p><img src="/../image/202209301748910.png" alt="image-20220930172357179"></p>
+<p>（偶数科技湖仓一体化解决方案） </p>
+<p>为了同时满足实时流处理、实时按需分析和离线分析需求，偶数科技独创性的探索出了Omega全实时数据处理架构。Omega架构通过流处理系统WASP实现实时连续的流处理或批流一体处理，并通过存储于实时数仓的快照视图完成实时查询，从而解决了传统Kappa架构落地困难、Lambda架构难以保证数据一致性的问题，并极大简化了数据架构。</p>
+<p> <img src="/../image/202209301723389.png" alt="image-20220930172346552"></p>
+<p>（Omega架构逻辑图）</p>
+<p>满足用户“既要也要”的要求，偶数科技的突破性技术和前瞻性观点并非空中楼阁，而是以多年的行业实践和用户洞察为基础支点形成的经验沉淀。偶数科技正在赋能用户的过程中不断完成自我迭代，探索最佳实践。</p>
+<p>结语：</p>
+<p>作为企业数字化转型的先锋行业，银行业自80-90年代起就已经开始了信息化探索，在自手工统计到信息化再到数智化的较长技术发展过程中，大多数的银行形成了较为复杂的技术体系。偶数科技率先洞察到了银行面对大数据时代的高性能、安全性、可靠性、稳定性需求，早在2020年就与建设银行成立了高性能大数据联合实验室，共同探索金融级数据平台的实施路径。</p>
+<p>银行业是所有行业中对应用的自主可控、高可用、高可靠性的要求最高的领域之一，偶数科技解决方案在银行业的落地正是其技术实力和对用户痛点理解力的明证。除了银行业以外，截至目前，偶数科技的产品和解决方案已在非银金融、电信、政府、能源、制造和互联网等行业中被广泛的部署和应用。同时，其商业模式的可行性与成长性也得到了资本的认可，连续获得了国内顶级投资机构红杉中国、腾讯、红点中国与金山云的四轮投资。</p>
+<p>而随着未来物联网、工业互联网的逐步建立，大数据领域将面临越来越广的数据来源、越来越大的数据量、越来越多的非结构化数据、越来越丰富的应用场景和越来越复杂的技术栈，大数据处理和分析的难度将进一步提升。集合了众多组件的强大能力，OushuDB已然成为企业打造金融级数据库平台的最佳选择之一，将会持续的为包括金融在内的等众多行业用户提供更加优秀的数据服务。</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://www.xuzizi.cn/2022/09/18/git/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Fred Xu">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Fred's Blog">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | Fred's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2022/09/18/git/" class="post-title-link" itemprop="url">Git常用命令记录</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2022-09-18 13:26:00" itemprop="dateCreated datePublished" datetime="2022-09-18T13:26:00+08:00">2022-09-18</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2023-05-22 14:38:37" itemprop="dateModified" datetime="2023-05-22T14:38:37+08:00">2023-05-22</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/tech/" itemprop="url" rel="index"><span itemprop="name">tech</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>1.7k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>2 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h2 id="获取最近一次修改的文件列表"><a href="#获取最近一次修改的文件列表" class="headerlink" title="获取最近一次修改的文件列表"></a>获取最近一次修改的文件列表</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git diff --name-only HEAD~ HEAD</span><br></pre></td></tr></table></figure>
+
+<h2 id="获取两次commit之间修改的文件"><a href="#获取两次commit之间修改的文件" class="headerlink" title="获取两次commit之间修改的文件"></a>获取两次commit之间修改的文件</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git diff --name-only &lt;commit-1&gt; &lt;commit-2&gt;</span><br></pre></td></tr></table></figure>
+
+<h2 id="远端reset"><a href="#远端reset" class="headerlink" title="远端reset"></a>远端reset</h2><p>一不小心push了一个错误，想要回到上一版本，可执行</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git reset --soft HEAD~1 </span><br></pre></td></tr></table></figure>
+<p>注：HEAD<del>1的意思是最近一个版本，也可以写成HEAD^<br>如果需要撤回最近两次提交的commit，可以使用HEAD</del>2，依次类推。</p>
+<p>此时通过 git log 可查看本地代码已经回退到 目标版本。</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push origin &lt;branch_name&gt;（例如master） -f</span><br></pre></td></tr></table></figure>
+<p>如果你是项目的owner，在本地master分支使用git rebase 或者 git reset撤销了一些commit之后，想要强制推送到远端，以使远端的记录也撤销掉。</p>
+<h2 id="git-pull-强制覆盖本地的代码"><a href="#git-pull-强制覆盖本地的代码" class="headerlink" title="git pull 强制覆盖本地的代码"></a>git pull 强制覆盖本地的代码</h2><p>从git上获取最新的代码，覆盖本地：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git fetch --all</span><br><span class="line">git reset --hard origin/&lt;branch_name&gt;</span><br><span class="line">git pull</span><br></pre></td></tr></table></figure>
+
+
+
+<p>说明：</p>
+<p>git fetch从远程下载最新的，而不尝试合并或rebase任何东西。</p>
+<p>然后git reset将主分支重置为您刚刚获取的内容。 –hard选项更改工作树中的所有文件以匹配origin&#x2F;master中的文件。</p>
+<p>git强制覆盖本地命令（单条执行）：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git fetch --all &amp;&amp; git reset --hard origin/master &amp;&amp; git pull</span><br></pre></td></tr></table></figure>
+
+<h2 id="error-Your-local-changes-to-the-following-files-would-be-overwritten-by-merge"><a href="#error-Your-local-changes-to-the-following-files-would-be-overwritten-by-merge" class="headerlink" title="error: Your local changes to the following files would be overwritten by merge"></a>error: Your local changes to the following files would be overwritten by merge</h2><p>意思是我电脑上新修改的代码的文件，将会被git服务器上的代码覆盖。</p>
+<p>方法1：如果你想保留刚才本地修改的代码，并把git服务器上的代码pull到本地（本地刚才修改的代码将会被暂时封存起来）</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git stash</span><br><span class="line">git pull origin master</span><br><span class="line">git stash pop</span><br></pre></td></tr></table></figure>
+
+
+<p>如此一来，服务器上的代码更新到了本地，而且你本地修改的代码也没有被覆盖，之后使用add，commit，push 命令即可更新本地代码到服务器了。</p>
+<p>方法2、如果你想完全地覆盖本地的代码，只保留服务器端代码，则直接回退到上一个版本，再进行pull：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git reset --hard</span><br><span class="line">git pull origin master</span><br></pre></td></tr></table></figure>
+
+<p>注：其中origin master表示git的主分支。</p>
+<h2 id="Git撤销上一次push的版本"><a href="#Git撤销上一次push的版本" class="headerlink" title="Git撤销上一次push的版本"></a>Git撤销上一次push的版本</h2><p>可以用git log 查看你要回到的那个版本</p>
+<p>接着用</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git reset --hard HEAD^ 回退到上个版本</span><br><span class="line">git reset --hard commit_id 退到/进到 指定commit_id</span><br></pre></td></tr></table></figure>
+
+<p>最后将本地的修改提交到远程</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push origin HEAD --force</span><br></pre></td></tr></table></figure>
+
+<p>当你回滚之后，又后悔了，想恢复到新的版本怎么办？</p>
+<p>用git reflog打印你记录你的每一次操作记录</p>
+<p>git reflog 可以查看所有分支的所有操作记录（包括（包括commit和reset的操作），包括已经被删除的commit记录，git log则不能察看已经删除了的commit记录。</p>
+<p>简单的说，它会记录所有HEAD的历史，也就是说当你做 reset，checkout等操作的时候，这些操作会被记录在reflog中。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ git reflog</span><br><span class="line">b7057a9 HEAD@&#123;0&#125;: reset: moving to b7057a9</span><br><span class="line">98abc5a HEAD@&#123;1&#125;: commit: more stuff added to foo</span><br><span class="line">b7057a9 HEAD@&#123;2&#125;: commit (initial): initial commit</span><br></pre></td></tr></table></figure>
+
+<p>所以，我们要找回我们第二commit，只需要做如下操作：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git reset --hard 98abc5a</span><br></pre></td></tr></table></figure>
+
+<p>再来看一下 git 记录：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">$ git log</span><br><span class="line"></span><br><span class="line">* 98abc5a (HEAD, master) more stuff added to foo</span><br><span class="line">* b7057a9 initial commit</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>代码就回滚到我们想要的提交状态了</p>
+<p>:::{note}<br>dfaksjfklsjfls;a<br>:::</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://www.xuzizi.cn/2022/09/17/wordpress2hexo/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Fred Xu">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Fred's Blog">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | Fred's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2022/09/17/wordpress2hexo/" class="post-title-link" itemprop="url">从WordPress迁移到Hexo</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2022-09-17 13:26:00" itemprop="dateCreated datePublished" datetime="2022-09-17T13:26:00+08:00">2022-09-17</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2023-05-22 14:38:37" itemprop="dateModified" datetime="2023-05-22T14:38:37+08:00">2023-05-22</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E5%BB%BA%E7%AB%99/" itemprop="url" rel="index"><span itemprop="name">建站</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>1.6k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>1 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>付费了5年之后，终于还是决定停掉阿里云虚机了，尽管这里只是一个没人访问的小站，但是经常性宕机真的不可接受。这次迁移干脆也抛弃臃肿的WordPress，考虑平时记录主要使用Markdown，所以选用了Hexo+Github Action自动生成静态页面，干净又卫生。</p>
+<h2 id="本地安装Hexo"><a href="#本地安装Hexo" class="headerlink" title="本地安装Hexo"></a>本地安装Hexo</h2><h3 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h3><p>首先，需要安装node.js、npm和Git</p>
+<ul>
+<li>Git可直接下载安装包进行安装。<a href="https://link.zhihu.com/?target=https://git-scm.com/downloads">点击下载</a>。安装后，需要下载xcode才可以。否则在使用中会遇到错误。这里我出现的问题是起初没有下载xcode，在后面初始化的时候，一直提示找不到Git，下载了xcode也不行，后来我打开了xcode，然后在关闭，就可以了。因为是小白，具体原因不明</li>
+<li>接下来安装node.js。打开终端，输入命令</li>
+</ul>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+
+<p>这里遇到的问题是，提示没有权限，于是在上面的命令增加了sudo，如下:</p>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>然后安装node.js。我也是直接下载安装程序来进行安装的。<a href="https://link.zhihu.com/?target=https://nodejs.org/en/">点击下载</a></li>
+<li>安装完后，可输入以下命令进行检查，输入每个命令后，都会弹出相应版本号。</li>
+</ul>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">node -v</span><br><span class="line"></span><br><span class="line">npm -v</span><br><span class="line"></span><br><span class="line">Git --version</span><br></pre></td></tr></table></figure>
+
+<p>然后在进行安装hexo，输入以下命令即可，遇到的问题与安装node.js类似。所以直接加了sudo</p>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo npm install -g hexo</span><br></pre></td></tr></table></figure>
+
+<h3 id="博客初始化"><a href="#博客初始化" class="headerlink" title="博客初始化"></a>博客初始化</h3><p>首先创建一个文件夹，该文件夹用于存储博客的文件。然后通过终端，进入到该文件夹，命令如下：</p>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd youblogfiles</span><br></pre></td></tr></table></figure>
+
+<p>然后初始化本地博客，输入以下命令。初始化时，切记文件夹要空的才可以，否则会初始化失败。若失败了建议删除文件夹在重新创建。</p>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure>
+
+<p>完成后在进行安装npm</p>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo npm install</span><br></pre></td></tr></table></figure>
+
+<p>执行下述命令生成本地网页文件并开启服务器，然后通过<a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000</a> 查看本地博客。</p>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="安装主题"><a href="#安装主题" class="headerlink" title="安装主题"></a>安装主题</h3><p>这里选用了<a target="_blank" rel="noopener" href="https://github.com/next-theme/hexo-theme-next">hexo-theme-next</a>：</p>
+<p>If you’re using Hexo 5.0 or later, the simplest way to install is through npm:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ cd hexo-site</span><br><span class="line">$ npm install hexo-theme-next</span><br></pre></td></tr></table></figure>
+
+<p>Or you can clone the entire repository:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ cd hexo-site</span><br><span class="line">$ git clone https://github.com/next-theme/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure>
+
+<p>See <a target="_blank" rel="noopener" href="https://theme-next.js.org/docs/getting-started/installation.html">detailed installation instructions</a> if you want any other variant.</p>
+<p>After the installation, open Hexo config file and set <code>theme</code> variable to <code>next</code>.</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">theme: next</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="从WordPress迁移到Hexo"><a href="#从WordPress迁移到Hexo" class="headerlink" title="从WordPress迁移到Hexo"></a>从WordPress迁移到Hexo</h2><p>首先，安装 <code>hexo-migrator-wordpress</code> 插件。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-migrator-wordpress --save</span><br></pre></td></tr></table></figure>
+
+<p>在 WordPress 仪表盘中导出数据(“Tools” → “Export” → “WordPress”)（详情参考<a target="_blank" rel="noopener" href="https://wordpress.com/zh-cn/support/export/">WP支持页面</a>）。</p>
+<p>插件安装完成后，执行下列命令来迁移所有文章。<code>source</code> 可以是 WordPress 导出的文件路径或网址。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo migrate wordpress &lt;source&gt;</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="Github-Action-自动更新页面"><a href="#Github-Action-自动更新页面" class="headerlink" title="Github Action 自动更新页面"></a>Github Action 自动更新页面</h2><p>Gihub Action搭建 Hexo的教程有很多。</p>
+<p>原理是源码放在私有仓库，更新时通过Github Action自动生成静态化页面同步到 username.github.io页面。</p>
+<p>这里不再赘述。</p>
+<h2 id="绑定域名"><a href="#绑定域名" class="headerlink" title="绑定域名"></a>绑定域名</h2><p>这里没什么难度，需要注意的一点是，在xx.github.io下设置cname会在更新内容是被清洗掉。</p>
+<p>需要将CNAME文件放到源文件的source下，便可在更新时同步过来。</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://www.xuzizi.cn/2018/11/17/transmission-web-control-404/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Fred Xu">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Fred's Blog">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | Fred's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2018/11/17/transmission-web-control-404/" class="post-title-link" itemprop="url">折腾Qnap / Transmission 安装  / Web control 更新</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2018-11-17 11:03:30" itemprop="dateCreated datePublished" datetime="2018-11-17T11:03:30+08:00">2018-11-17</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2023-05-22 14:38:37" itemprop="dateModified" datetime="2023-05-22T14:38:37+08:00">2023-05-22</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%9D%82%E8%AE%B0/" itemprop="url" rel="index"><span itemprop="name">杂记</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>1.1k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>1 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>当年买这台入门级QNAP专门买了迅雷版，用迅雷加速4T硬盘很快就塞满了。幸福了那么几个月之后，迅雷为了推下载宝停止了其他厂商的合作，而qnap也长期不维护此机型，逐步不再支持百度网盘和transmission、utorrent更新。两年前在官网反馈过两次，没有答复，于是QNAP也就闲置落灰。 这几天需要下一个片子，只在一个法国网站和俄罗斯网站找到了资源，度盘和迅雷统统无效。反正nas也通着电，只有用bt慢慢往下拖，正好这两天求了一个pt小站的邀，于是开始折腾一下我的古董级nas。</p>
+<h1 id="无需折腾的Download-Station"><a href="#无需折腾的Download-Station" class="headerlink" title="无需折腾的Download Station"></a>无需折腾的Download Station</h1><p>Download Station 是QNAP 自带的官方组件，如果只是BT下载的话呢，是可以直接使用的。但是能不能下载下来全靠运气，亲测人人影视部分热门资源的种子根本下不动（也可能是我网络有问题…），当然这种情况，一般用什么都下不动。。 当然，Download Station 还是有优点的，就是可以通过手机app远程控制，非常方便，如果在外面看到想下载的电影，手机搜索扔到Q-Get就行了。（继续为远程迅雷默哀） PT站的效果就好多了，正常下载上传没有问题，也支持多种模式切换。但是上周断电之后，ds把我的种子都重新下载了一次，然后没两天又重新下载了一次，于是我那个账号的分享率不够了。。。想来想去，还是迁移到transmission吧。 <img src="/../image/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7-2018-11-17-10.33.14-1024x583.png"></p>
+<h1 id="Transmission的安装-x2F-获取"><a href="#Transmission的安装-x2F-获取" class="headerlink" title="Transmission的安装&#x2F;获取"></a>Transmission的安装&#x2F;获取</h1><p>QNAP系统版本升级到4.3.3固件之后，App Store里便下架了Transmission 和 uTorrent。 之前安装过的，正常升级系统不受影响。如果想安装可以从国外的store下载，方法参考 <a target="_blank" rel="noopener" href="https://qnapclub.eu/index.php">https://qnapclub.eu/index.php</a> ，也可以搜索国内论坛、网盘分享的版本。  </p>
+<h1 id="Transmission-web-control的升级"><a href="#Transmission-web-control的升级" class="headerlink" title="Transmission web control的升级"></a>Transmission web control的升级</h1><p>可能是天生手欠，把transmission的设置全看了一遍，发现有update的按钮，于是开心的一通狂按。 <img src="/../image/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7-2018-11-17-09.53.03-1024x715.png"> 然后。 Transmission就打不开了。 在上面挂了几十个种子的我，真是想扔电脑。 <img src="/../image/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7-2018-11-17-09.52.24-1024x793.png"> 参考了官方文档，发现web control和transmission是分离的，所以不用重装transmission，只是web control从Google Code托管迁移到了GitHub，更换地址导致UI更新失败。 安装手册更是_非常有用_，感觉用mac和QNAP的根本没有人权。。 <img src="/../image/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7-2018-11-17-10.47.14.png"> 大概看了一下，下载了web包，用filezilla ssh连接（QNAP SSH默认是开启的），上传到出错提示的路径。<img src="/../image/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7-2018-11-17-10.51.43-1024x506.png">   Done！ <img src="/../image/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7-2018-11-17-10.55.58-1024x497.png"></p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://www.xuzizi.cn/2018/11/06/kawah-putih/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Fred Xu">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Fred's Blog">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | Fred's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2018/11/06/kawah-putih/" class="post-title-link" itemprop="url">卡瓦普定</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2018-11-07 01:49:21" itemprop="dateCreated datePublished" datetime="2018-11-07T01:49:21+08:00">2018-11-07</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2023-05-22 14:38:37" itemprop="dateModified" datetime="2023-05-22T14:38:37+08:00">2023-05-22</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%9D%82%E8%AE%B0/" itemprop="url" rel="index"><span itemprop="name">杂记</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>1.5k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>1 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>[hermit auto&#x3D;”1” loop&#x3D;”0” unexpand&#x3D;”0” fullheight&#x3D;”0”]netease_songs#:29764561[&#x2F;hermit] <img src="/../image/mmexport1532865849408-1024x768.jpg"> 这是我见过最美丽的幻境。那天穿着短袖的我，朝着浓郁的硫磺味一路狂奔向湖边，高兴的摘掉了口罩，顺着湖边来回跑，拍照和录像，直到手脚冰凉。 站在那里，你会感觉你在另一个世界。 然后，那些照片和视频就一直放在手机里，没有被翻出来过。   也可能是因为工作太忙，没有时间整理和分享。 工作一直就很忙，有时候忙习惯了反而没觉得有什么，只是突然有事后一想，时间就那么过去了。   最近的各种压力让人很难入睡。 工作一年多来，领导还算比较重视，同事关系也算不错，我的工作内容变动也比较频繁。这一年里，从一开始做解决方案，到富媒体、网页开发、软件客户端开发、软件资料到一些运营工作等。前几个月，几个比较好的哥们离职了，一个为了爱情去了深圳，一个为了家庭和发展选择了其他的工作。然后整个硬件组的工作，断层式的交给了我和其他几个同事。但其实，工作的事我不太担心，只是任务堆积和上手慢让人麻头。 跟家里的联络时多时少，中间忙碌的两三个月，我甚至觉得自己跟家里没什么沟通。自从上个月奶奶走后，让我更多的思考与父母的关系。算一算，离开家乡也已经8年了，我也不知道这8年里让我当北漂的动力是什么。也可能是一种固执吧，这么多年已经多次拒绝家里关于去武汉发展的要求，进入现在的岗位也是抱着磨练自己的想法来的，但现在觉得累的时候也会在想，进了家研究生和本科生一样工资的公司，升职加薪慢，整天忙忙碌碌，图个啥？不过这两天，聊到情感和房子，还是避免不了产生冲突。这个，不提也罢。 十一专程去秦皇岛参加了彬民的婚礼。他是我见过脾气最好的人，在他家那乡下的举办的简朴婚礼，竟也一度让我感动到想哭。我很羡慕这样专情又长情的人，同时又要遇到这样的另一半多不容易啊。还有二赤、天华，估计日子也是快了，我又得去准备份子了。 二赤说我这个人很难约，每次约着约着就约没了。我想了想，好像是的，择日不如撞日，那就本周末见吧。尽管都是海淀居民（不对，我是外来人口)，想见一面还是挺难的，我觉得我住在这个镇子，去哪都得一小时，十分困扰。那天聊了聊以前的同学，我发现我的回答都是，去年啥啥啥时候见过一面，后来很少联系了。最后聊到XXX妹子，二赤说，你们以前是不是关系还挺好的，我说是啊，不过都是毕业之后就没联系了，挺可惜的。 二赤说我这个人就是太被动。尽管不想承认说确实这样，但是头一回被人当面说还是有点尴尬。在同事面前，我觉得自己很外向很开朗，让我上台、主持、录像都没在怕，还能时不时“哗众取宠”逗个乐。但是私底下，我真的还挺不会维护人际关系的。 就是，工作之外的生活，没啥存在感。 扎心，但该反思。   晚上跟我爸打电话，我安慰我爸说，我的事都不用着急啊，又急不来。 工作啥的都挺顺利的，领导很信任；其他的，实在不行明年可以回武汉找点事做嘛。 凡事不能急于求成，我心态挺好的。 [ 并不是:( ]   不过生活总该有点期盼。 大学的时候喜欢刷剧，整个班的同学要看电影电视找我copy就行了，后来想想看剧多没意思，咱们来做字幕啊。然后现在就参与了一个字幕组，偶尔做做字幕。尽管不是什么大字幕组，也算是完成学生时代多年来的一项心愿。 以前喜欢唱歌，如今这破嗓子也没啥唱歌的劲儿了，接下来想再买一把吉他，啥时候能瞎弹一两首原创就好了。再有，顺便练练英语，BEC的书都买了好几年，万一哪年就决定出去常驻了呢。   回头再整理整理自己的回忆，如果有人愿意听，我给你讲讲卡瓦普定的故事。 如果你想去，我可以带你去啊。</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://www.xuzizi.cn/2017/08/13/the-first-working-month/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Fred Xu">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Fred's Blog">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | Fred's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2017/08/13/the-first-working-month/" class="post-title-link" itemprop="url">这感觉就像在读高十</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2017-08-14 00:00:04" itemprop="dateCreated datePublished" datetime="2017-08-14T00:00:04+08:00">2017-08-14</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2023-05-22 14:38:37" itemprop="dateModified" datetime="2023-05-22T14:38:37+08:00">2023-05-22</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%9D%82%E8%AE%B0/" itemprop="url" rel="index"><span itemprop="name">杂记</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>590</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>1 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>一个多月没进城，今天趁着大雨进了次城，但是好像又不知道该干什么了。 当然昨天在家也不知道该干啥~ 于是去公司加班到10点-。-   进部门一个月了，每天8点吃完早饭到工位，晚上9点多10点多下班~ 到家累的什么都不想做，但是还是会习惯性熬夜，最近几天感觉自己都要爆炸了。 好在我师傅和主管人都很好，部门内部也都很和睦，每个人都是优秀而敬业的加班狂魔。 同一批的新员工，个个名校毕业，每次自我介绍好像只有我的部分会比较没有共鸣，也是蜜汁尴尬hhh   -.- 不过没事，蜀黍现在也可以很刻苦呀~ 本科时考试前怎么也不会算子网划分，读研时完全弄不懂神马OSPF，入公司第一周就全自学会了呢 感觉每天都在挑战极限，想尽快的吸收电脑里所有的学习资料，然后完美的输出各种交付件 但是最近，越来越感觉自己没有自己的生活了 就算是高三也会带副扑克牌研究研究魔术，被班主任抓到也不会怕的人 现在回家什么都不想做   我发现上个月搬过来的一箱书，还有几箱没有拆 新台机、第二块4T硬盘以及躺在床上看电影用的投影仪从购物清单划掉了，没时间 从家里带过来的电视机顶盒，插在电视上就没用过   觉得很难过 于是 下午买了几件好看的衣服~ 晚上从箱子里挑出了几本书，列了个list~ 下载了这个月错过的所有好片~ 给自己做了每周时间规划~ 跟同事定了运动计划~ 每天提高效率早点下班~ 我要愉快的上高十~ 我也要光芒万丈~   不行不行12点了，我要去睡觉了~ 没写完也算了（捂脸）</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://www.xuzizi.cn/2017/05/11/124/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Fred Xu">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Fred's Blog">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | Fred's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2017/05/11/124/" class="post-title-link" itemprop="url">去掉word中尾注上面的横线和空行</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2017-05-12 01:23:01" itemprop="dateCreated datePublished" datetime="2017-05-12T01:23:01+08:00">2017-05-12</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2023-05-22 14:38:37" itemprop="dateModified" datetime="2023-05-22T14:38:37+08:00">2023-05-22</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%9D%82%E8%AE%B0/" itemprop="url" rel="index"><span itemprop="name">杂记</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>151</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>1 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>以Word 2010为例，步骤如下： （1）插入尾注后，将视图切换为“草稿”。 <a target="_blank" rel="noopener" href="https://gss0.baidu.com/-Po3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/6f061d950a7b0208d8d372e365d9f2d3572cc89e.jpg" title="点击查看大图"><img src="/../image/6f061d950a7b0208d8d372e365d9f2d3572cc89e.jpg"></a> （2）将选项卡切换到“引用”，点击“显示备注”。 <a target="_blank" rel="noopener" href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/d788d43f8794a4c22f54aa2909f41bd5ad6e39b8.jpg" title="点击查看大图"><img src="/../image/d788d43f8794a4c22f54aa2909f41bd5ad6e39b8.jpg"></a> （3）然后在下方的下来列表里选择“尾注分隔符”。 <a target="_blank" rel="noopener" href="https://gss0.baidu.com/-vo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/503d269759ee3d6de0b6cac944166d224f4ade44.jpg" title="点击查看大图"><img src="/../image/503d269759ee3d6de0b6cac944166d224f4ade44.jpg"></a> （4）按键盘上的Backspace删除键直接删除横线，然后右键：段落——行距：固定值，0.7磅【不设置的话那个地方会多出一个空行】。 <a target="_blank" rel="noopener" href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/9922720e0cf3d7cab9577274f51fbe096b63a90b.jpg" title="点击查看大图"><img src="/../image/9922720e0cf3d7cab9577274f51fbe096b63a90b.jpg"></a></p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://www.xuzizi.cn/2017/05/11/755/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Fred Xu">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Fred's Blog">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | Fred's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2017/05/11/755/" class="post-title-link" itemprop="url">利用word尾注来自动标注参考文献</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2017-05-11 22:06:52" itemprop="dateCreated datePublished" datetime="2017-05-11T22:06:52+08:00">2017-05-11</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2023-05-22 14:38:37" itemprop="dateModified" datetime="2023-05-22T14:38:37+08:00">2023-05-22</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%9D%82%E8%AE%B0/" itemprop="url" rel="index"><span itemprop="name">杂记</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>2k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>2 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>在写论文的时候需要经常用到文献标注来指明所引内容的来源、出处，手动标注参考文献非常费时费力，而且有时一处小小的改动需要整顿全篇文章，特别是毕业论文之类几十页甚至上百页的文章，工作量是非常庞大的的……由此可见，学习如何自动标注文献，是非常必要的！   下面将介绍的尾注插入方法~~   <strong>第一步 设置第一个尾注</strong> 1. 光标移到需要插入参考文献标注的地方。 2. 在菜单栏“插入（I）”→“引用（N）”→选择“脚注和尾注（G）…”选项。 于是，弹出窗口，按照下图进行各项的设置：</p>
+<p><img src="http://image48.360doc.com/DownloadImg/2011/12/1216/19975275_1.png" alt="【小技巧】word尾注，教你如何自动标注参考文献 - 羊小吉 - Chem"></p>
+<p> 3. 尾注设置：<strong>这是最重要的</strong> （1）在“位置”选项中，选择“尾注（E）——节的结尾”； （2）在“格式”选项中，①选择“编号格式（N）——1，2，3，…”也就是阿拉伯数字， ②自定义标记不需要填， ③“起始编号（S）——1”， ④“编号方式（M）——连续” （3）在“应用更改”选项中，选择“将更改应用于（P）——整篇文档” 最后，点按钮“插入（I）”，便在你所选的地方插入了第一个参考文献标注。可以看到，在所选地方上角出现了一个小1。 4．双击上标“1”，光标自动跳到文章最后，前面就是一个上标“1”，这就是输入第一个参考文献的地方。 按照上面的步骤，在其他地方标注参考文献，可以看到系统是自动为我们进行排序的，而与我们插入的先后顺序没有关系。这样，我们便完成了第一步操作。   <strong>第二部分 标注格式的修改</strong> 通过第一步设置的尾注，就是我们所需要的标注，是正文所插入地方上角的小数字，和文章末尾对应的小数字。其实这些都不是正确的参考文献标注格式，我们还需要动手稍作修改。下面就是讲这一内容啦： 5. 将全文所涉及的尾注都改为“[n]”的标准格式： <strong>注意是修改，而不是删除后重新输入上标！</strong> （1）给数字加中括号 首先，需要强调的是，在进行这一步操作时，光标应在正文范围内，而不是最后的尾注区域。 然后， 在菜单栏“编辑（E）”→“查找（E）”或者通过快捷键“Ctrl+F”可以打开“查找和替换”窗口。按照下图进行各项的设置   在“查找内容（N）”选项中填入“^e”，表示尾注。如果以后需要查找脚注，则是搜索“^f”。 在“替换为（I）”选项中填入“[^&amp;]”。 并单击右下方第一个按钮“常规（L）”展开窗口。注意下方“搜索”选项选择“全部”，其他格式要求的前方要去掉勾勾。 选项全部设置好后，点击“全部替换（A）”即可完成全文参考文献标注，即尾注格式的第一部分修改。 （2）尾注部分的标号从上标改为正文格式 与上一步不同的是，此时光标应在尾注区域内，重新打开“查找和替代”窗口，按照下图进行各项的设置</p>
+<p><img src="http://image48.360doc.com/DownloadImg/2011/12/1216/19975275_3.png" alt="【小技巧】word尾注，教你如何自动标注参考文献 - 羊小吉 - Chem"></p>
+<p><img src="http://image48.360doc.com/DownloadImg/2011/12/1216/19975275_4.png" alt="【小技巧】word尾注，教你如何自动标注参考文献 - 羊小吉 - Chem"></p>
+<p>在“查找内容（N）”选项中填入“[^e]”。并在“格式（O）”中选择“字体（F）…”选项，弹出常规的“查找字体”窗口。在下方选择上标，打上勾。 在“替换为（I）”选项中填入“^&amp;”。同样方法，在“查找字体”窗口中，将勾勾消除掉。 设置完成后，直接点击“全部替换（A）”，使尾注区域内的参考文献编号改为常见期刊所要求的格式，并在后面输入参考文献的各项内容。这样，我们在保证参考文献标注格式符合要求的同时，完成了参考文献部分的编写。 对着参考文献前面的“1”双击，光标就回到了文章内容中插入参考文献的地方，可以继续写文章了。   <strong>第三部分 文章的美化</strong> 以上的修改内容完成后，我们便完成了参考文献标注（尾注）的全部工作。但是，通过菜单“文件（F）”→“打印预览（V）”，可以看到，在尾注前边有一条线段分割线，如果参考文献跨页了，在跨页的地方还有一条长横线，这些线无法选中，也无法删除。这是尾注的标志，但一般科技论文格式中都不能有这样的线，所以一定要把它们删除。 这一部分，将详细讲讲，如何删除这两条横线： 6. 切换到普通视图，可以点击页面左下方的“<img src="http://image48.360doc.com/DownloadImg/2011/12/1216/19975275_5.png" alt="【小技巧】word尾注，教你如何自动标注参考文献 - 羊小吉 - Chem"> ”，也可以通过菜单栏中“视图（V）”→“普通（N）”进行切换。 再通过“视图（V）”→“脚注（F）”，在页面最下方展开尾注的编辑栏。 （1）在尾注右边的下拉菜单中选择“尾注分隔符”，这时那条短横线出现了，选中它，删除。 （2）再在下拉菜单中选择“尾注延续分隔符”，这是那条长横线出现了，选中它，删除。 最后，切换回到页面视图，参考文献插入已经完成了。   全部工作真正完成！恭喜恭喜！ 这时，无论文章如何改动，参考文献都会自动地排好序了。如果删除了，后面的参考文献也会自动消失，绝不出错。当参考文献越多，这种方法的优势就体现的越大。 特别是对于我们这一类经常写文章的人来说，这一个方法是不是特别的实用呢？呵呵，常常关注我的博客吧~   最后，是参考文献代码 （1）参考文献类型：专著［M］，论文集［C］，报纸文章［N］，期刊文章［J］，学位论文［D］，报告［R］，标准［S］，专利［P］，论文集中的文献［A］ （2）电子文献类型：数据库［DB］，计算机［CP］，电子公告［EB］ （3）电子文献的载体类型：互联网［OL］，光盘［CD］，磁带［MT］，磁盘［DK］       那么。。。。这么复杂的话还是放弃吧。。。 简单方法是，百度学术里有引用的功能，如图 <img src="http://www.xuzizi.cn/wp-content/uploads/2017/05/360%E6%88%AA%E5%9B%BE20170511220558862.jpg"></p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><span class="space">&hellip;</span><a class="page-number" href="/page/5/">5</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
+  </nav>
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="beian"><a href="https://beian.miit.gov.cn/" rel="noopener" target="_blank">京ICP备16014697号-1 </a>
+  </div>
+
+<div class="copyright">
+  &copy; 2012 – 
+  <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Fred Xu</span>
+</div>
+<div class="wordcount">
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-line"></i>
+    </span>
+    <span title="站点总字数">61k</span>
+  </span>
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    <span title="站点阅读时长">56 分钟</span>
+  </span>
+</div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/next-boot.js"></script>
+
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.0/search.js" integrity="sha256-vXZMYLEqsROAXkEw93GGIvaB2ab+QW6w3+1ahD9nXXA=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+
+
+  
+
+
+
+
+
+</body>
+</html>

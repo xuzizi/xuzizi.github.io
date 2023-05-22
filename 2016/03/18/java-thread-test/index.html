@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 6.3.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <meta name="google-site-verification" content="s9zKjz7EjWFDMD6hy-KzeXJQp8kJ0U_JGlbCgkrudmI">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha256-AbA177XfpSnFEvgpYu1jMygiLabzPCJCRIBtR5jGc0k=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"www.xuzizi.cn","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.13.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="JAVA 多线程的创建和启动一、定义线程1、扩展java.lang.Thread类。此类中有个run()方法，应该注意其用法：public void run() 如果该线程是使用独立的 Runnable 运行对象构造的，则调用该 Runnable 对象的 run 方法；否则，该方法不执行任何操作并返回。 Thread 的子类应该重写该方法。 2、实现java.lang.Runnable接口。voi">
+<meta property="og:type" content="article">
+<meta property="og:title" content="JAVA 多线程的创建和启动">
+<meta property="og:url" content="http://www.xuzizi.cn/2016/03/18/java-thread-test/index.html">
+<meta property="og:site_name" content="Fred&#39;s Blog">
+<meta property="og:description" content="JAVA 多线程的创建和启动一、定义线程1、扩展java.lang.Thread类。此类中有个run()方法，应该注意其用法：public void run() 如果该线程是使用独立的 Runnable 运行对象构造的，则调用该 Runnable 对象的 run 方法；否则，该方法不执行任何操作并返回。 Thread 的子类应该重写该方法。 2、实现java.lang.Runnable接口。voi">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2016-03-18T13:16:16.000Z">
+<meta property="article:modified_time" content="2023-05-22T06:38:37.260Z">
+<meta property="article:author" content="Fred Xu">
+<meta property="article:tag" content="java">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="http://www.xuzizi.cn/2016/03/18/java-thread-test/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://www.xuzizi.cn/2016/03/18/java-thread-test/","path":"2016/03/18/java-thread-test/","title":"JAVA 多线程的创建和启动"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>JAVA 多线程的创建和启动 | Fred's Blog</title>
+  
+
+  <script src="/js/third-party/analytics/baidu-analytics.js"></script>
+  <script async src="https://hm.baidu.com/hm.js?b51acbabd1ce9c167d6d08b300610887"></script>
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">Fred's Blog</p>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#JAVA-%E5%A4%9A%E7%BA%BF%E7%A8%8B%E7%9A%84%E5%88%9B%E5%BB%BA%E5%92%8C%E5%90%AF%E5%8A%A8"><span class="nav-number">1.</span> <span class="nav-text">JAVA 多线程的创建和启动</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%80%E3%80%81%E5%AE%9A%E4%B9%89%E7%BA%BF%E7%A8%8B"><span class="nav-number">1.1.</span> <span class="nav-text">一、定义线程</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1%E3%80%81%E6%89%A9%E5%B1%95java-lang-Thread%E7%B1%BB%E3%80%82"><span class="nav-number">1.1.1.</span> <span class="nav-text">1、扩展java.lang.Thread类。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2%E3%80%81%E5%AE%9E%E7%8E%B0java-lang-Runnable%E6%8E%A5%E5%8F%A3%E3%80%82"><span class="nav-number">1.1.2.</span> <span class="nav-text">2、实现java.lang.Runnable接口。</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%8C%E3%80%81%E5%AE%9E%E4%BE%8B%E5%8C%96%E7%BA%BF%E7%A8%8B"><span class="nav-number">1.2.</span> <span class="nav-text">二、实例化线程</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%89%E3%80%81%E5%90%AF%E5%8A%A8%E7%BA%BF%E7%A8%8B"><span class="nav-number">1.3.</span> <span class="nav-text">三、启动线程</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9B%9B%E3%80%81%E4%BE%8B%E5%AD%90"><span class="nav-number">1.4.</span> <span class="nav-text">四、例子</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1%E3%80%81%E5%AE%9E%E7%8E%B0Runnable%E6%8E%A5%E5%8F%A3%E7%9A%84%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%BE%8B%E5%AD%90"><span class="nav-number">1.4.1.</span> <span class="nav-text">1、实现Runnable接口的多线程例子</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2%E3%80%81%E6%89%A9%E5%B1%95Thread%E7%B1%BB%E5%AE%9E%E7%8E%B0%E7%9A%84%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%BE%8B%E5%AD%90"><span class="nav-number">1.4.2.</span> <span class="nav-text">2、扩展Thread类实现的多线程例子</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%94%E3%80%81%E4%B8%80%E4%BA%9B%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98"><span class="nav-number">1.5.</span> <span class="nav-text">五、一些常见问题</span></a></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Fred Xu</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">47</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">15</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">43</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://www.xuzizi.cn/2016/03/18/java-thread-test/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Fred Xu">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Fred's Blog">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="JAVA 多线程的创建和启动 | Fred's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          JAVA 多线程的创建和启动
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2016-03-18 21:16:16" itemprop="dateCreated datePublished" datetime="2016-03-18T21:16:16+08:00">2016-03-18</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2023-05-22 14:38:37" itemprop="dateModified" datetime="2023-05-22T14:38:37+08:00">2023-05-22</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/develop/" itemprop="url" rel="index"><span itemprop="name">develop</span></a>
+        </span>
+          ，
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/develop/Java/" itemprop="url" rel="index"><span itemprop="name">Java</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>3k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>3 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <h1 id="JAVA-多线程的创建和启动"><a href="#JAVA-多线程的创建和启动" class="headerlink" title="JAVA 多线程的创建和启动"></a>JAVA 多线程的创建和启动</h1><h2 id="一、定义线程"><a href="#一、定义线程" class="headerlink" title="一、定义线程"></a>一、定义线程</h2><h3 id="1、扩展java-lang-Thread类。"><a href="#1、扩展java-lang-Thread类。" class="headerlink" title="1、扩展java.lang.Thread类。"></a>1、扩展java.lang.Thread类。</h3><p>此类中有个run()方法，应该注意其用法：<code>public void run()</code> 如果该线程是使用独立的 Runnable 运行对象构造的，则调用该 Runnable 对象的 run 方法；否则，该方法不执行任何操作并返回。 Thread 的子类应该重写该方法。</p>
+<h3 id="2、实现java-lang-Runnable接口。"><a href="#2、实现java-lang-Runnable接口。" class="headerlink" title="2、实现java.lang.Runnable接口。"></a>2、实现java.lang.Runnable接口。</h3><p><code>void run()</code>使用实现接口 Runnable 的对象创建一个线程时，启动该线程将导致在独立执行的线程中调用对象的 run 方法。 方法 run 的常规协定是，它可能执行任何所需的操作。</p>
+<h2 id="二、实例化线程"><a href="#二、实例化线程" class="headerlink" title="二、实例化线程"></a>二、实例化线程</h2><p>1、如果是扩展java.lang.Thread类的线程，则直接new即可。 2、如果是实现了java.lang.Runnable接口的类，则用Thread的构造方法：</p>
+<ul>
+<li>Thread(Runnable target)</li>
+<li>Thread(Runnable target, String name)</li>
+<li>Thread(ThreadGroup group, Runnable target)</li>
+<li>Thread(ThreadGroup group, Runnable target, String name)</li>
+<li>Thread(ThreadGroup group, Runnable target, String name, long stackSize)</li>
+</ul>
+<h2 id="三、启动线程"><a href="#三、启动线程" class="headerlink" title="三、启动线程"></a>三、启动线程</h2><p>在线程的Thread对象上调用start()方法，而不是run()或者别的方法。 在调用start()方法之前：线程处于新状态中，新状态指有一个Thread对象，但还没有一个真正的线程。 在调用start()方法之后：发生了一系列复杂的事情 启动新的执行线程（具有新的调用栈）； 该线程从新状态转移到可运行状态； 当该线程获得机会执行时，其目标run()方法将运行。 注意：对Java来说，run()方法没有任何特别之处。像main()方法一样，它只是新线程知道调用的方法名称(和签名)。因此，在Runnable上或者Thread上调用run方法是合法的。但并不启动新的线程。</p>
+<h2 id="四、例子"><a href="#四、例子" class="headerlink" title="四、例子"></a>四、例子</h2><h3 id="1、实现Runnable接口的多线程例子"><a href="#1、实现Runnable接口的多线程例子" class="headerlink" title="1、实现Runnable接口的多线程例子"></a>1、实现Runnable接口的多线程例子</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line">/** </span><br><span class="line">* 实现Runnable接口的类 </span><br><span class="line">* </span><br><span class="line">* @author leizhimin 2008-9-13 18:12:10 </span><br><span class="line">*/ </span><br><span class="line">public class DoSomething implements Runnable &#123; </span><br><span class="line">    private String name; </span><br><span class="line"></span><br><span class="line">    public DoSomething(String name) &#123; </span><br><span class="line">        this.name = name; </span><br><span class="line">    &#125; </span><br><span class="line"></span><br><span class="line">    public void run() &#123; </span><br><span class="line">        for (int i = 0; i &lt; 5; i++) &#123; </span><br><span class="line">            for (long k = 0; k &lt; 100000000; k++) ; </span><br><span class="line">            System.out.println(name + &quot;: &quot; + i); </span><br><span class="line">        &#125; </span><br><span class="line">    &#125; </span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/** </span><br><span class="line">* 测试Runnable类实现的多线程程序 </span><br><span class="line">* </span><br><span class="line">* @author leizhimin 2008-9-13 18:15:02 </span><br><span class="line">*/ </span><br><span class="line">public class TestRunnable &#123; </span><br><span class="line">    public static void main(String[] args) &#123; </span><br><span class="line">        DoSomething ds1 = new DoSomething(&quot;阿三&quot;); </span><br><span class="line">        DoSomething ds2 = new DoSomething(&quot;李四&quot;); </span><br><span class="line"></span><br><span class="line">        Thread t1 = new Thread(ds1); </span><br><span class="line">        Thread t2 = new Thread(ds2); </span><br><span class="line"></span><br><span class="line">        t1.start(); </span><br><span class="line">        t2.start(); </span><br><span class="line">    &#125; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>执行结果： &gt; * 李四: 0 * 阿三: 0 * 李四: 1 * 阿三: 1 * 李四: 2 * 李四: 3 * 阿三: 2 * 李四: 4 * 阿三: 3 * 阿三: 4 Process finished with exit code 0</p>
+<h3 id="2、扩展Thread类实现的多线程例子"><a href="#2、扩展Thread类实现的多线程例子" class="headerlink" title="2、扩展Thread类实现的多线程例子"></a>2、扩展Thread类实现的多线程例子</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">/** </span><br><span class="line">* 测试扩展Thread类实现的多线程程序 </span><br><span class="line">* </span><br><span class="line">* @author leizhimin 2008-9-13 18:22:13 </span><br><span class="line">*/ </span><br><span class="line">public class TestThread extends Thread&#123; </span><br><span class="line">    public TestThread(String name) &#123; </span><br><span class="line">        super(name); </span><br><span class="line">    &#125; </span><br><span class="line"></span><br><span class="line">    public void run() &#123; </span><br><span class="line">        for(int i = 0;i&lt;5;i++)&#123; </span><br><span class="line">            for(long k= 0; k &lt;100000000;k++); </span><br><span class="line">            System.out.println(this.getName()+&quot; :&quot;+i); </span><br><span class="line">        &#125; </span><br><span class="line">    &#125; </span><br><span class="line"></span><br><span class="line">    public static void main(String[] args) &#123; </span><br><span class="line">        Thread t1 = new TestThread(&quot;阿三&quot;); </span><br><span class="line">        Thread t2 = new TestThread(&quot;李四&quot;); </span><br><span class="line">        t1.start(); </span><br><span class="line">        t2.start(); </span><br><span class="line">    &#125; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>执行结果：</p>
+<blockquote>
+<ul>
+<li>阿三 :0</li>
+<li>李四 :0</li>
+<li>阿三 :1</li>
+<li>李四 :1</li>
+<li>阿三 :2</li>
+<li>李四 :2</li>
+<li>阿三 :3</li>
+<li>阿三 :4</li>
+<li>李四 :3</li>
+<li>李四 :4 Process finished with exit code 0</li>
+</ul>
+</blockquote>
+<p>对于上面的多线程程序代码来说，输出的结果是不确定的。其中的一条语句<code>for(long k= 0; k &lt;100000000;k++);</code>是用来模拟一个非常耗时的操作的。</p>
+<h2 id="五、一些常见问题"><a href="#五、一些常见问题" class="headerlink" title="五、一些常见问题"></a>五、一些常见问题</h2><p>1、线程的名字，一个运行中的线程总是有名字的，名字有两个来源，一个是虚拟机自己给的名字，一个是你自己的定的名字。在没有指定线程名字的情况下，虚拟机总会为线程指定名字，并且主线程的名字总是mian，非主线程的名字不确定。 2、线程都可以设置名字，也可以获取线程的名字，连主线程也不例外。 3、获取当前线程的对象的方法是：Thread.currentThread()； 4、在上面的代码中，只能保证：每个线程都将启动，每个线程都将运行直到完成。一系列线程以某种顺序启动并不意味着将按该顺序执行。对于任何一组启动的线程来说，调度程序不能保证其执行次序，持续时间也无法保证。 5、当线程目标run()方法结束时该线程完成。 6、一旦线程启动，它就永远不能再重新启动。只有一个新的线程可以被启动，并且只能一次。一个可运行的线程或死线程可以被重新启动。 7、线程的调度是JVM的一部分，在一个CPU的机器上上，实际上一次只能运行一个线程。一次只有一个线程栈执行。JVM线程调度程序决定实际运行哪个处于可运行状态的线程。众多可运行线程中的某一个会被选中做为当前线程。可运行线程被选择运行的顺序是没有保障的。 8、尽管通常采用队列形式，但这是没有保障的。队列形式是指当一个线程完成“一轮”时，它移到可运行队列的尾部等待，直到它最终排队到该队列的前端为止，它才能被再次选中。事实上，我们把它称为可运行池而不是一个可运行队列，目的是帮助认识线程并不都是以某种有保障的顺序排列唱呢个一个队列的事实。 9、尽管我们没有无法控制线程调度程序，但可以通过别的方式来影响线程调度的方式。</p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/java/" rel="tag"># java</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2016/03/18/com-mysql-jdbc-driver/" rel="prev" title="java.lang.ClassNotFoundException: com.mysql.jdbc.Driver 解决方法">
+                  <i class="fa fa-chevron-left"></i> java.lang.ClassNotFoundException: com.mysql.jdbc.Driver 解决方法
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2016/03/18/big-data-change-life/" rel="next" title="大数据改变生活">
+                  大数据改变生活 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="beian"><a href="https://beian.miit.gov.cn/" rel="noopener" target="_blank">京ICP备16014697号-1 </a>
+  </div>
+
+<div class="copyright">
+  &copy; 2012 – 
+  <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Fred Xu</span>
+</div>
+<div class="wordcount">
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-line"></i>
+    </span>
+    <span title="站点总字数">61k</span>
+  </span>
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    <span title="站点阅读时长">56 分钟</span>
+  </span>
+</div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/next-boot.js"></script>
+
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.0/search.js" integrity="sha256-vXZMYLEqsROAXkEw93GGIvaB2ab+QW6w3+1ahD9nXXA=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+
+
+  
+
+
+
+
+
+</body>
+</html>
